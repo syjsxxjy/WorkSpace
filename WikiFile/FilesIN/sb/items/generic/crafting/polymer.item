@@ -1,0 +1,8 @@
+{
+  "itemName" : "polymer",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "polymer.png",
+  "description" : "It's some space age polymer.",
+  "shortdescription" : "Space Age Polymer"
+}

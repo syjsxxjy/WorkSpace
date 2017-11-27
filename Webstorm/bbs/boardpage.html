@@ -1,0 +1,161 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Board Page -BBS</title>
+    <!--<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dropdowns-enhancement.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/head.css" rel="stylesheet" >
+</head>
+<body>
+<div class="head">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top ">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Project:BBS</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+            <div class=" navbar-right ">
+                <!--if admin or master
+                <div class="navbar-text " style="margin-right: 0px; ">
+                    <a href="#" class="navbar-link">Dashboard</span></a>
+
+                </div>
+                -->
+                 <div class="navbar-text " style="margin-right: 0px; ">
+                    <a href="#" class="navbar-link">Username <span class="badge"></span></a>
+
+                </div>
+                <div class="navbar-text " style="margin-right: 40px; ">
+
+                    <a href="#" class="navbar-link">Log out</a>
+                </div>
+
+            </div>
+                </div>
+
+        </nav>
+    </div>
+</div>
+
+<div class="container pagebody-top" >
+    <div class="row">
+    <div class="col-md-12 ">
+    <ul class="breadcrumb" contenteditable="false">
+                <li><a href="index.html">Homepage</a> <span class="divider"></span></li>
+        <li class="active">BoardName</li>
+    </ul>
+            <div class="media well">
+                <div class="media-body">
+                   <h4><p><a href="#"  style="font-weight: bold;color: #2ecc71">Notice:</a></p></h4>
+                       <p>Notice here...</p>
+                       <p>Notice here...</p>
+                       <p>Notice here...</p>
+
+                </div>
+            </div>   <!-- media well -->
+            <div></div>
+            <!--topics-->
+    </div>
+    </div>
+    <div class="row" style="padding-top: 10px;">
+        <div class="col-md-12 " style="">
+                <table class="table table-bordered  ">
+                    <thead>
+                    <tr>
+                    <th class="info">
+                        <a class="btn btn-warning" href="newtopic.html">New topic</a>
+                        <div class="btn-group">
+
+                            <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">Categories <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><input type="radio" id="ID" name="NAME" value="VALUE"><label for="ID">Category1</label></li>
+                                <li><input type="radio" id="ID2" name="NAME" value="VALUE"><label for="ID2">Category2</label></li>
+                                <li><input type="radio" id="ID3" name="NAME" value="VALUE"><label for="ID3">Category3</label></li>
+                                <!-- Other items -->
+                            </ul>
+                        </div>
+                    </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                        <div class="col-md-7">
+
+                            <a href="topicpage.html" >[Category] This is a long title...........................  <span class="badge"> 4</span></a>
+                            <button class=" btn btn-default btn-xs">by <%=topicbyuser  %></button>
+                        </div>  <div class="col-md-3 text-left">
+                            <button class=" btn btn-inverse  btn-xs">Read:3999999</button>
+                            <button class=" btn btn-inverse  btn-xs">Reply:40099999</button>
+                        </div>
+                            <div class="col-md-2">
+                                <button class=" btn btn-default  btn-xs">at 2016-23-34 23:23:34</button>
+                            </div>
+
+
+                        </td>
+                        <!--<td><a href="#">[Category] TopicName1</a></td>-->
+                    </tr>
+                    </tbody>
+                </table>
+        </div>
+    </div><!-- Row -->
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-11">
+            <div class=" text-center ">
+                <nav class="">
+                    <ul class="pagination pagination-sm ">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">7</a></li>
+                        <li><a href="#">8</a></li>
+                        <li><a href="#">9</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+               </div>
+</div>
+
+
+
+<div class="panel-footer text-muted" style="margin-top: 30px">
+    <div class="text-center">
+        <h4 >Copyright Here  </h4>
+        <p><a>Link here</a></p>
+        <p> Copyright text </p>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/dropdowns-enhancement.js"></script>
+</div>
+</body>
+</html>

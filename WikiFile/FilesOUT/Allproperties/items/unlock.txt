@@ -1,0 +1,10 @@
+image       
+shortdescription       
+unlockMessage       
+itemName       
+largeImage       
+tierRecipesUnlock       
+shipUpgrade       
+description       
+inventoryIcon       
+rarity       

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="CommitDialog.location.y"/>
+	<item value="90" key="CommitDialog.location.x"/>
+	<item value="719" key="ConfigureTagsDialog.size.x"/>
+	<item value="" key="DirectorySelectionPage.lastParent_svn://157.7.223.12"/>
+	<item value="637" key="ConfigureTagsDialog.size.y"/>
+	<item value="500" key="CommitDialog.weights.0"/>
+	<item value="500" key="CommitDialog.weights.1"/>
+	<item value="324" key="ConfigureTagsDialog.location.x"/>
+	<item value="0" key="ConfigureTagsDialog.location.y"/>
+	<item value="svn://157.7.223.12" key="RepositorySelectionPage.lastRepository"/>
+	<item value="728" key="CommitDialog.size.y"/>
+	<item value="1186" key="CommitDialog.size.x"/>
+	<section name="CommitWizard">
+		<item value="500" key="VWeight2"/>
+		<item value="500" key="VWeight1"/>
+		<item value="false" key="ShowCompare"/>
+	</section>
+	<section name="SynchronizeResourceSelectionDialog">
+		<item value="" key="SynchronizeResourceSelectionDialog.STORE_WORKING_SETS"/>
+	</section>
+	<section name="NewLocationWizard">
+	</section>
+</section>

@@ -1,0 +1,24 @@
+{
+  "materialId" : 550,
+  "materialName" : "eyepiles",
+  "particleColor" : [103, 103, 103, 255],
+  "transparent" : true,
+  "itemDrop" : "eyepiles",
+  "shortdescription" : "Clump of Eyes",
+  "description" : "A tumbling heap of squishy eyeballs.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "falling" : true,
+  "cascading" : true,
+  "health" : 2,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "eyepiles.png",
+    "variants" : 8,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 450
+  }
+}

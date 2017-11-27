@@ -1,0 +1,11 @@
+{
+  "itemName" : "reddye",
+  "rarity" : "Common",
+  "inventoryIcon" : "reddye.png",
+  "description" : "Use this dye on a piece of armour or clothing to change its colour.",
+  "shortdescription" : "Red Dye",
+
+  "dyeColorIndex" : 4,
+
+  "learnBlueprintsOnPickup" : [ "purpledye", "orangedye", "pinkdye", "browndye" ]
+}

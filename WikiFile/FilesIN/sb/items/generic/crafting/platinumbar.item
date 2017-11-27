@@ -1,0 +1,8 @@
+{
+  "itemName" : "platinumbar",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "platinumbar.png",
+  "description" : "It's a platinum bar.",
+  "shortdescription" : "Platinum Bar"
+}

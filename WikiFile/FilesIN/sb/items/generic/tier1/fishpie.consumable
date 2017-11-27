@@ -1,0 +1,26 @@
+{
+  "itemName" : "fishpie",
+  "rarity" : "Uncommon",
+  "price" : 125,
+  "inventoryIcon" : "fishpie.png",
+  "description" : "Stargazy pie! Baked fish in sauce topped with creamy mash.",
+  "shortdescription" : "Fish Pie",
+  "effects" : [ [
+    {
+        "effect" : "foodheal190",
+        "duration" : 60
+    },
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 120
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "fishnchips" ]
+}

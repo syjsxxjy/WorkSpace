@@ -1,0 +1,9 @@
+{
+  "itemName" : "gravitybubbletech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/gravityball.png",
+  "description" : "Press and hold Jump while in the air to use this Gravity Bubble tech and freeze gravity. Useful for building! Cost: energy per second 60.",
+  "shortdescription" : "Gravity Bubble",
+
+  "techModule" : "gravitybubble"
+}

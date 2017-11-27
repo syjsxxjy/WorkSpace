@@ -1,0 +1,10 @@
+{
+  "itemName" : "upgrademodule",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "upgrademodule.png",
+  "description" : "I can use this component to upgrade ships and other useful equipment.",
+  "shortdescription" : "Upgrade Module",
+
+  "learnBlueprintsOnPickup" : [ "upgrademodule" ]
+}
+

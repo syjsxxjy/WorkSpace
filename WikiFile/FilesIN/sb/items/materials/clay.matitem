@@ -1,0 +1,13 @@
+{
+  "itemName" : "clay",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "clay.png",
+  "description" : "Dry and dusty clay.",
+  "shortdescription" : "Clay",
+  "glitchdescription" : "Statement. Clay.",
+  "florandescription" : "Clay.",
+
+  "materialId" : 52,
+  "learnBlueprintsOnPickup" : [ "brickmaterial", "rooftiles" ]
+}

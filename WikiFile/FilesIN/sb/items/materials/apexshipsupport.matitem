@@ -1,0 +1,12 @@
+{
+  "itemName" : "apexshipsupport",
+  "price" : 5,
+  "rarity" : "Common",
+  "inventoryIcon" : "apexshipsupport.png",
+  "description" : "A colourful support block.",
+  "shortdescription" : "Support Block",
+  "glitchdescription" : "Analysis. A support block.",
+  "florandescription" : "Sssupporty.",
+
+  "materialId" : 168
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "cookedalienmeat",
+  "rarity" : "Common",
+  "price" : 20,
+  "inventoryIcon" : "cookedalienmeat.png",
+  "description" : "A slab of delicious cooked alien meat.",
+  "shortdescription" : "Cooked Steak",
+  "effects" : [ [
+    {
+        "effect" : "foodheal95",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "meatdumplings" ]
+}

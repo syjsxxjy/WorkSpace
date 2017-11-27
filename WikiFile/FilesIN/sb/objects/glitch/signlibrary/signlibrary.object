@@ -1,0 +1,39 @@
+{
+  "objectName" : "signlibrary",
+  "colonyTags" : ["glitch","glitchvillage","commerce","knowledge"],
+  "rarity" : "Common",
+  "description" : "This way to the library. It might be good to read up on local history!",
+  "shortdescription" : "Library Sign",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 55,
+
+  "apexDescription" : "A wooden sign. Looks like it belongs to a Glitch library.",
+  "avianDescription" : "A wooden sign. It depicts a book.",
+  "floranDescription" : "Book ssshop nearby?",
+  "glitchDescription" : "Identify. A sign that marks a Glitch library. Built for the few Glitch capable of reading.",
+  "humanDescription" : "Looks like a store sign that sits outside a library.",
+  "hylotlDescription" : "This sign suggests a library.",
+
+  "inventoryIcon" : "signlibraryicon.png",
+  "orientations" : [
+    {
+      "image" : "signlibrary.png:<color>",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [-2, 0], [2, 0] ]
+    },
+    {
+      "image" : "signlibraryleft.png:<color>",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [-2, 0] ]
+    },
+    {
+      "image" : "signlibraryright.png:<color>",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [2, 0] ]
+    }
+  ]
+}

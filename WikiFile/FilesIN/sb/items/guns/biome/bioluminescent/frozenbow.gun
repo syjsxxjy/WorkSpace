@@ -1,0 +1,38 @@
+{
+  "itemName" : "frozenbow",
+  "price" : 0,
+  "inventoryIcon" : "frozenbowicon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "tooltipKind" : "bow",
+  "weaponType" : "Bow",
+  "itemTags" : ["weapon","ranged","bow"],
+  "description" : "Fires arrows imbued with crippling frost.",
+  "shortdescription" : "Frozen Bow",
+  "image" : "frozenbowfull.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "handPosition" : [-2, 0],
+  "firePosition" : [20, 1.5],
+  "level" : 3,
+  "fireTime" : 0.65,
+  "inaccuracy" : 0.01,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "icearrow",
+  "powerProjectileType" : "chargedicearrow",
+  "powerProjectileTime" : [0.9, 60],
+  "drawSpeedCurve" : "drawTimeMultiplier",
+  "drawPowerCurve" : "drawTimeMultiplier",
+  "projectile" : {
+    "speed" : 80,
+    "power" : 4,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.ogg" } ]
+  }
+}

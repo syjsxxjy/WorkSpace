@@ -1,0 +1,21 @@
+﻿shortdescription      占位
+effectSources      占位
+stat      占位
+amount      占位
+femaleFrames      占位
+itemTags      占位
+tooltipKind      占位
+frontSleeve      占位
+learnBlueprintsOnPickup      占位
+description      占位
+body      占位
+maxStack      占位
+statusEffects      占位
+backSleeve      占位
+itemName      占位
+colorOptions      占位
+price      占位    占位
+inventoryIcon      占位
+maleFrames      占位
+rarity      占位
+baseMultiplier      占位

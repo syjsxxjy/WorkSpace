@@ -1,0 +1,24 @@
+{
+  "itemName" : "pineapplejuice",
+  "rarity" : "Common",
+  "price" : 200,
+  "inventoryIcon" : "pineapplejuice.png",
+  "description" : "Sweet, tasty pineapple juice.",
+  "shortdescription" : "Pineapple Juice",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 120
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "sweetpunch" ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="true" key="J2EE_EXPORT_SOURCE"/>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="Apache Tomcat v7.0"/>
+		<item value="Apache Tomcat v8.0 (2)"/>
+		<item value="Apache Tomcat v8.0"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="D:\bbs.war"/>
+		<item value="D:\downloads\bbs.war"/>
+		<item value="D:\Program Files (x86)\apache-tomcat-7.0.65\webapps\bbs.war"/>
+	</list>
+</section>

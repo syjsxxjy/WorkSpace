@@ -1,0 +1,23 @@
+{
+  "materialId" : 2573,
+  "materialName" : "silverscrew",
+  "particleColor" : [89, 89, 89, 255],
+  "itemDrop" : "silverscrew",
+  "shortdescription" : "Silver Screw",
+  "description" : "A silver screw.",
+  "glitchDescription" : "Flustered. Why is this screw displayed so flagrantly?",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "drawBackground" : true,
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/screwtemplate.config",
+  "renderParameters" : {
+    "texture" : "silverscrew.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 2771
+  }
+}

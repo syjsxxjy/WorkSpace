@@ -1,0 +1,12 @@
+{
+  "itemName" : "thatch",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "thatch.png",
+  "description" : "Thatched roofing.",
+  "shortdescription" : "Thatch",
+  "glitchdescription" : "Statement. Thatched roofing.",
+  "florandescription" : "Ssstraw roof.",
+
+  "materialId" : 107
+}

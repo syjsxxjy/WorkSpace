@@ -1,0 +1,32 @@
+{
+  "objectName" : "fennixaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"Sometimes it chases its own tail and accidentally sets it on fire.\"",
+  "shortdescription" : "Fennix Action Figure",
+
+
+  "inventoryIcon" : "fennixaf.png",
+  "orientations" : [
+    {
+      "image" : "fennixaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "fennixaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

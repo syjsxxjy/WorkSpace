@@ -1,0 +1,13 @@
+{
+  "name" : "bounce",
+  "type" : "head",
+
+  "scripts" : ["/scripts/vec2.lua", "bounce.lua"],
+  "scriptDelta" : 1,
+  "actions" : [ "activate", "deactivate" ],
+  "animator" : "bounce.animation",
+
+  "energyUsageRate" : 25.0,
+  "bounceCollisionPoly" : [[-1.25, 2.5], [1.25, 2.5], [2.5, 1.25], [2.5, -1.25], [1.25, -2.5], [-1.25, -2.5], [-2.5, -1.25], [-2.5, 1.25]],
+  "bounceFactor" : 0.9
+}

@@ -1,0 +1,18 @@
+{
+  "animatedParts" : {
+    "parts" : {
+      "wateringcan" : {
+        "properties" : {
+          "image" : "<partImage>",
+          "centered" : true,
+          "offset" : [1.0, 0.0],
+          "waterPoint" : [1.25, 0.5]
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "water" : [ ]
+  }
+}

@@ -1,0 +1,20 @@
+1456630230420	Delete element
+1456633903152	Copy package
+1456633909205	Delete elements
+1456635039028	Copy package
+1456635074635	Delete element
+1456638810920	Encapsulate field 'crtTime'
+1456648155756	Rename type 'UserCheck'
+1456654090850	Move 'boardpage.jsp' to 'WebContent'
+1456735071321	Move 'updata1.sql' to 'doc'
+1456735150269	Delete element
+1456736315004	Encapsulate field 'pid'
+1456736318955	Encapsulate field 'boradname'
+1456737570874	Rename type 'BoradDao'
+1456753586461	Rename type 'BoradSearch'
+1456757638130	Encapsulate field 'resultlist'
+1456758282733	Rename type 'BoradNameSearch'
+1456758341231	Encapsulate field 'boardnamelist'
+1456758467979	Encapsulate field 'boardamount'
+1456758965089	Rename type 'BoradSearch'
+1456763545057	Delete element

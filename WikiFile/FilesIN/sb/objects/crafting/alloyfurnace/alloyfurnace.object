@@ -1,0 +1,100 @@
+{
+  "objectName" : "alloyfurnace",
+  "colonyTags" : ["crafting"],
+  "rarity" : "rare",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfurnace.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  IRON FURNACE",
+        "subtitle" : "  Smelt ores and forge strong alloys!",
+        "icon" : {
+          "file" : "/interface/crafting/alloyfurnace.png"
+        }
+      }
+    },
+    "filter" : [ "stonefurnace", "alloyfurnace" ]
+  },
+  "printable" : false,
+  "description" : "With this furnace I can craft steel and other strong materials.",
+  "shortdescription" : "^orange;Iron Furnace^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 45,
+
+  "apexDescription" : "An iron furnace. I can smelt steel and other materials here.",
+  "avianDescription" : "An iron furnace perfect for crafting steel and other alloys.",
+  "floranDescription" : "Furnace hisss, ssspit, burn. Floran brave it.",
+  "glitchDescription" : "Intrigued. The furnace is the perfect temperature for creating steel and other alloys.",
+  "humanDescription" : "An iron furnace, hot enough to smelt steel and other materials.",
+  "hylotlDescription" : "A very hot, imposing, iron furnace. I can make stronger materials with this.",
+  "novakidDescription" : "The heat radiating is intense. If I could sweat, I'd be sweatin' alright.",
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "alloyfurnaceicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "alloyfurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "alloyfurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "alloyfurnace.png:<color>.<frame>", "fullbright" : true }, { "image" : "alloyfurnacelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/campfire.ogg",
+
+  "statusEffects" : [ ],
+  
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "furnace",
+      "furnace",
+      "furnaceComplete"
+    ],
+    "defaultReactions" : {
+      "furnace" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"]
+      ],
+      "furnaceComplete" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"],
+        [1.0, "pokefire"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.5, 0.0],
+    "preciseStandPositionRight" : [2.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

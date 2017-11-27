@@ -1,0 +1,24 @@
+{
+  "itemName" : "tomatojuice",
+  "rarity" : "Common",
+  "price" : 75,
+  "inventoryIcon" : "tomatojuice.png",
+  "description" : "A hearty tomato juice.",
+  "shortdescription" : "Tomato Juice",
+  "handPosition" : [8, -3],
+  "effects" :[  [
+    {
+        "effect" : "foodheal25",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "tomatosoup", "stuffedtomato", "gardensalad" ]
+}

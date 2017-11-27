@@ -1,0 +1,9 @@
+{
+  "itemName" : "biosample",
+  "price" : 4,
+  "rarity" : "Common",
+  "inventoryIcon" : "biosample.png",
+  "description" : "A sample of novel biological compounds and genetic information.",
+  "shortdescription" : "Bio Sample",
+  "learnBlueprintsOnPickup" : [ "antidote", "medkit", "greenstim" ]
+}

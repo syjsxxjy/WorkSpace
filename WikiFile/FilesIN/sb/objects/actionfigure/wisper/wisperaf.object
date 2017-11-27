@@ -1,0 +1,33 @@
+{
+  "objectName" : "wisperaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"Some believe Wispers are lost spirits. At night the glow can lead explorers astray.\"",
+  "shortdescription" : "Wisper Action Figure",
+
+
+
+  "inventoryIcon" : "wisperaf.png",
+  "orientations" : [
+    {
+      "image" : "wisperaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "wisperaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "spidersilkblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "spidersilkblock.png",
+  "description" : "Webs packed tight into a solid block.",
+  "shortdescription" : "Spider Silk Block",
+  "glitchdescription" : "Impressed. Nature never ceases to impress. This material is entirely organic.",
+  "florandescription" : "Sssticky sspider web. Floran think sspider great hunter!",
+
+  "materialId" : 142
+}

@@ -1,0 +1,29 @@
+<%@ page language="java" import="bbs.dao.*,bbs.model.*" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%
+
+	//拿到用户注册数据
+	
+	String username = request.getParameter("username");
+	String password = request.getParameter("password");
+	String sex = request.getParameter("sex");
+	String headImage = request.getParameter("headImage");
+	
+	//封装从表单传入过来了的值
+	User user = new User();
+	
+	user.setHeadImage(headImage);
+	user.setUsername(username);
+	user.setPassword(password);
+	user.setSex(sex);
+	
+	//进行注册操作，插入数据到数据库
+	UserDao.addUser(user);
+	
+	//注册成功的话，需要把当前用户 直接做一个登陆操作，也就意味着 需要把用户数据放入到session 当中
+	 request.getSession().setAttribute("user", user);
+	
+	//注册完毕，要么跳转到一个成功提示页面。要么直接 做登陆操作 去首页
+	request.getRequestDispatcher("/index.jsp").forward(request, response);
+%>

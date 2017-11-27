@@ -1,0 +1,16 @@
+{
+  "name" : "ftlboost",
+  "type" : "body",
+
+  "scripts" : ["dash.lua"],
+  "actions" : [ "dashRight", "dashLeft" ],
+  "animator" : "ftlboost.animation",
+
+  "maximumDoubleTapTime" : 0.2,
+  "dashControlForce" : 50000,
+  "dashSpeed" : 500,
+  "dashDuration" : 0.15,
+  "dashCooldown" : 1.3,
+  "groundOnly" : true,
+  "stopAfterDash" : true
+}

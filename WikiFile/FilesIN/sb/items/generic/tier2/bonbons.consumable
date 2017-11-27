@@ -1,0 +1,26 @@
+{
+  "itemName" : "bonbons",
+  "rarity" : "Common",
+  "price" : 110,
+  "inventoryIcon" : "bonbons.png",
+  "description" : "Confectionery perfection.",
+  "shortdescription" : "Bon Bons",
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 30
+    },
+    {
+        "effect" : "foodheal50",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "cake", "bonbonbonbons", "sweetpopcorn" ]
+}

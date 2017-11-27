@@ -1,0 +1,11 @@
+{
+  "itemName" : "whitedye",
+  "rarity" : "Common",
+  "inventoryIcon" : "whitedye.png",
+  "description" : "Use this dye on a piece of armour or clothing to change its colour.",
+  "shortdescription" : "White Dye",
+
+  "dyeColorIndex" : 3,
+
+  "learnBlueprintsOnPickup" : [ "greydye", "pinkdye" ]
+}

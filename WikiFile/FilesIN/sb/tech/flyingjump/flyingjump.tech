@@ -1,0 +1,11 @@
+{
+  "name" : "flyingjump",
+  "type" : "legs",
+
+  "scripts" : ["flyingjump.lua"],
+  "actions" : [ "multiJump" ],
+  "animator" : "flyingjump.animation",
+
+  "multiJumpCount" : 4,
+  "energyUsage" : 0
+}

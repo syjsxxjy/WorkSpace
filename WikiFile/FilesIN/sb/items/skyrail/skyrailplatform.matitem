@@ -1,0 +1,10 @@
+{
+  "itemName" : "skyrailplatform",
+  "price" : 10,
+  "rarity" : "Common",
+  "inventoryIcon" : "skyrailplatform.png",
+  "description" : "A metalic platform with a strange groove in the middle.",
+  "shortdescription" : "Skyrail",
+  "glitchdescription" : "Statement. Railing, metal.",
+  "materialId" : 177
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "brains",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "brains.png",
+  "description" : "Pulsating brain matter.. I wonder what it's thinking.",
+  "shortdescription" : "Brains",
+  "glitchdescription" : "Analysis. Brain patterns suggest this brain belonged to a genius.",
+  "florandescription" : "Floran want to ssstab sssquishy brain.",
+
+  "materialId" : 40
+}

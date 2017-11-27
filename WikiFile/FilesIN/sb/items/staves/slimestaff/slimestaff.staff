@@ -1,0 +1,49 @@
+{
+  "itemName" : "slimestaff",
+  "inventoryIcon" : "slimestaff.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "generates a glowing ball of light that harms nearby foes.",
+  "shortdescription" : "Bio Staff",
+  "image" : "slimestaff.png",
+  "handPosition" : [-1.5, -7],
+  "firePosition" : [5, 1.5],
+  "level" : 2,
+  "fireTime" : 0.2,
+  "windupTime" : 1.0,
+  "cooldown" : 0.3,
+  "twoHanded" : true,
+  "fireOnRelease" : true,
+
+  "swingStart" : 10,
+  "swingFinish" : 0,
+  "coolingDownAngle" : 0,
+
+  "projectileType" : "slimeexplosion",
+  "projectile" : {
+    "speed" : 10,
+    "power" : 8,
+    "color" : [255, 10, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [
+      { "file" : "/sfx/gun/rocket1.ogg" },
+      { "file" : "/sfx/gun/rocket_fly.ogg" }
+    ]
+  },
+
+  "level1ChargeTime" : 0.5,
+  "level2ChargeTime" : 1.0,
+
+  "staffChargingGlow" : {
+    "file" : "slimestaffglow.png",
+    "chargingFrames" : 13,
+    "sparkFrames" : 3,
+    "loopFrames" : 4,
+    "fireFrames" : 3,
+    "sparkTime" : 0.5,
+    "loopTime" : 0.5,
+    "offset" : [ 0, 6 ]
+  }
+}

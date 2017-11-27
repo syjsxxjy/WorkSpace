@@ -1,0 +1,26 @@
+{
+  "objectName" : "wavebird",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "price" : 50,
+  "printable" : false,
+  "description" : "\"A bug that can usually be found chasing the crest of a wave.\"",
+  "shortdescription" : "Wavebird Bug",
+  "race" : "generic",
+
+  "itemTags" : [ "bug" ],
+
+  "largeImage" : "wavebirdlarge.png",
+  "inventoryIcon" : "wavebirdicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wavebird.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 27,
+      "animationCycle" : 2.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

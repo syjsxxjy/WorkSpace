@@ -1,0 +1,42 @@
+{
+  "objectName" : "librarybookcaseL2damage",
+  "colonyTags" : ["hylotl","hylotlvillage","storage","knowledge"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 350,
+  "printable" : false,
+
+  "description" : "A big antique bookcase that has been damaged",
+  "shortdescription" : "Damaged Large Library Bookcase",
+  "race" : "hylotl",
+
+  "apexDescription" : "Most of the books have gone and the bookcase is damaged.",
+  "avianDescription" : "This bookcase has not been lovingly looked after.",
+  "floranDescription" : "Messssy old bookcase.",
+  "glitchDescription" : "Statement. A disheveled bookcase.",
+  "humanDescription" : "What happened here?",
+  "hylotlDescription" : "This library has not been maintained to an appropriate standard.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "librarybookcaseL2damage.png:<color>",
+      "imagePosition" : [-30, -120],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "collision" : "platform",
+      "collisionSpaces" : [ [-3, -1], [-2, -1], [-1, 0], [0, 0], [1, 0], [2, 0] ]
+    },
+    {
+      "image" : "librarybookcaseL2damage.png:<color>",
+      "imagePosition" : [-50, -120],
+
+      "direction" : "right",
+
+      "collision" : "platform",
+      "collisionSpaces" : [ [3, -1], [2, -1], [1, 0], [0, 0], [-1, 0], [-2, 0] ]
+    }
+  ]
+}

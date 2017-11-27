@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PageVO.java&apos; to &apos;bbs/src/control&apos;&#x0D;&#x0A;- Original project: &apos;测试工程&apos;&#x0D;&#x0A;- Destination element: &apos;bbs/src/control&apos;&#x0D;&#x0A;- Original element: &apos;PageVO.java&apos;" description="Copy compilation unit" destination="=bbs/src&lt;control" element1="/src&lt;{PageVO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1457686161180" units="1" version="1.0"/>
+</session>

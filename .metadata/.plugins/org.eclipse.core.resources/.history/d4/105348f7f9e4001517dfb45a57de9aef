@@ -1,0 +1,254 @@
+<%@page import="org.apache.catalina.startup.UserConfig"%>
+<%@ page import="dto.*,model.*,java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+	pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+<title>Topic Page -BBS</title>
+<jsp:include page="head.jsp"></jsp:include>
+<%int topicid=Integer.parseInt(request.getParameter("tid"));
+  ArrayList topictitlelist=new ArrayList();
+  ArrayList topicbodylist=new ArrayList();
+  ArrayList<Integer> topicuidlist=new ArrayList<Integer>();
+  ArrayList<String> topicusravatarlist=new ArrayList<String>();
+  
+  TopicCheck tc =new TopicCheck();
+  UserCheck uc =new UserCheck();
+  tc.check(); uc.check();
+  topictitlelist=tc.getTopictitlelist();
+  topicbodylist=tc.getTopicbodylist();
+  topicuidlist=tc.getTopicuidlist();
+  topicusravatarlist=uc.getAvatarurllist();
+  int topicuid=topicuidlist.get(tc.getTopicidlist().indexOf(topicid));
+  System.out.println("topicuid "+topicuid);
+  System.out.println("发帖人"+  uc.getUsernamelist().get(topicuid));
+  User user = (User) request.getSession().getAttribute("user");
+  if(user!=null){
+	  System.out.println("当前登录用户 "+user.getName()+"  userID="+user.getId());
+  }
+%>
+
+<div class="container pagebody-top">
+    <div class="row">
+    <div class="col-md-12 ">
+        <ul class="breadcrumb " contenteditable="false">
+            <li><a href="index.jsp">Homepage</a> <span class="divider"></span></li>
+            <li><a href="boardpage.jsp">BoardName</a> <span class="divider"></span></li>
+            <li class="active">Topic Name</li>
+        </ul>
+
+
+
+         <h2 ><a href="#" class="button button-rounded button-width-small button-icon-txt-large">Category</a> <%=topictitlelist.get(tc.getTopicidlist().indexOf(topicid)) %> 
+                <small> At 2016-12-23 23:45</small>
+            </h2>
+
+        <table class="table table-bordered table-responsive ">
+            <thead>
+            <tr>
+                
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="col-md-2 " >
+
+        <img src="<%=topicusravatarlist.get(tc.getTopicidlist().indexOf(topicid)) %>"  class="IMG-ROUNDED img-thumbnail center-block img-responsive" alt="Responsive image ">
+                        <div style="margin-top: 10px    "></div>
+                        <a href="#" class="button   button-border button-small button-block button-rounded " style="font-size: large"><%= uc.getUsernamelist().get(tc.getTopicidlist().indexOf(topicid))%></a>
+
+                        <div style="margin-top: 10px;" class="">
+                            <button type="button" class="btn btn-primary btn-xs btn-label">Lv1</button>
+                            <button type="button" class="btn btn-success btn-xs btn-label">Beginer <li class="icon-food"></li></button>
+                            <button type="button" class="btn btn-danger btn-xs btn-label">Admin</button>
+                            <button type="button" class="btn btn-info btn-xs btn-label">Exp:23</button>
+                            <button type="button" class="btn btn-danger btn-xs btn-label">BoardMaster</button>
+                            <button type="button" class="btn btn-success btn-xs btn-label">OtherBadges</button>
+                        </div>            
+                </td>
+                <td>
+                    <table  class="table table-responsive table-bordered table-condensed">
+                            <tr>
+                                <td>
+                                    <button type="button" class="btn btn-inverse btn-xs">1st Floor</button>
+                                    <button type="button" class="btn btn-default btn-xs" style="margin-left: 15px">Edit <span class="icon-pencil"></span></button>
+                                    <button type="button" class="btn btn-default btn-xs">Delete <span class="icon-trash"></span></button>
+                                    <button class="button button-border button-primary button-pill button-tiny ">Share <span class="icon-share-alt"></span></button>
+
+                                </td>
+                            </tr>
+                        </table>
+
+                         <p>
+                             <%=topicbodylist.get(tc.getTopicidlist().indexOf(topicid)) %>
+                         </p>
+
+                        <div style="margin-top: 200px;"></div>
+
+                        <div class="signature">
+                            Signature
+                        </div>
+                </td>
+            </tr>
+           </tbody>
+
+            <%
+             ReplyCheck rc =new ReplyCheck();  rc.check();
+             ArrayList<String> replybodylist=new ArrayList<String>();
+             ArrayList<Integer> replytidlist=new ArrayList<Integer>();
+             ArrayList<Integer> replyuidlist=new ArrayList<Integer>();             
+             replybodylist=rc.getReplybodylist();
+             replyuidlist=rc.getReplyuidlist();
+             replytidlist=rc.getReplytidlist();
+             
+             int replycount =0;  
+             for(int i=1;i<replytidlist.size();i++){        	  
+            	  if(replytidlist.get(i)==topicid){
+            		  replycount++;
+            	  }
+             }
+             
+             System.out.println("当前帖子topicid="+topicid+" 回复数量获取值 "+replycount);
+             
+             if(replycount==0){%>
+            	                     </table>
+    <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Reply <span class="caret"></span>
+            </button>
+            <div class="collapse" id="collapseExample">
+                <div class="well">
+
+                    <form class="" action="<%=request.getContextPath()%>/actions/doreply.jsp" method="post">
+                        <fieldset>
+                            <div class="form-group" >
+                                <div>
+                                    <textarea class="form-control " rows="5"  placeholder="Input text here" style="" name="replybody"></textarea>
+                                </div>
+                            </div>
+                           <input type="hidden"  name="topictitle" value=<%=topictitlelist.get(tc.getTopicidlist().indexOf(topicid)) %>>
+                 <input type="hidden"  name="replytid" value=<%=topicid %>>
+                            <button type="submit" class="btn btn-warning">Reply</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+            	 
+            <% }else{%>
+            
+            
+                  
+                	      <thead>
+                <tr>
+                    <th class=" text-right">
+                        Replies：<%=replycount %>
+                    </th>
+                    <th class=""></th>
+                </tr>
+                </thead>
+            
+            
+            <tbody>
+
+            
+                  
+                   <%  for(int j=1;j<replytidlist.size();j++){    
+            	             if(replytidlist.get(j)==topicid){          	            	
+            		            System.out.println("replybodylistget"+replybodylist.get(j));  
+            		            int thisreplyid=j;
+            		            %>
+            		            <tr>
+                <td>
+
+                <img src="<%=uc.getAvatarurllist().get(replyuidlist.get(thisreplyid)) %>"  class="IMG-ROUNDED img-thumbnail center-block img-responsive" alt="Responsive image ">
+                        <div style="margin-top: 10px    "></div>
+                        <%System.out.println(uc.getAvatarurllist().get(replyuidlist.get(thisreplyid))); %>
+                        <a href="#" class="button   button-border button-small button-block button-rounded" style="font-size: large"><%=uc.getUsernamelist().get(replyuidlist.get(thisreplyid))%></a>
+
+                        <div style="margin-top: 10px;" class="">
+                            <button type="button" class="btn btn-primary btn-xs btn-label">Lv1</button>
+                            <button type="button" class="btn btn-success btn-xs btn-label">Beginer <li class="icon-food"></li></button>
+                            <button type="button" class="btn btn-danger btn-xs btn-label">Admin</button>
+                            <button type="button" class="btn btn-info btn-xs btn-label">Exp:23</button>
+                            <button type="button" class="btn btn-danger btn-xs btn-label">BoardMaster</button>
+                            <button type="button" class="btn btn-success btn-xs btn-label">OtherBadges</button>
+                        </div>
+
+
+                </td>
+                <td>
+             <table  class="table table-responsive table-bordered table-condensed">
+                            <tr>
+                                <td>
+                                    <button type="button" class="btn btn-inverse btn-xs">1st Floor</button>
+                                    <button type="button" class="btn btn-default btn-xs" style="margin-left: 15px">Edit <span class="icon-pencil"></span></button>
+                                    <button type="button" class="btn btn-default btn-xs">Delete <span class="icon-trash"></span></button>
+                                    <button class="button button-border button-primary button-pill button-tiny ">Share <span class="icon-share-alt"></span></button>
+
+                                </td>
+                            </tr>
+                        </table>
+
+
+                    <p>
+            		             <%=replybodylist.get(j)  %>
+            		           
+                    </p>
+
+                    
+                    <div style="margin-top: 200px;"></div>
+
+                        <div class="signature">
+                            Signature
+                        </div>
+
+                </td>
+            </tr>        
+            	       <%    }
+                      } %>
+
+            </tbody>
+        </table>
+               
+          
+            
+
+  <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Reply <span class="caret"></span>
+            </button>
+            <div class="collapse" id="collapseExample">
+                <div class="well">
+
+                    <form name="replyform" class="" action="<%=request.getContextPath()%>/actions/doreply.jsp" method="post">
+                        <fieldset>
+                            <div class="form-group" >
+                                <div>
+                                    <textarea   class="form-control " rows="5"  placeholder="Input text here" style="" name="replybody" ></textarea>
+                                </div>
+                            </div>
+                           <input type="hidden"  name="topictitle" value=<%=topictitlelist.get(tc.getTopicidlist().indexOf(topicid)) %>>
+                           <input type="hidden"  name="replytid" value=<%=topicid%>>
+                            <button type="submit" class="btn btn-warning">Reply</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+    </div>
+    </div>
+    </div>
+            
+           <%  }%>
+             
+            
+            
+
+
+<jsp:include page="foot.jsp"></jsp:include>

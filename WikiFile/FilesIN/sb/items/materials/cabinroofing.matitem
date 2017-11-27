@@ -1,0 +1,12 @@
+{
+  "itemName" : "cabinroofing",
+  "price" : 5,
+  "rarity" : "Common",
+  "inventoryIcon" : "cabinroofingicon.png",
+  "description" : "Delightful cabin roofing.",
+  "shortdescription" : "Cabin Roofing",
+  "glitchdescription" : "Statement. Pleasant cabin roofing.",
+  "florandescription" : "Floran raisse the cabin roof.",
+
+  "materialId" : 1590
+}

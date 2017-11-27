@@ -1,0 +1,40 @@
+{
+  "objectName" : "geometricbed",
+  "colonyTags" : ["geometric"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "-todo-",
+  "shortdescription" : "Geometric Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 145,
+
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-13, 12.5],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/biome/geometric/geometricbed/geometricbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "geometricbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "geometricbed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+package helloworld;
+//ÀÖÆ÷
+public class Instrument  {
+public void name(){
+	System.out.println("ÀÖÆ÷Ãû×Ö");
+}
+
+ public void play(){
+	 System.out.println("Ñİ×à·½Ê½");
+	 
+ }
+}
+

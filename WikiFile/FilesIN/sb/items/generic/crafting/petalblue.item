@@ -1,0 +1,10 @@
+{
+  "itemName" : "petalblue",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "petalblue.png",
+  "description" : "A blue petal, could be turned into dye.",
+  "shortdescription" : "Blue Petal",
+
+  "learnBlueprintsOnPickup" : [ "bluedye" ]
+}

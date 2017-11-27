@@ -1,0 +1,18 @@
+{
+  "itemName" : "reedorgan",
+  "price" : 1000,
+  "inventoryIcon" : "keytargreenicon.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A reed organ. Don't blow this performance.",
+  "shortdescription" : "Reed Organ",
+  "largeImage" : "keytargreen.png",
+  "image" : "keytargreen.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "keytargreen.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.5, 0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "reedorgan"
+}

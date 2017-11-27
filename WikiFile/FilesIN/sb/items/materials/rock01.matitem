@@ -1,0 +1,12 @@
+{
+  "itemName" : "rock01",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "rock01.png",
+  "description" : "Sharp rocks produced by blasts of enormous heat.",
+  "shortdescription" : "rock01",
+  "glitchdescription" : "Analysis. Blaststone.",
+  "florandescription" : "Floran make ssstone go boom.",
+
+  "materialId" : 16
+}

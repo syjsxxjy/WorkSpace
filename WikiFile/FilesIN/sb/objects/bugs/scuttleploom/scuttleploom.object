@@ -1,0 +1,26 @@
+{
+  "objectName" : "scuttleploom",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "price" : 50,
+  "printable" : false,
+  "description" : "\"This bug's legs move so fast they're difficult to count.\"",
+  "shortdescription" : "Scuttleploom Bug",
+  "race" : "generic",
+
+  "itemTags" : [ "bug" ],
+
+  "largeImage" : "scuttleploomlarge.png",
+  "inventoryIcon" : "scuttleploomicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "scuttleploom.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 27,
+      "animationCycle" : 2.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

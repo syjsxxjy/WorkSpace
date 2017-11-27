@@ -1,0 +1,12 @@
+127.0.0.1 - - [18/Apr/2016:21:25:31 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [18/Apr/2016:21:25:35 +0800] "GET /bbs/index.jsp HTTP/1.1" 500 2377
+0:0:0:0:0:0:0:1 - - [18/Apr/2016:21:26:15 +0800] "GET /bbs/index.jsp HTTP/1.1" 200 6621
+0:0:0:0:0:0:0:1 - - [18/Apr/2016:21:26:15 +0800] "GET /bbs/css/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2016:21:26:15 +0800] "GET /bbs/css/font-awesome.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2016:21:26:15 +0800] "GET /bbs/css/dropdowns-enhancement.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2016:21:26:15 +0800] "GET /bbs/css/button.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2016:21:26:15 +0800] "GET /bbs/css/head.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2016:21:26:15 +0800] "GET /bbs/js/bootstrap.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2016:21:26:15 +0800] "GET /bbs/js/dropdowns-enhancement.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2016:21:26:15 +0800] "GET /bbs/fonts/fontawesome-webfont.eot HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Apr/2016:21:26:27 +0800] "GET /favicon.ico HTTP/1.1" 404 973

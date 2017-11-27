@@ -1,0 +1,12 @@
+{
+  "itemName" : "neonblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "neonblockicon.png",
+  "description" : "Neon Block",
+  "shortdescription" : "Neon Block",
+  "glitchdescription" : "Statement. A glowing neon block.",
+  "florandescription" : "Bright block.",
+
+  "materialId" : 151
+}

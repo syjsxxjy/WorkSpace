@@ -1,0 +1,44 @@
+{
+  "objectName" : "caveart1",
+  "colonyTags" : ["floran","floranhuntinggrounds","pretty"],
+  "rarity" : "Common",
+  "description" : "Cave art depicting some animals.",
+  "shortdescription" : "Animal Cave Art",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 80,
+
+  "apexDescription" : "Crude painting of some animal.",
+  "avianDescription" : "This poor painting could be as old as the stars.",
+  "floranDescription" : "Painting by old Floransss.",
+  "glitchDescription" : "Observant. This appears to represent organic beasts.",
+  "humanDescription" : "Why do all cave paintings look the same? Be original!",
+  "hylotlDescription" : "The painting isn't as elegant as Hylotl art.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "caveart1.png:<color>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "caveart1.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+1458447438855	Encapsulate field 'replycount'
+1458447526131	Encapsulate field 'readcount'
+1458452249987	Encapsulate field 'topicreadcount'
+1458462087674	Encapsulate field 'visitnum'
+1458700082946	Rename resource 'userpage.html'
+1458700106655	Delete element
+1458700133903	Rename resource 'topicedit.html'
+1458703028674	Copy file
+1458872587198	Rename resource 'replyedit.jsp'

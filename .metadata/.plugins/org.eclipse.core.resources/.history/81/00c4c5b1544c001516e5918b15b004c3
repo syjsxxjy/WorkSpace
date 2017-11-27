@@ -1,0 +1,11 @@
+package helloworld;
+
+public class Student {
+	String sex = "学生的性别";
+
+	public Student() {
+		// TODO Auto-generated constructor stub
+		Student s = new Student();
+	}
+
+}

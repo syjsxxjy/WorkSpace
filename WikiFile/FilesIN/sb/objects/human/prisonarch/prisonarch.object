@@ -1,0 +1,96 @@
+{
+  "objectName" : "prisonarch",
+  "colonyTags" : ["human","humanprison","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "Such pretty architecture seems out of place in a prison.",
+  "shortdescription" : "Gothic Arch",
+  "race" : "human",
+
+  "apexDescription" : "Human prisoners at least have pleasant architecture to look at.",
+  "avianDescription" : "I can't decide if this is pretty or foreboding.",
+  "floranDescription" : "Ssspiky arch. Floran like design.",
+  "glitchDescription" : "Pleased. Human and Glitch architecture seem to share certain similarities.",
+  "humanDescription" : "The penal comfort code of twenty twenty decreed that all prisons have to be elaborately decorated, to keep prisoners happy.",
+  "hylotlDescription" : "Humans seem to treat their prisoners with respect. The Hylotl do the same.",
+
+  "inventoryIcon" : "prisonarchicon.png",
+  "orientations" : [
+    {
+      "image" : "prisonarchceiling.png:<color>",
+
+      "imagePosition" : [-24, -16],
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 0] ]
+    },
+    {
+      "image" : "prisonarchceiling.png:<color>",
+
+      "imagePosition" : [-24, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 0] ]
+    },
+    {
+      "image" : "prisonarchwall.png:<color>",
+
+      "imagePosition" : [-16, -16],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+    {
+      "image" : "prisonarchwall.png:<color>",
+
+      "imagePosition" : [0, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+    {
+      "image" : "prisonarchceiling.png:<color>",
+
+      "imagePosition" : [-24, -16],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "prisonarchceiling.png:<color>",
+
+      "imagePosition" : [-24, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "prisonarchground.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "prisonarchground.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

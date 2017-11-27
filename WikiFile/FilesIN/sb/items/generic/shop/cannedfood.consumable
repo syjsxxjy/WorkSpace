@@ -1,0 +1,21 @@
+{
+  "itemName" : "cannedfood",
+  "rarity" : "Common",
+  "price" : 20,
+  "inventoryIcon" : "cannedfood.png",
+  "description" : "Canned food. Not the best, but it'll do in a pinch.",
+  "shortdescription" : "Canned Food",
+  "effects" : [ [
+    {
+        "effect" : "foodheal95",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

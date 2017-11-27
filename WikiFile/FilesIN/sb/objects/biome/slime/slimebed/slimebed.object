@@ -1,0 +1,39 @@
+{
+  "objectName" : "slimebed",
+  "colonyTags" : ["slime","odd"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "Sleep sweetly suspended in slime.",
+  "shortdescription" : "Slime Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 140,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-5, 10],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/biome/slime/slimebed/slimebedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "slimebedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "slimebed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

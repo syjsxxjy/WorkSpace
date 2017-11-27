@@ -1,0 +1,8 @@
+{
+  "itemName" : "inferiorbrain",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "inferiorbrain.png",
+  "description" : "A waste of brain cells.",
+  "shortdescription" : "Inferior Brain"
+}

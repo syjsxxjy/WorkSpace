@@ -1,0 +1,75 @@
+{
+  "objectName" : "drillmachine",
+  "colonyTags" : ["human","lunarbase","mechanical"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2000,
+  "printable" : false,
+  "description" : "A console to activate this mining drill's harvesting functions.",
+  "shortdescription" : "Mining Drill Console",
+  "race" : "generic",
+  
+  "lightColor" : [179, 149, 107],
+
+  "apexDescription" : "That's the second bigge-no wait, that IS the biggest mining drill i've ever seen!",
+  "avianDescription" : "That's the second biggest mining drill I've ever seen!",
+  "floranDescription" : "That's the second biggest mining drill I've ever seen!",
+  "glitchDescription" : "That's the second biggest mining drill I've ever seen!",
+  "humanDescription" : "That's the second biggest mining drill I've ever seen!",
+  "hylotlDescription" : "That's the second biggest mining drill I've ever seen!",
+
+  "inventoryIcon" : "drillmachineicon.png",
+  "orientations" : [
+    {
+      "image" : "drillmachine.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [11, 2],
+
+      "imagePosition" : [-88, 0],
+      "animationPosition" : [-88, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "drillmachine.png:<color>.<frame>",
+      "direction" : "right",
+      "lightPosition" : [-11, 2],
+
+      "imagePosition" : [-104, 0],
+      "animationPosition" : [-104, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "turnInQuests" : [
+    "outpostMission1.gearup"
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 0,
+
+  "animation" : "drillmachine.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/drillmachine_off.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "drillmachine.png",
+    "fg" : "drillmachinelit.png"
+  },
+
+  "soundEffect" : "/sfx/objects/drillmachine.ogg",
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "smashOnBreak" : true
+}

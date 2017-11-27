@@ -1,0 +1,12 @@
+{
+  "itemName" : "biorock2",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "biorock2.png",
+  "description" : "This blue rock is glowing with bioluminescence.",
+  "shortdescription" : "Blue Bioluminescent Rock",
+  "glitchDescription" : "Analysis. This blue rock is bioluminescent.",
+  "floranDescription" : "Floran like blue bioluminescent rocks.",
+
+  "materialId" : 1431
+}

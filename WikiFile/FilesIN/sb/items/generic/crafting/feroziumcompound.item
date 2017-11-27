@@ -1,0 +1,18 @@
+{
+  "itemName" : "feroziumcompound",
+  "price" : 300,
+  "rarity" : "Legendary",
+  "inventoryIcon" : "feroziumcompound.png",
+  "description" : "This compound shines with an almost otherworldly quality.",
+  "shortdescription" : "Ferozium Compound",
+
+  "learnBlueprintsOnPickup" : [
+    "tier6bed",
+    "tier6chair",
+    "tier6door",
+    "tier6light",
+    "tier6switch",
+    "tier6table",
+    "feroziumbow"
+  ]
+}

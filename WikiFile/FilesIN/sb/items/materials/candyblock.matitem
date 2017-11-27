@@ -1,0 +1,10 @@
+{
+  "itemName" : "candyblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "candyblockicon.png",
+  "description" : "Sweet-smelling rock candy!",
+  "shortdescription" : "Candy Block",
+
+  "materialId" : 175
+}

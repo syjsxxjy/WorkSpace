@@ -1,0 +1,12 @@
+{
+  "itemName" : "shadowblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "shadowblock.png",
+  "description" : "A block as pitch as shadow.",
+  "shortdescription" : "Shadow Block",
+  "glitchDescription" : "Statement. Shadow block.",
+  "floranDescription" : "Shadowy blocksss...",
+  "category" : "Material",
+  "materialId" : 888
+}

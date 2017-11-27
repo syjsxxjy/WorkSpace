@@ -1,0 +1,55 @@
+{
+  "objectName" : "reedbed",
+  "colonyTags" : ["oasis","nature"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 95,
+  "printable" : false,
+  "description" : "A bed made of wood and reed.",
+  "shortdescription" : "Reed Bed",
+  "race" : "generic",
+
+  "apexDescription" : "A bed made of wood and reed.",
+  "avianDescription" : "A bed made of wood and reed.",
+  "floranDescription" : "A bed made of wood and reed.",
+  "glitchDescription" : "A bed made of wood and reed.",
+  "humanDescription" : "A bed made of wood and reed.",
+  "hylotlDescription" : "A bed made of wood and reed.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitCoverImage" : "/objects/biome/oasis/reedbed/reedbedcover.png",
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "reedbedicon.png",
+  "orientations" : [
+    {
+      "image" : "reedbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-4, 18],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "reedbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "sitPosition" : [-12, 18],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

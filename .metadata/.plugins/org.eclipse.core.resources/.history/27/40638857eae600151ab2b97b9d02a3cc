@@ -1,0 +1,22 @@
+====== 测试名称：Grapple ======
+^{{::grappleicon.png?300|}}|^
+^  物品ID：|**grapple**|
+^  物品名称：|测试名称 Grapple|
+^  价格：|500|
+^  物品描述：| Why bother platforming when you can just use ropes?|
+|  最大叠加：|1|
+|  稀有程度：|legendary|
+|  物品类型：|base|
+|  双手装备：|false|
+
+----
+
+  "itemName" : "grapple",
+  "price" : 500,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Why bother platforming when you can just use ropes?",
+  "shortdescription" : "Grapple",
+  "tooltipKind" : "base",
+  "twoHanded" : false,
+  "inventoryIcon" : "grappleicon.png",

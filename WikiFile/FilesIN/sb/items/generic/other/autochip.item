@@ -1,0 +1,11 @@
+{
+  "itemName" : "autochip",
+  "rarity" : "Rare",
+  "price" : 100,
+  "inventoryIcon" : "autochip.png",
+  "description" : "This should be useful for building and repairing vehicles!",
+  "shortdescription" : "Auto Chip",
+
+  "learnBlueprintsOnPickup" : [ ]
+}
+

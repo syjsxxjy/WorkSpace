@@ -1,0 +1,23 @@
+{
+  "itemName" : "valentinechocolates",
+  "price" : 150,
+
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "valentinechocolates.png",
+  "description" : "A heart shaped box with Valentine chocolates inside! Heals your hunger AND body!",
+  "shortdescription" : "Chocolate",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 180
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 180
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

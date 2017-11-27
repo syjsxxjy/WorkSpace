@@ -1,0 +1,79 @@
+{
+  "objectName" : "outpostsecurityconsole",
+  "colonyTags" : ["outpost","electronic"],
+  "rarity" : "Common",
+  "description" : "A security console. For keeping things secure.",
+  "shortdescription" : "Outpost Security Console",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 70,
+  "lightColor" : [22, 31, 36],
+
+  "apexDescription" : "A security console for some unknown thing.",
+  "avianDescription" : "A security console.",
+  "floranDescription" : "Floran use anonymous console to send abuse to Hylotl military.",
+  "glitchDescription" : "Statement. A security console.",
+  "humanDescription" : "A console.",
+  "hylotlDescription" : "A console.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "outpostsecurityconsole.png:<color>.on",
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+      
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "outpostsecurityconsole.png:<color>.on",
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+      
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "outpostsecurityconsole.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_button.ogg" ],
+      "off" : [ "/sfx/objects/console_button.ogg" ]
+    }
+  },
+
+  "animationParts" : {
+    "bg" : "outpostsecurityconsole.png",
+    "fg" : "outpostsecurityconsolelit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "npcToy" : {
+    "influence" : [
+      "console"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

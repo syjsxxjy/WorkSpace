@@ -1,0 +1,70 @@
+{
+  "objectName" : "fossilstation",
+  "colonyTags" : [],
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "printable" : false,
+  "description" : "This device is able to identify and restore fossils. It outputs the fossil in a container ready to be smashed open.",
+  "shortdescription" : "^orange;Fossil Station^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 160,
+
+  "apexDescription" : "A handy restoration device for fossils. It can also identify them.",
+  "avianDescription" : "",
+  "floranDescription" : "Floran is curiousss about old fossil rocksss. Fossil machine can help identify!",
+  "glitchDescription" : "Amazed. A tool to restore and identify fossils with. I can't wait to use it.",
+  "humanDescription" : "A fossil restoration tool. Let's learn about history!",
+  "hylotlDescription" : "A fossil identifier. Using this device is like peering into the past.",
+  "novakidDescription" : "I don't know much about things of the past. This machine could teach me a thing or two if I bring it a fossil.",
+
+
+  "lightColor" : [31, 66, 102],
+  "lightPosition" : [0, 2],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1.0,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.0,
+
+  "inventoryIcon" : "fossilstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "fossilstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "fossilstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 14,
+      "animationCycle" : 0.5,
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "fossilstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "fossilstationlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 14,
+      "animationCycle" : 0.5,
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "statusEffects" : [ ],
+
+  "recipeGroup" : "fossilstation",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/fossilstation.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

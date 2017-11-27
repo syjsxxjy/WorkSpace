@@ -1,0 +1,10 @@
+{
+  "itemName" : "supermatter",
+  "rarity" : "Common",
+  "price" : 15,
+  "inventoryIcon" : "supermatter.png",
+  "description" : "A crystal used to build FTL technology. We still don't fully understand it.",
+  "shortdescription" : "Erchius Crystal",
+
+  "materialId" : 1164
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "brokentank",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A broken tank.",
+  "shortdescription" : "Broken Tank",
+  "race" : "generic",
+
+  "apexDescription" : "A broken tank.",
+  "avianDescription" : "A broken tank",
+  "floranDescription" : "Sssome metal box.",
+  "glitchDescription" : "Observant. A broken tank.",
+  "humanDescription" : "A broken tank.",
+  "hylotlDescription" : "A broken tank.",
+
+  "inventoryIcon" : "brokentankicon.png",
+  "orientations" : [
+    {
+      "image" : "brokentank.png:<color>",
+      "imagePosition" : [-24, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "brokentank.png:<color>",
+      "imagePosition" : [-24, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

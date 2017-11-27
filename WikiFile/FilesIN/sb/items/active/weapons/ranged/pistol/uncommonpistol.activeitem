@@ -1,0 +1,112 @@
+{
+  "itemName" : "uncommonpistol",
+  "price" : 130,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Pop pop",
+  "shortdescription" : "Uncommon Pistol",
+  "tooltipKind" : "gun",
+  "weaponType" : "Pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+  "level" : 1,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+  "baseOffset" : [-0.25, 0.25],
+  "muzzleOffset" : [0,0.375],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "primaryAttack" : {
+    "fireTime" : [0.33, 1.0],
+    "baseDps" : [4.25, 5],
+    "energyUsage" : [12.75, 15],
+    "inaccuracy" : 0.025,
+
+    "projectileParameters" : {
+      "knockback" : [4,8]
+    }
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "fire" : {
+      "duration" : 0,
+      "armRotation" : 10,
+      "weaponRotation" : 10,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "duration" : 0.15,
+      "armRotation" : 10,
+      "weaponRotation" : 10,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "pistolnames.config:nameGen",
+    "elementalType" : [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ],
+    "elementalConfig" : {
+      "fire" : {
+        "primaryAttack" : { "projectileType" : "fireplasma" },
+        "fireSounds" : [ "/sfx/gun/plasma_pistol1.ogg", "/sfx/gun/plasma_pistol2.ogg", "/sfx/gun/plasma_pistol3.ogg" ]
+      },
+      "ice" : {
+        "primaryAttack" : { "projectileType" : "iceplasma" },
+        "fireSounds" : [ "/sfx/gun/plasma_pistol1.ogg", "/sfx/gun/plasma_pistol2.ogg", "/sfx/gun/plasma_pistol3.ogg" ]
+      },
+      "poison" : {
+        "primaryAttack" : { "projectileType" : "poisonplasma" },
+        "fireSounds" : [ "/sfx/gun/plasma_pistol1.ogg", "/sfx/gun/plasma_pistol2.ogg", "/sfx/gun/plasma_pistol3.ogg" ]
+      },
+      "electric" : {
+        "primaryAttack" : { "projectileType" : "electricplasma" },
+        "fireSounds" : [ "/sfx/gun/plasma_pistol1.ogg", "/sfx/gun/plasma_pistol2.ogg", "/sfx/gun/plasma_pistol3.ogg" ]
+      }
+    },
+    "animationParts" : {
+      "butt" : {
+        "path" : "/items/active/weapons/ranged/pistol/butt/<variant>.png",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "middle" : {
+        "path" : "/items/active/weapons/ranged/pistol/middle/<variant>.png",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "barrel" : {
+        "path" : "/items/active/weapons/ranged/pistol/barrel/<variant>.png",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    },
+    "gunParts" : ["butt", "middle", "barrel"],
+    "altAbilities" : [ ],
+    "palette" : "/items/active/weapons/colors/ranged.weaponcolors",
+    "iconDrawables" : ["butt", "middle", "barrel"]
+  }]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "metallic",
+  "price" : 5,
+  "rarity" : "Common",
+  "inventoryIcon" : "metallic.png",
+  "description" : "A metal coating over a wood like material.",
+  "shortdescription" : "Metal Coated Wood",
+  "learnBlueprintsOnPickup" : [
+    "platematerial"
+  ]
+}

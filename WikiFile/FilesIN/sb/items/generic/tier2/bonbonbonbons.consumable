@@ -1,0 +1,25 @@
+{
+  "itemName" : "bonbonbonbons",
+  "rarity" : "Common",
+  "price" : 225,
+  "inventoryIcon" : "bonbonbonbons.png",
+  "description" : "Eureka! The only possible way to improve on perfection is to multiply it.",
+  "shortdescription" : "Bon Bon Bon Bons",
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "foodheal95",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 210
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

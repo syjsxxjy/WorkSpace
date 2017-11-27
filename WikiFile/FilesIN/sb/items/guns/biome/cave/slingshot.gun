@@ -1,0 +1,35 @@
+{
+  "itemName" : "slingshot",
+  "price" : 0,
+  "inventoryIcon" : "slingshoticon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A Slingshot.",
+  "shortdescription" : "Slingshot",
+  "image" : "slingshotfull.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "handPosition" : [0, 0],
+  "firePosition" : [20, 1.5],
+  "level" : 1,
+  "fireTime" : 0.65,
+  "inaccuracy" : 0.02,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "woodenarrow",
+  "powerProjectileType" : "chargedarrow",
+  "powerProjectileTime" : [0.9, 1.1],
+  "drawSpeedCurve" : "drawTimeMultiplier",
+  "drawPowerCurve" : "drawTimeMultiplier",
+  "projectile" : {
+    "speed" : 60,
+    "power" : 4,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.ogg" } ]
+  }
+}

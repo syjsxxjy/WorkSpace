@@ -1,0 +1,43 @@
+package helloworld;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Airport {
+	int airplane;
+
+	void takeoff() {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("如果需要起飞，请输入飞机类型编号：1~3");
+		try {
+			String line = reader.readLine();
+			this.airplane = Integer.valueOf(line);
+			if (airplane == 1) {
+				System.out.println("直升机需要垂直起飞");
+			}
+			if (airplane == 2) {
+				System.out.println("战斗机需要弹射起飞");
+			}
+			if (airplane == 3) {
+				System.out.println("客机需要滑行起飞");
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public Airport() {
+		// TODO Auto-generated constructor stub
+		Helicopter h1 = new Helicopter();
+		Warplane w1 = new Warplane();
+		Airliner al1 = new Airliner();
+
+		System.out.println("现在飞机场有以下飞机：");
+		System.out.println(h1.name + "编号：" + h1.num);
+		System.out.println(w1.name + "编号：" + w1.num);
+		System.out.println(al1.name + "编号：" + al1.num);
+		takeoff();
+	}
+}

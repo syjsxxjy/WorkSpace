@@ -1,0 +1,103 @@
+{
+  "itemName" : "commonspear",
+  "price" : 150,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "",
+  "shortdescription" : "Common Spear",
+  "tooltipKind" : "sword",
+  "weaponType" : "Spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "animation" : "spear.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+
+  "scripts" : ["spear.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+  "primaryAttack" : {
+    "fireTime" : [0.83, 1.11],
+    "baseDps" : [9, 10],
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : [25, 35],
+      "timeoutGroup" : "primary"
+    },
+    "holdDamageMultiplier" : 0.1,
+    "holdDamageConfig" : {
+      "timeoutGroup" : "hold",
+      "timeout" : 0.5
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_spear.ogg" ],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "weaponOffset" : [0, 0.5],
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "armRotation" : -110,
+      "weaponRotation" : 20,
+      "twoHanded" : true,
+      "weaponOffset" : [0, 0.5],
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "fire" : {
+      "duration" : 0.3,
+      "armRotation" : -20,
+      "weaponRotation" : -70,
+      "twoHanded" : true,
+      "weaponOffset" : [0, 2.5],
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "hold" : {
+      "armRotation" : -30,
+      "weaponRotation" : -60,
+      "twoHanded" : true,
+      "weaponOffset" : [0, 2.0],
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "spearnames.config:nameGen",
+    "animationParts" : {
+      "blade" : {
+        "path" : "blade/<variant>.png",
+        "variants" : 50,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "handle/<variant>.png",
+        "variants" : 50,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [
+      "/items/active/weapons/melee/altabilities/spear/flurry/flurry.altability",
+      "/items/active/weapons/melee/altabilities/spear/spin/spin.altability"
+    ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "handle", "blade" ]
+  }]
+}

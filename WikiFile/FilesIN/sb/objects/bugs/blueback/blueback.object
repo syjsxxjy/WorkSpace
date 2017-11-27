@@ -1,0 +1,26 @@
+{
+  "objectName" : "blueback",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "price" : 50,
+  "printable" : false,
+  "description" : "\"This blue bug has sharp little teeth.\"",
+  "shortdescription" : "Blueback Bug",
+  "race" : "generic",
+
+  "itemTags" : [ "bug" ],
+
+  "largeImage" : "bluebacklarge.png",
+  "inventoryIcon" : "bluebackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "blueback.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 27,
+      "animationCycle" : 2.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

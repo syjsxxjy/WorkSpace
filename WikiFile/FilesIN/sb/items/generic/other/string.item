@@ -1,0 +1,7 @@
+{
+  "itemName" : "string",
+  "rarity" : "Common",
+  "inventoryIcon" : "string.png",
+  "description" : "You never know when a bit of string might come in handy.",
+  "shortdescription" : "String"
+}

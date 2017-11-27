@@ -1,0 +1,13 @@
+{
+  "itemName" : "outpostplatform",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "outposticon.png",
+  "description" : "A handy platform.",
+  "shortdescription" : "Outpost Platform",
+  "glitchdescription" : "Statement. A platform.",
+  "florandescription" : "Ssstand.",
+
+  "materialId" : 195
+}

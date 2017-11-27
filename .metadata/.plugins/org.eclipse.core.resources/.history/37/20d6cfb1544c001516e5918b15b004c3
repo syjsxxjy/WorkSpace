@@ -1,0 +1,17 @@
+package helloworld;
+
+public class WhitePig extends Pig{
+	private String color=super.color;
+	
+	public WhitePig() {
+		this.color = "°×";
+	}
+	
+	public String getColor() {
+		return this.color;
+	}
+	
+	public int attack() {
+		return 100;
+	}
+}

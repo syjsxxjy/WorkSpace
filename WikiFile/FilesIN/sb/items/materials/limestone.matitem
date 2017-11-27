@@ -1,0 +1,10 @@
+{
+  "itemName" : "limestone",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "limestone.png",
+  "description" : "This chalky stone is found in certain types of caves.",
+  "shortdescription" : "Limestone",
+
+  "materialId" : 146
+}

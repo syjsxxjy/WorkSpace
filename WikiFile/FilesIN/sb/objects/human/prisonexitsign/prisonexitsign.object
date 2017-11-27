@@ -1,0 +1,63 @@
+{
+  "objectName" : "prisonexitsign",
+  "colonyTags" : ["human","humanprison","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 80,
+  "description" : "If you go this way, you're sure to be exiting... something.",
+  "shortdescription" : "Exit Sign",
+  "race" : "human",
+
+  "apexDescription" : "An exit sign.",
+  "avianDescription" : "A sign pointing to the way out.",
+  "floranDescription" : "Floran think this sssay 'ssstab'. Floran becoming educated.",
+  "glitchDescription" : "Stating the obvious. This sign points the way to the exit.",
+  "humanDescription" : "A welcome sight for any prisoner. Unless you just happen to see it on the way to somewhere else, I suppose.",
+  "hylotlDescription" : "The way out of here.",
+
+  "lightColor" : [179, 156, 89],
+
+  "inventoryIcon" : "prisonexitsignicon.png",
+  "orientations" : [
+    {
+      "image" : "prisonexitsignleftpreview.png:<color>.<frame>",
+      "imagePosition" : [-8, -2],
+      "direction" : "left",
+      "animationParts" : {
+        "bg" : "prisonexitsignleft.png",
+        "fg" : "prisonexitsignleftlit.png"
+      },
+      "animationPosition" : [-8, -2],
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "prisonexitsignright.png:<color>.<frame>",
+      "imagePosition" : [-8, -2],
+      "direction" : "right",
+      "animationParts" : {
+        "bg" : "prisonexitsignright.png",
+        "fg" : "prisonexitsignrightlit.png"
+      },
+      "animationPosition" : [-8, -2],
+      "lightPosition" : [0, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "prisonexitsignleft.png",
+    "fg" : "prisonexitsignleftlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ],
+  "interactive" : false
+}

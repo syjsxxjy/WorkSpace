@@ -1,0 +1,13 @@
+{
+  "itemName" : "toxicwaste",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "toxicwaste.png",
+  "description" : "Sludge this toxic shouldn't go to waste!",
+  "shortdescription" : "Toxic Waste",
+  
+  "glitchdescription" : "Analysis. This waste is toxic.",
+  "florandescription" : "Floran don't like toxic wassste.",
+
+  "learnBlueprintsOnPickup" : [ "yellowstim" ]
+}

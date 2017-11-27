@@ -1,0 +1,53 @@
+{
+  "objectName" : "wildfeathercrownseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Feathercrown! Feathers sprout from the top and catch the wind.",
+  "shortdescription" : "Feathercrown Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 30,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "Looks like a carrot crossed with an Avian. Unusual.",
+  "avianDescription" : "An Avian delicacy. Only the finest of dishes contain feathercrown.",
+  "floranDescription" : "Looksss like a birdman, tassstes like dirt. Birdmen tassstier.",
+  "glitchDescription" : "Scientific. Perhaps one day this vegetable will evolve, and take to the skies.",
+  "humanDescription" : "A carrot with a feature. Good for eating AND tickling.",
+  "hylotlDescription" : "Feathers do not flourish underwater. Neither do feathercrowns.",
+
+  "inventoryIcon" : "feathercrownseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "feathercrownseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "feathercrownHarvest"
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "feathercrownseed", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 0.25
+}

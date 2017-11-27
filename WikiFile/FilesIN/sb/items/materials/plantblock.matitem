@@ -1,0 +1,12 @@
+{
+  "itemName" : "plantblock",
+  "price" : 10,
+  "rarity" : "Common",
+  "inventoryIcon" : "plantblock.png",
+  "description" : "A block made of plant matter.",
+  "shortdescription" : "Plant Block",
+  "glitchdescription" : "Statement. Plant matter.",
+  "florandescription" : "Floran feel kinship with plant block.",
+
+  "materialId" : 141
+}

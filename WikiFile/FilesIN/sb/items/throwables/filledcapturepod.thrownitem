@@ -1,0 +1,22 @@
+{
+  "itemName" : "filledcapturepod",
+  "rarity" : "Common",
+  "inventoryIcon" : "filledcapturepodicon.png",
+  "image" : "filledcapturepodicon.png",
+  "shortdescription" : "Filled Capture Pod",
+  "description" : "Throw it down to release the critter captured inside!",
+
+  "maxStack" : 1,
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "filledcapturepod",
+  "projectileConfig" : {
+    "speed" : 40,
+    "level" : 7
+  }
+}
+

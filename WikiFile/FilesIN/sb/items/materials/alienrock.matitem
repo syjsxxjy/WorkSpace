@@ -1,0 +1,12 @@
+{
+  "itemName" : "alienrock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "alienrock.png",
+  "description" : "This strange rock comes from an Alien world.",
+  "shortdescription" : "Alien Rock",
+  "glitchdescription" : "Analysis. This rock is of an alien origin.",
+  "florandescription" : "Floran like weird rocks.",
+
+  "materialId" : 143
+}

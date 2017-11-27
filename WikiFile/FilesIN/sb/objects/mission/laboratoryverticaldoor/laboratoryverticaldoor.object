@@ -1,0 +1,59 @@
+{
+  "objectName" : "laboratoryverticaldoor",
+  "colonyTags" : ["door","apex","apexmission1"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "description" : "A sleek vertical doorway, perfect for secret labs.",
+  "shortdescription" : "Laboratory Hatch",
+  "race" : "apex",
+
+  "apexDescription" : "This hatch looks like Miniknog design. It gives me shivers.",
+  "avianDescription" : "A finely constructed hatch.",
+  "floranDescription" : "Floran doesssn't like shiny doorsss.",
+  "glitchDescription" : "Observant. This hatch is made from a smooth white metal.",
+  "humanDescription" : "A door that splits into three parts when it opens. Neat.",
+  "hylotlDescription" : "A rather elegant doorway that splits in three to open.",
+
+  "inventoryIcon" : "laboratoryverticaldooricon.png",
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "laboratoryverticaldoor.png"
+  },
+  
+    "orientations" : [
+    {
+      "image" : "laboratoryverticaldoor.png:default",
+      "imagePosition" : [-16, -8],
+      "animationPosition" : [-16, -8],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+    {
+      "image" : "laboratoryverticaldoor.png:default",
+      "imagePosition" : [-16, -8],
+      "animationPosition" : [-16, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "inboundNodes" : [ [-2, 0] ],
+  "outboundNodes" : [ [2, -1] ]
+}

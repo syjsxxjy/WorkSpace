@@ -1,0 +1,14 @@
+{
+  "itemName" : "liquidslime",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidslimeicon.png",
+  "shortdescription" : "Slime",
+  "description" : "A slimey liquid.",
+
+  "liquid" : "slimeliquid",
+
+  "learnBlueprintsOnPickup" : [
+    "mininglantern",
+    "lanternstickback"
+  ]
+}

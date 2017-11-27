@@ -1,0 +1,9 @@
+{
+  "itemName" : "bubbleboost",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/booster.png",
+  "description" : "Press and hold Jump plus a direction in the air to float around with this Particle Boost tech. Cost: 75 energy per second.",
+  "shortdescription" : "Particle Boost",
+
+  "techModule" : "bubbleboost"
+}

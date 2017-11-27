@@ -1,0 +1,38 @@
+package test;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Filelisttest {
+
+	  public static void listDirectory(File path, List<File> myfile){
+	        if (!path.exists()){
+	            System.out.println("文件名称不存在!");
+	        }
+	        else
+	        {
+	            if (path.isFile()){
+	                myfile.add(path);
+	            } else{
+	                File[] files = path.listFiles();
+	                for (int i = 0; i < files.length; i++  ){
+	                    listDirectory(files[i], myfile);
+	                }
+	            }
+	        }
+	    }
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<File> filelist=new ArrayList<File>();
+		File path=new File("FilesIN");
+		
+		listDirectory(path, filelist);
+		
+//		for(int i=0;i<filelist.size();i++){
+//			System.out.println( filelist.get(i).getName());
+//		}
+//	}
+
+}

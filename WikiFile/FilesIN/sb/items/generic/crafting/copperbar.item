@@ -1,0 +1,8 @@
+{
+  "itemName" : "copperbar",
+  "price" : 20,
+  "rarity" : "Common",
+  "inventoryIcon" : "copperbar.png",
+  "description" : "A copper bar. I can combine this with stronger smelted ores and materials.",
+  "shortdescription" : "Copper Bar"
+}

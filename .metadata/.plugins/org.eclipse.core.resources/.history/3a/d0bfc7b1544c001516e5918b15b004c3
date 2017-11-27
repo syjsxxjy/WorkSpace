@@ -1,0 +1,10 @@
+package helloworld;
+
+public class Warplane {
+	String name = "Õ½¶·»ú";
+	int num = 2;
+	public Warplane() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

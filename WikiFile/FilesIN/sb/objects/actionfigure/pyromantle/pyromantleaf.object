@@ -1,0 +1,32 @@
+{
+  "objectName" : "pyromantleaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"Its hot core produces a constant flow of lava. It throws a good punch.\"",
+  "shortdescription" : "Pyromantle Action Figure",
+
+
+  "inventoryIcon" : "pyromantleaf.png",
+  "orientations" : [
+    {
+      "image" : "pyromantleaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pyromantleaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

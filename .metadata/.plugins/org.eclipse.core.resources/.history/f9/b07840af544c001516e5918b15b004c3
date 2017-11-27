@@ -1,0 +1,13 @@
+package helloworld;
+
+public class Flute {
+
+	public Flute() {
+		// TODO Auto-generated constructor stub
+		super();
+		
+	}
+public void play(){
+	System.out.println("´µ×à");
+}
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "durasteelbar",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "durasteelbar.png",
+  "description" : "A Durasteel bar. Useful for crafting some seriously advanced stuff.",
+  "shortdescription" : "Durasteel Bar",
+
+  "learnBlueprintsOnPickup" : [
+    "tier4bed",
+    "tier4chair",
+    "tier4door",
+    "tier4light",
+    "tier4switch",
+    "tier4table",
+    "compoundbow"
+  ]
+}

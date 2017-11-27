@@ -1,0 +1,17 @@
+package helloworld;
+
+public class BlackPig extends Pig{
+	private String color=super.color;
+	
+	public BlackPig() {
+		this.color = "ºÚ";
+	}
+	
+	public String getColor() {
+		return this.color;
+	}
+	
+	public int attack() {
+		return 50;
+	}
+}

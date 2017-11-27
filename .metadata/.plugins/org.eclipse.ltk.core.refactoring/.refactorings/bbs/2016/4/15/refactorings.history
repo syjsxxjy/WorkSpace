@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bbs/doc/webxml.txt&apos; to &apos;server.xml.txt&apos;" description="Rename resource &apos;webxml.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="doc/webxml.txt" name="server.xml.txt" stamp="1460045479064" updateReferences="true"/>
+</session>

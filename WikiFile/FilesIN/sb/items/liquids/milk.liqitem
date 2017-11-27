@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidmilk",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidmilkicon.png",
+  "shortdescription" : "Coconut Milk",
+  "description" : "A measure of coconut milk. The taste is amazing.",
+
+  "liquid" : "milk",
+  "learnBlueprintsOnPickup" : [ "coconutrice" ]
+}

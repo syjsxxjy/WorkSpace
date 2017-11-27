@@ -1,0 +1,12 @@
+{
+  "itemName" : "direstone",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "direstone.png",
+  "description" : "Little wormlike forms wriggle beneath the surface of this glassy stone.",
+  "shortdescription" : "Dire Stone",
+  "glitchdescription" : "Analysis. The worms in this block appear to be essentially immortal.",
+  "florandescription" : "Wiggly wormssstone!",
+
+  "materialId" : 46
+}

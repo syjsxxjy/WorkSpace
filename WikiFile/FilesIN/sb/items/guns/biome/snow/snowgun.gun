@@ -1,0 +1,31 @@
+{
+  "itemName" : "snowgun",
+  "price" : 0,
+  "inventoryIcon" : "snowgun.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "-todo-",
+  "shortdescription" : "Blizzard Blaster",
+  "image" : "snowgun.png",
+  "handPosition" : [2, 4],
+  "firePosition" : [20, -2],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "weaponType" : "Snow Gun",
+  "itemTags" : ["weapon","ranged"],
+  "fireTime" : 0.25,
+  "inaccuracy" : 0.03,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "snowball",
+  "projectile" : {
+    "speed" : 60,
+    "power" : 1.5
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/mp3.ogg" } ],
+    "animation" : "/animations/muzzleflash/blankmuzzle/blankmuzzle.animation"
+  }
+}

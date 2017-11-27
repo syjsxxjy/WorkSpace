@@ -1,0 +1,27 @@
+{
+  "itemName" : "luckydip",
+  "rarity" : "Common",
+  "price" : 225,
+  "inventoryIcon" : "luckydip.png",
+  "description" : "Bananas and carrots mashed in a bowl makes for an Apex snacktime favorite.",
+  "shortdescription" : "Lucky Dip",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal25",
+        "duration" : 60
+    },
+    {
+        "effect" : "maxenergyboost20",
+        "duration" : 90
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

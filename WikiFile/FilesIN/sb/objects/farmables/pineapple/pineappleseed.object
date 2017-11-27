@@ -1,0 +1,48 @@
+{
+  "objectName" : "pineappleseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Pineapple, make sure you cut it open first.",
+  "shortdescription" : "Pineapple Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 40,
+
+  "apexDescription" : "Pineapples make for good banana accompaniments.",
+  "avianDescription" : "The leaves look like feathers, but they're nowhere near as soft.",
+  "floranDescription" : "Pineapple look like Floran headsss.",
+  "glitchDescription" : "Smug. The Glitch have been known to use pineapples as target practice.",
+  "humanDescription" : "Pineapples. Perfect for desserts, or for cocktails.",
+  "hylotlDescription" : "Overly sweet. One would never find pineapples under the sea.",
+
+  "inventoryIcon" : "pineappleseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pineappleseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "duration" : [430, 470]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "pineappleHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}

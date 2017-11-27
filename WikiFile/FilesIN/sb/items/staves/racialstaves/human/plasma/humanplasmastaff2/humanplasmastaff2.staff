@@ -1,0 +1,49 @@
+{
+  "itemName" : "humanplasmastaff2",
+  "inventoryIcon" : "humanplasmastaff2.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Powered by the destructive desires of the wielder. And a Cerulium battery.",
+  "shortdescription" : "Boom Blast Staff",
+  "image" : "humanplasmastaff2.png",
+  "handPosition" : [-1.5, -7],
+  "firePosition" : [5, 1.5],
+  "level" : 6,
+  "fireTime" : 0.2,
+  "windupTime" : 0.8,
+  "cooldown" : 0.3,
+  "twoHanded" : true,
+  "fireOnRelease" : true,
+
+  "swingStart" : 10,
+  "swingFinish" : 0,
+  "coolingDownAngle" : 0,
+
+  "projectileType" : "boomblastspawner",
+  "projectile" : {
+    "speed" : 75.0,
+    "power" : 12,
+    "color" : [255, 10, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [
+      { "file" : "/sfx/gun/rocket1.ogg" },
+      { "file" : "/sfx/gun/rocket_fly.ogg" }
+    ]
+  },
+
+  "level1ChargeTime" : 0.5,
+  "level2ChargeTime" : 0.8,
+
+  "staffChargingGlow" : {
+    "file" : "plasmastaff2glow.png",
+    "chargingFrames" : 13,
+    "sparkFrames" : 3,
+    "loopFrames" : 4,
+    "fireFrames" : 3,
+    "sparkTime" : 0.5,
+    "loopTime" : 0.5,
+    "offset" : [ 0, 6 ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "bonematerial",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "bonematerial.png",
+  "description" : "Polished bone made into a building material.",
+  "shortdescription" : "Bone Block",
+  "glitchdescription" : "Scared. This bone came from a huge creature.",
+  "florandescription" : "Bonesss!",
+  "novakidDescription" : "Bones. Who needs 'em!",
+
+  "materialId" : 129
+}

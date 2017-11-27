@@ -1,0 +1,13 @@
+package helloworld;
+
+public class Piano extends Instrument {
+
+	public Piano() {
+		// TODO Auto-generated constructor stub
+		super();
+	}
+
+public void play(){
+	System.out.println("ЕЏзр");
+}
+}

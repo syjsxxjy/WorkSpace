@@ -1,0 +1,26 @@
+{
+  "objectName" : "hivehog",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "price" : 50,
+  "printable" : false,
+  "description" : "\"This bug never stops eating.\"",
+  "shortdescription" : "Hivehog Bug",
+  "race" : "generic",
+
+  "itemTags" : [ "bug" ],
+
+  "largeImage" : "hivehoglarge.png",
+  "inventoryIcon" : "hivehogicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "hivehog.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 27,
+      "animationCycle" : 2.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

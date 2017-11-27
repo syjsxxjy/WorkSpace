@@ -1,0 +1,11 @@
+{
+  "itemName" : "lunarbaseplatform",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "lunarbaseplatform.png",
+  "description" : "A well-constructed metal platform.",
+  "shortdescription" : "Lunar Base Platform",
+
+  "materialId" : 181
+}

@@ -1,0 +1,17 @@
+package helloworld;
+
+public class BigStudent extends Student {
+	public String sex ;
+
+	public void study() {
+		System.out.println("学习大学课本");
+	}
+
+	public String getSex() {
+		sex=super.sex;
+		return this.sex;
+	}
+		public BigStudent(){
+			this.getSex();
+		}
+	}

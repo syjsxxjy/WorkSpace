@@ -1,0 +1,26 @@
+{
+  "objectName" : "glowbug",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "price" : 50,
+  "printable" : false,
+  "description" : "\"The warmer this bug gets, the more it glows.\"",
+  "shortdescription" : "Glowbug Bug",
+  "race" : "generic",
+
+  "itemTags" : [ "bug" ],
+
+  "largeImage" : "glowbuglarge.png",
+  "inventoryIcon" : "glowbugicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "glowbug.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 27,
+      "animationCycle" : 2.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

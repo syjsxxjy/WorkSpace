@@ -1,0 +1,14 @@
+{
+  "itemName" : "batteryacid",
+  "price" : 0,
+
+  "rarity" : "Common",
+  "inventoryIcon" : "batteryacid.png",
+  "description" : "Luckily, not actual battery acid!",
+  "shortdescription" : "Battery Acid",
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

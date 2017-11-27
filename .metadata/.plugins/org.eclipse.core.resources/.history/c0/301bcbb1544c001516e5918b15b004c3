@@ -1,0 +1,32 @@
+package helloworld;
+
+
+public class People {
+    int vehicle ;
+    void move(){
+    	if (vehicle==5){
+    		System.out.println("没钱了，走着去");
+    	}
+    	if (vehicle==4){
+    		System.out.println("前面有条河，坐船吧");
+    	}
+    	if (vehicle==3){
+    		System.out.println("没时间了，买飞机票吧");
+    	}
+    	if (vehicle==2){
+    		System.out.println("高速公路免费了，开车吧");
+    	}
+    	if (vehicle==1){
+    		System.out.println("有点远，骑自行车去");
+    	}
+    }
+	public People(){
+		// TODO Auto-generated constructor stub
+		Vehicles v1 = new Vehicles();
+		v1.setVehicle();
+		vehicle = v1.vehicle;
+		v1.getVehicle();
+		this.move();
+	}
+
+}

@@ -1,0 +1,50 @@
+{
+  "objectName" : "flagavian",
+  "colonyTags" : ["avian"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleporter",
+  "price" : 70,
+
+  "description" : "The Avian flag. Use ^green;[E] to bookmark a teleportation location.",
+  "shortdescription" : "Avian Flag",
+  "race" : "avian",
+
+  "apexDescription" : "The Avian flag reflects their longing to return to the skies.",
+  "avianDescription" : "Our flag is a symbol of hope that one day we will fly again.",
+  "floranDescription" : "Floran think this mean angelsss!",
+  "glitchDescription" : "Statement. A striking Avian flag.",
+  "humanDescription" : "The Avian flag has a spiritual aura to it.",
+  "hylotlDescription" : "As their flag shows, the Avians cling to the past.",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+
+  "inventoryIcon" : "flagavianicon.png",
+  "orientations" : [
+    {
+      "image" : "flagavian.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagavian.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}

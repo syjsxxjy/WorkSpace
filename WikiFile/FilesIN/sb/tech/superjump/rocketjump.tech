@@ -1,0 +1,13 @@
+{
+  "name" : "rocketjump",
+  "type" : "legs",
+
+  "scripts" : ["superjump.lua"],
+  "actions" : [ "superjump" ],
+  "animator" : "rocketjump.animation",
+
+  "energyUsage" : 80.0,
+  "superjumpSpeed" : 250,
+  "superjumpControlForce" : 900,
+  "superjumpTime" : 0.1
+}

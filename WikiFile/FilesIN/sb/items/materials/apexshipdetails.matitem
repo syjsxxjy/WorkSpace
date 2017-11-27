@@ -1,0 +1,12 @@
+{
+  "itemName" : "apexshipdetails",
+  "price" : 5,
+  "rarity" : "Common",
+  "inventoryIcon" : "apexshipdetails.png",
+  "description" : "A little bit of metal.",
+  "shortdescription" : "Metal Railing",
+  "glitchdescription" : "Statement. A small bit of metal.",
+  "florandescription" : "Sssteel.",
+
+  "materialId" : 167
+}

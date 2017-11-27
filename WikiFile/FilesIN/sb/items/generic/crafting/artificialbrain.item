@@ -1,0 +1,8 @@
+{
+  "itemName" : "artificialbrain",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "artificialbrain.png",
+  "description" : "An enhanced brain, perfect for transplanting.",
+  "shortdescription" : "Artificial Brain"
+}

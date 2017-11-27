@@ -1,0 +1,32 @@
+{
+  "objectName" : "crutteraf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"Its poison is deadly even in small doses.\"",
+  "shortdescription" : "Crutter Action Figure",
+
+
+  "inventoryIcon" : "crutteraf.png",
+  "orientations" : [
+    {
+      "image" : "crutteraf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "crutteraf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "toumingoaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"The long legs allow it to stand in water to catch fish.\"",
+  "shortdescription" : "Toumingo Action Figure",
+
+
+  "inventoryIcon" : "toumingoaf.png",
+  "orientations" : [
+    {
+      "image" : "toumingoaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "toumingoaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

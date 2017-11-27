@@ -1,0 +1,12 @@
+package helloworld;
+
+public class Pig {
+    String color ="ÑÕÉ«";
+	public Pig() {
+		// TODO Auto-generated constructor stub
+	}
+    public int attack() {
+		return 0;
+	}
+
+}

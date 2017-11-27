@@ -1,0 +1,115 @@
+{
+  "itemName" : "rareshotgun",
+  "price" : 190,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Pop pop",
+  "shortdescription" : "Rare Shotgun",
+  "tooltipKind" : "gun",
+  "weaponType" : "Shotgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","shotgun"],
+  "level" : 1,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : { },
+  "animationCustom" : { },
+  "baseOffset" : [-1.25, 0.25],
+  "muzzleOffset" : [0.0, 0.3125],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "primaryAttack" : {
+    "fireTime" : [0.29, 2.0],
+    "baseDps" : [9.5, 10.5],
+    "energyUsage" : [28.5, 31.5],
+    "projectileCount" : [5,8],
+    "inaccuracy" : 0.13,
+
+    "projectileParameters" : {
+      "knockback" : [10, 40]
+    }
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "fire" : {
+      "duration" : 0,
+      "armRotation" : 8,
+      "weaponRotation" : 8,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cooldown" : {
+      "duration" : 0.2,
+      "armRotation" : 8,
+      "weaponRotation" : 8,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "nameGenerator" : "shotgunnames.config:nameGen",
+    "elementalType" : [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ],
+    "elementalConfig" : {
+      "fire" : {
+        "primaryAttack" : { "projectileType" : "fireplasma", "projectileParameters" : { "statusEffects" : [ "burning" ] } },
+        "fireSounds" : [ "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg" ]
+      },
+      "ice" : {
+        "primaryAttack" : { "projectileType" : "iceplasma", "projectileParameters" : { "statusEffects" : [ "frostslow" ] } },
+        "fireSounds" : [ "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg" ]
+      },
+      "poison" : {
+        "primaryAttack" : { "projectileType" : "poisonplasma", "projectileParameters" : { "statusEffects" : [ "weakpoison" ] } },
+        "fireSounds" : [ "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg" ]
+      },
+      "electric" : {
+        "primaryAttack" : { "projectileType" : "electricplasma", "projectileParameters" : { "statusEffects" : [ "electrified" ] } },
+        "fireSounds" : [ "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg" ]
+      }
+    },
+    "animationParts" : {
+      "butt" : {
+        "path" : "/items/active/weapons/ranged/shotgun/butt/<variant>.png",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "middle" : {
+        "path" : "/items/active/weapons/ranged/shotgun/middle/<variant>.png",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "barrel" : {
+        "path" : "/items/active/weapons/ranged/shotgun/barrel/<variant>.png",
+        "variants" : 20,
+        "paletteSwap" : true
+      },
+      "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    },
+    "gunParts" : ["butt", "middle", "barrel"],
+    "altAbilities" : [
+      "/items/active/weapons/ranged/altabilities/grenadelauncher/grenadelauncher.altability"
+    ],
+    "palette" : "/items/active/weapons/colors/ranged.weaponcolors",
+    "iconDrawables" : ["butt", "middle", "barrel"]
+  }]
+}

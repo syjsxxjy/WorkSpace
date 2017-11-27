@@ -1,0 +1,19 @@
+{
+  "itemName" : "leadguitar",
+  "price" : 1000,
+  "inventoryIcon" : "leadguitaricon.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A lead guitar. For those who like to showboat.",
+  "shortdescription" : "Lead Guitar",
+  "largeImage" : "leadguitar.png",
+  "image" : "leadguitar.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "leadguitar.png",
+  "activeAngle" : -0,
+  "activeHandPosition" : [0.0, 0.0],
+
+  "handPosition" : [0.0, 0.0],
+  "twoHanded" : true,
+  "kind" : "leadguitar"
+}

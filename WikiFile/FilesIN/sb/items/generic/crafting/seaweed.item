@@ -1,0 +1,9 @@
+{
+  "itemName" : "seaweed",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "seaweed.png",
+  "description" : "Some alien seaweed.",
+  "shortdescription" : "Alien Seaweed",
+  "learnBlueprintsOnPickup" : [ "ricecake" ]
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "bannermedievalsmall",
+  "colonyTags" : ["glitch","glitchcastle","pretty"],
+  "rarity" : "Common",
+  "description" : "A beautifully woven banner.",
+  "shortdescription" : "Small Glitch Banner",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 55,
+
+  "apexDescription" : "An expertly woven banner.",
+  "avianDescription" : "A decorative banner perhaps?",
+  "floranDescription" : "Glitch make pretty banner.",
+  "glitchDescription" : "Educate. The Glitch produce banners of all different designs. They symbolise the house to which the Glitch belong.",
+  "humanDescription" : "A grand Glitch banner.",
+  "hylotlDescription" : "This banner has been crafted with great pride. It must have meaning.",
+
+  "inventoryIcon" : "bannermedievalsmallicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bannermedievalsmall.png:<color>",
+      "imagePosition" : [-8, -16],
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 0], [-1, 0] ]
+    },
+    {
+      "dualImage" : "bannermedievalsmall.png:<color>",
+      "imagePosition" : [-8, -16],
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 1], [-1, 1] ]
+    }
+  ]
+}

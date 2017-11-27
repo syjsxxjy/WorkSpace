@@ -1,0 +1,22 @@
+{
+  "materialId" : 1550,
+  "materialName" : "wickersupport",
+  "particleColor" : [109, 99, 48, 255],
+  "itemDrop" : "wickersupport",
+  "shortdescription" : "Wicker Support Block",
+  "description" : "A roughly woven wicker supports.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 4,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wickersupport.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 3441
+  }
+}

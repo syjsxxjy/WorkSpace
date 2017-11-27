@@ -1,0 +1,59 @@
+{
+  "objectName" : "eyedoor",
+  "colonyTags" : ["eyepatch","odd","door"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "description" : "A door covered in eyes. Don't blink.",
+  "shortdescription" : "Eye Door",
+  "race" : "generic",
+
+  "apexDescription" : "The door's piercing gaze is just daring me to enter.",
+  "avianDescription" : "This eye emanate malevolence. What horrors lie beyond?",
+  "floranDescription" : "Floran think door look at Floran funny. Floran feel territorial.",
+  "glitchDescription" : "Contemplative. With just one eye, this door must see the world as a one dimensional space.",
+  "humanDescription" : "This door doesn't look very welcoming. I think that was sort of a pun.",
+  "hylotlDescription" : "An overly dramatic door decorated with a large eye. Hylotl prefer stark beauty to convey importance.",
+  "novakidDescription" : "This door's keepin' an eye on me.",
+
+  "inventoryIcon" : "eyedooricon.png",
+  "orientations" : [
+    {
+      "image" : "eyedoor.png:default",
+      "imagePosition" : [-20, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "image" : "eyedoor.png:default",
+      "imagePosition" : [-20, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+      "close" : [ "/sfx/objects/fleshdoor_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "eyedoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}

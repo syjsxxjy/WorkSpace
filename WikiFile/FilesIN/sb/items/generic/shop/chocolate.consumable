@@ -1,0 +1,19 @@
+{
+  "itemName" : "chocolate",
+  "rarity" : "Common",
+  "price" : 40,
+  "inventoryIcon" : "chocolate.png",
+  "description" : "Just objectively the best thing ever.",
+  "shortdescription" : "Chocolate",
+  "handPosition" : [8, -4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 30
+    }
+  ] ]
+}

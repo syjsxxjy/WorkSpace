@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;PropertyClasses.ColonyTags.tag&apos; in &apos;PropertyClasses.ColonyTags&apos;&#x0D;&#x0A;- Original project: &apos;WikiFile&apos;&#x0D;&#x0A;- Original element: &apos;PropertyClasses.ColonyTags.tag&apos;&#x0D;&#x0A;- Getter method name: &apos;getTag&apos;&#x0D;&#x0A;- Setter method name: &apos;setTag&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;tag&apos;" flags="589830" getter="getTag" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;PropertyClasses{ColonyTags.java[ColonyTags^tag" insertion="-1" setter="setTag" stamp="1460453849355" version="1.0" visibility="1"/>
+</session>

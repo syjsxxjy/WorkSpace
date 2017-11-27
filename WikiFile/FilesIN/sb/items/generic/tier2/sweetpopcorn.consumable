@@ -1,0 +1,26 @@
+{
+  "itemName" : "sweetpopcorn",
+  "rarity" : "Common",
+  "price" : 190,
+  "inventoryIcon" : "sweetpopcorn.png",
+  "description" : "Freshly popped corn, with a sweet, buttery coating.",
+  "shortdescription" : "Sweet Popcorn",
+  "handPosition" : [8, 4],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 30
+    },
+    {
+        "effect" : "foodheal145",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

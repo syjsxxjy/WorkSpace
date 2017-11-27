@@ -1,0 +1,33 @@
+{
+  "objectName" : "batongaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"By tasting the particles in the air it can sense what's ahead of it.\"",
+  "shortdescription" : "Batong Action Figure",
+
+
+
+  "inventoryIcon" : "batongaf.png",
+  "orientations" : [
+    {
+      "image" : "batongaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],  
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "batongaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

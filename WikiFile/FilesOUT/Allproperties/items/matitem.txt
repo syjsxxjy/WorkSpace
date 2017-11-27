@@ -1,0 +1,16 @@
+shortdescription       
+learnBlueprintsOnPickup       
+humandescription       
+florandescription       
+novakidDescription       
+description       
+glitchdescription       
+materialId       
+itemName       
+glitchDescription       
+price       
+inventoryIcon       
+//twoHanded       
+category       
+floranDescription       
+rarity       

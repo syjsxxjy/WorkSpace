@@ -1,0 +1,87 @@
+{
+  "itemName" : "npcbroadsword",
+  "price" : 180,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "",
+  "shortdescription" : "NPC Broadsword",
+  "tooltipKind" : "sword",
+  "weaponType" : "Broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "animation" : "broadsword.animation",
+  "animationParts" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAttack" : {
+    "fireTime" : [1.0, 1.2],
+    "baseDps" : [10, 11],
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "statusEffects" : [ ],
+      "knockback" : 20,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/swing_broadsword.ogg" ],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : -10,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.4,
+      "armRotation" : 90,
+      "weaponRotation" : -10,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "preslash" : {
+      "duration" : 0.025,
+      "armRotation" : 55,
+      "weaponRotation" : -45,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "fire" : {
+      "duration" : 0.4,
+      "armRotation" : -45,
+      "weaponRotation" : -55,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildweapon.lua",
+  "builderConfig" : [{
+    "animationParts" : {
+      "blade" : {
+        "path" : "blade/<variant>.png",
+        "variants" : 46,
+        "paletteSwap" : true
+      },
+      "handle" : {
+        "path" : "handle/<variant>.png",
+        "variants" : 35,
+        "paletteSwap" : true
+      }
+    },
+    "altAbilities" : [ ],
+    "palette" : "/items/active/weapons/colors/melee.weaponcolors",
+    "iconDrawables" : [ "blade", "handle" ]
+  }]
+}

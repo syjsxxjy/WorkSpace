@@ -1,0 +1,9 @@
+{
+  "itemName" : "liquidpoison",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidpoisonicon.png",
+  "shortdescription" : "Poison",
+  "description" : "A measure of strong poison.",
+
+  "liquid" : "poison"
+}

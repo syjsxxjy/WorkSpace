@@ -1,0 +1,32 @@
+{
+  "itemName" : "aegisaltrifle",
+  "price" : 600,
+  "inventoryIcon" : "aegisaltrifle.png",
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Puts the 'assault' in Aegisalt",
+  "shortdescription" : "Aegisalt Rifle",
+  "image" : "aegisaltrifle.png",
+  "handPosition" : [-4, -1],
+  "firePosition" : [21, 2],
+  "recoilTime" : 0.1,
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "weaponType" : "Assault Rifle",
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "fireTime" : 0.13,
+  "inaccuracy" : 0.025,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "standardbullet",
+  "projectile" : {
+    "speed" : 150,
+    "life" : 3,
+    "power" : 1.04
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/ar4.ogg" } ],
+    "animation" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation"
+  }
+}

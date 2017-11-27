@@ -1,0 +1,12 @@
+{
+  "itemName" : "blueneonsymbol",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "blueneonsymbolicon.png",
+  "description" : "A tile with a strange blue glyph engraved in the centre.",
+  "shortdescription" : "Blue Neon Symbol",
+  "glitchdescription" : "Analysis. This symbol's meaning is unknown.",
+  "florandescription" : "Floran like glowy picturesss.",
+
+  "materialId" : 112
+}

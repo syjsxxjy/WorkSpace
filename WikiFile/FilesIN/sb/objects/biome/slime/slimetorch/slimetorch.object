@@ -1,0 +1,136 @@
+{
+  "objectName" : "slimetorch",
+  "colonyTags" : ["slime","light","odd"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 60,
+
+  "learnBlueprintsOnPickup" : [ "slimetorch" ],
+
+  "maximumLiquidLevel" : 0.2,
+
+  "description" : "A torch made of slime.",
+  "shortdescription" : "Slime Torch",
+  "race" : "generic",
+
+  "apexDescription" : "A slime torch.",
+  "avianDescription" : "A slime torch.",
+  "floranDescription" : "A slimey torch. Dangerousss.",
+  "glitchDescription" : "Statement. A slime torch.",
+  "humanDescription" : "A slime torch.",
+  "hylotlDescription" : "A slime torch.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [142, 255, 174],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "slimetorchicon.png",
+  "orientations" : [
+    {
+      "image" : "slimetorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "slimetorch.png",
+        "fg" : "slimetorchlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0], [1, 0] ],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "slimetorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "slimetorch.png",
+        "fg" : "slimetorchlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "slimetorchleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "slimetorchleft.png",
+        "fg" : "slimetorchleftlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0], [-1, 1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "slimetorchright.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "slimetorchright.png",
+        "fg" : "slimetorchrightlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [1, 0], [1, 1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "slimetorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "slimetorch.png",
+        "fg" : "slimetorchlit.png"
+      },
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+
+  "animation" : "slimetorch.animation",
+  "animationParts" : {
+    "bg" : "slimetorch.png",
+    "fg" : "slimetorchlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  // "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+}

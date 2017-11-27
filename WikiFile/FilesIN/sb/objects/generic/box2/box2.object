@@ -1,0 +1,44 @@
+{
+  "objectName" : "box2",
+  "colonyTags" : ["storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 75,
+  "description" : "A secured wooden crate.",
+  "shortdescription" : "Secure Wooden Crate",
+  "race" : "generic",
+
+  "apexDescription" : "A wooden box.",
+  "avianDescription" : "A box made out of wood.",
+  "floranDescription" : "A box of stripped tree-flesssh.",
+  "glitchDescription" : "Identify. Box. Wooden.",
+  "humanDescription" : "A crate.",
+  "hylotlDescription" : "A wooden crate.",
+
+  "inventoryIcon" : "box2icon.png",
+  "orientations" : [
+    {
+      "leftImage" : "box2left.png:default",
+      "rightImage" : "box2right.png:default",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

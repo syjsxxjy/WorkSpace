@@ -1,0 +1,12 @@
+{
+  "itemName" : "sewage",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "sewage.png",
+  "description" : "Disgusting sewage. Lovely.",
+  "shortdescription" : "Sewage Block",
+  "glitchdescription" : "Repulsion. Sewage.",
+  "florandescription" : "Ssstinky mess.",
+
+  "materialId" : 136
+}

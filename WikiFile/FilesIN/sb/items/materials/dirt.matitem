@@ -1,0 +1,12 @@
+{
+  "itemName" : "dirtmaterial",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "dirt.png",
+  "description" : "Dirty looking dirt.",
+  "shortdescription" : "Dirt Block",
+  "glitchdescription" : "Statement. Dirt. Clarification. Just dirt.",
+  "florandescription" : "Filthy dirt!",
+  "category" : "Material",
+  "materialId" : 8
+}

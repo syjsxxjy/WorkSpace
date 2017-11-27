@@ -1,0 +1,24 @@
+{
+  "materialId" : 116,
+  "materialName" : "copperfence",
+  "particleColor" : [113, 79, 60, 255],
+  "itemDrop" : "copperfence",
+  "description" : "A sturdy copper fence.",
+  "shortdescription" : "Copper Fence",
+  "glitchDescription" : "Statement. A sturdy fence.",
+  "floranDescription" : "Sssturdy fence.",
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
+  "health" : 4,
+  "category": "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "copperfence.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 520
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 887,
+  "materialName" : "shadowwallblock",
+  "particleColor" : [0, 0, 0, 255],
+  "itemDrop" : "shadowwallblock",
+  "description" : "A block as pitch as shadow.",
+  "shortdescription" : "Shadow Wall Block",
+  "glitchDescription" : "Statement. Shadow wall block.",
+  "floranDescription" : "Shadowy wall blocksss...",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 16,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "shadowwallblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1922
+  }
+}

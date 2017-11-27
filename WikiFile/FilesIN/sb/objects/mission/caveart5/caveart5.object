@@ -1,0 +1,44 @@
+{
+  "objectName" : "caveart5",
+  "colonyTags" : ["floran","floranhuntinggrounds","pretty"],
+  "rarity" : "Common",
+  "description" : "Cave art depicting an offering.",
+  "shortdescription" : "Mysterious Cave Art",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 100,
+
+  "apexDescription" : "Is this some fable of Floran origin?",
+  "avianDescription" : "Perhaps the Floran have their own false dieties too?",
+  "floranDescription" : "Floran made the wrong allies once...",
+  "glitchDescription" : "Worried. I hope this isn't showing what I think it is...",
+  "humanDescription" : "Who is the being represented here?",
+  "hylotlDescription" : "What have the Floran done?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "caveart5.png:<color>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "caveart5.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

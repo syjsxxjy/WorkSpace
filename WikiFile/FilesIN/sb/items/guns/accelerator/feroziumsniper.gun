@@ -1,0 +1,32 @@
+{
+  "itemName" : "feroziumsniper",
+  "price" : 1500,
+  "inventoryIcon" : "feroziumsniper.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "The Ferozium casing makes for a pretty good sniper rifle.",
+  "shortdescription" : "Ferozium Sniper Rifle",
+  "image" : "feroziumsniper.png",
+  "handPosition" : [-6, -3],
+  "firePosition" : [22, 0],
+  "recoilTime" : 0.1,
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "weaponType" : "Sniper Rifle",
+  "itemTags" : ["weapon","ranged","sniperrifle"],
+  "fireTime" : 1.0,
+  "inaccuracy" : 0.004,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "standardbullet",
+  "projectile" : {
+    "speed" : 150,
+    "life" : 3,
+    "power" : 6.5
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/sniper2.ogg" } ],
+    "animation" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation"
+  }
+}

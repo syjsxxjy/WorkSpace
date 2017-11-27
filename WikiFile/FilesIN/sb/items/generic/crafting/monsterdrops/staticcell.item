@@ -1,0 +1,8 @@
+{
+  "itemName" : "staticcell",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "staticcell.png",
+  "description" : "A cluster of electrically charged cell matter. Can be used for crafting.",
+  "shortdescription" : "Static Cell"
+}

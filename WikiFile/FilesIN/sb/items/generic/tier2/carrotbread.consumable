@@ -1,0 +1,22 @@
+{
+  "itemName" : "carrotbread",
+  "rarity" : "Common",
+  "price" : 125,
+  "inventoryIcon" : "carrotbread.png",
+  "description" : "A loaf of carrot bread. Let's be honest, it's just bread-shaped cake.",
+  "shortdescription" : "Carrot Bread",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal50",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

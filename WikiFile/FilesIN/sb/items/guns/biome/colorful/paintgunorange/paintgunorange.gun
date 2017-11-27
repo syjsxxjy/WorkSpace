@@ -1,0 +1,28 @@
+{
+  "itemName" : "paintgunorange",
+  "price" : 0,
+  "inventoryIcon" : "paintgunorange.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "For shooting anyone who says nothing rhymes with orange.",
+  "shortdescription" : "Orange Paintgun",
+  "image" : "paintgunorange.png",
+  "handPosition" : [-6, -3],
+  "firePosition" : [12, 0],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "weaponType" : "Paintgun",
+  "fireTime" : 0.18,
+  "inaccuracy" : 0.02,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "paintballorange",
+  "projectile" : {
+    "power" : 0
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/paintgun1.ogg" }, { "file" : "/sfx/gun/paintgun2.ogg" }, { "file" : "/sfx/gun/paintgun3.ogg" }, { "file" : "/sfx/gun/paintgun4.ogg" }, { "file" : "/sfx/gun/paintgun5.ogg" } ]
+  }
+}

@@ -1,0 +1,17 @@
+package helloworld;
+
+public class SmallStudent extends Student {
+	public String sex ;
+
+	public void study() {
+		System.out.println("学习小学课本");
+	}
+
+	public String getSex() {
+		sex=super.sex;
+		return this.sex;
+	}
+		public SmallStudent(){
+			this.getSex();
+		}
+	}

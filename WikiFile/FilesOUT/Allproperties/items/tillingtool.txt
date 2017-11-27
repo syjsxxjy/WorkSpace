@@ -1,0 +1,17 @@
+shortdescription       
+image       
+largeImage       
+tooltipKind       
+fireTime       
+description       
+blockRadius       
+strikeSounds       
+maxStack       
+pickupQuestTemplates       
+handPosition       
+itemName       
+twoHanded       
+price       
+altBlockRadius       
+inventoryIcon       
+rarity       

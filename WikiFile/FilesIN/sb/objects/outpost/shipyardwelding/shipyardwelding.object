@@ -1,0 +1,69 @@
+{
+  "objectName" : "shipyardwelding",
+  "colonyTags" : ["outpost"],
+  "rarity" : "Common",
+  "description" : "He looks busy.",
+  "shortdescription" : "Welding Penguin",
+  "race" : "generic",
+  "category" : "decorative",
+  "printable" : false,
+  // "hasObjectItem" : false,
+  "lightColor" : [1, 100, 128],
+  "pointLight" : true,
+
+  "flickerPeriod" : 1.2,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 1.25,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.0,
+
+  "apexDescription" : "Suspicious birds and their black market goods.",
+  "avianDescription" : "Ugh, penguins give all of us such a bad name.",
+  "floranDescription" : "Sssquishy crunchy penguins with goods to sssell!",
+  "glitchDescription" : "Amusement. These tiny penguins are smugglers.",
+  "humanDescription" : "I feel like I'm in a gangster movie.",
+  "hylotlDescription" : "Uncouthed, criminal birds.",
+  "novakidDescription" : "Rowdy birds sellin' dodgy gear. Just my kinda place.",
+
+  "inventoryIcon" : "shipyardweldingicon.png",
+  "orientations" : [
+    {
+      "image" : "shipyardwelding.png:<color>.<frame>",
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "lightPosition" : [5, 4],
+
+      "imagePosition" : [-80, 0],
+      "frames" : 15,
+      "animationCycle" : 1.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "shipyardwelding.png:<color>.<frame>",
+      "direction" : "right",
+      
+      "lightPosition" : [-6, 4],
+
+      "imagePosition" : [-80, 0],
+      "frames" : 15,
+      "animationCycle" : 1.2,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/chattyObject.lua" ],
+  "scriptDelta" : 20,
+
+  "chatOptions" : [
+    "Sorry pal, if the captain sees me talking instead of working, he'll have my neck!",
+    "I'm kinda busy here. If you have a question, go talk to the dealer.",
+    "If you're interested in any of these parts, go talk to our dealer."
+  ],
+
+  "mouthPosition" : [-7, -7]
+}
