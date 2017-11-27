@@ -16,7 +16,7 @@ RPi.GPIO.setup(InputB, RPi.GPIO.IN, pull_up_down=RPi.GPIO.PUD_UP)
 
 # Define a threaded callback function to run in another thread when events are detected  
 def writeTimeA():  
-	if RPi.GPIO.input(InputA)==1:
+	if RPi.GPIO.input(InputA):
                 TimeA= time.time() #record time A   
                 print ("TimeA= %s"%(TimeA))  
                 return TimeA
