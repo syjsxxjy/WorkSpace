@@ -1,27 +1,32 @@
+
+#-----------------------------------------------------------------#
+# "#"<- this mark is comments, codes after "#" will not be run.   #
+#-----------------------------------------------------------------#
+
+#import libraries
 import RPi.GPIO
 import time
 import datetime
 
-#setup input pin,edit here
+#setup input pins,edit pin number here
 InputA=16  #set GPIO16 as inputA
-InputB=7  #set GPIO12 as inputB
+InputB=7   #set GPIO7 as inputB
 
 # set up BCM GPIO numbering 
 RPi.GPIO.setmode(RPi.GPIO.BCM)
 
 #set pins to input mode and pull up pins to high(if need) as default
-#RPi.GPIO.setup(InputA, RPi.GPIO.IN, pull_up_down=RPi.GPIO.PUD_UP)
 RPi.GPIO.setup(InputA, RPi.GPIO.IN) 
 RPi.GPIO.setup(InputB, RPi.GPIO.IN) 
 
-#set up variables to save times
-TimeA=0  #time of rising edge 
-TimeB=0
+#set up variables to save start and end time, initialize them to 0 as default
+TimeA=0   
+TimeB=0   
 
 # Define a threaded callback function to run in another thread when events are detected  
 def writeTimeA(channel):   
         #TimeA=0
-	if RPi.GPIO.input(InputA):
+    if RPi.GPIO.input(InputA):
             global TimeA
             TimeA= time.time() #record time A   
             print ("TimeA= %s"%(TimeA))  
@@ -30,8 +35,8 @@ def writeTimeA(channel):
 
 def writeTimeB(channel):
         #TimeB=0
-	if RPi.GPIO.input(InputB):
-    	    TimeB= time.time() #record time B   
+    if RPi.GPIO.input(InputB):
+            TimeB= time.time() #record time B   
             print ("TimeB= %s"%(TimeB))  
         return TimeB
 
@@ -47,8 +52,8 @@ try:
             #print ("writeTimeA= %s") %(writeTimeA(16))
             # s = writeTimeB(12)- writeTimeA(16)
             #if writeTimeB(12)!=0 and writeTimeA(16)!=0:
-            #	print ("TimeB-TimeA= %d")%(s)
-            #	print ("-----------------")
+            #   print ("TimeB-TimeA= %d")%(s)
+            #   print ("-----------------")
             
   
 finally:                   # this block will run no matter how the try block exits  
