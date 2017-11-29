@@ -12,6 +12,7 @@ import time
 # setup input pins,edit pin number here
 InputA=16  #set GPIO16 as inputA
 InputB=7   #set GPIO7 as inputB
+led = "False"
 
 # setup output pin for LED
 LED=18
@@ -51,10 +52,9 @@ def writeTimeB(channel):
             
 # define a function to turn on LED for 0.4 second, edit duration here             
 def turnon():
+        global led
         RPi.GPIO.output(LED, True)
-        print ("+++++++++++++++++++++")
-        print ("+ Output LED = True +")
-        print ("+++++++++++++++++++++")
+        led = "True"
         time.sleep(0.4)   #edit the float in brackets to change duration
 
 # define a function to turn of LED
@@ -68,13 +68,13 @@ RPi.GPIO.add_event_detect(InputB, RPi.GPIO.RISING,callback=writeTimeB,bouncetime
 
 try:  
     while True:
-        time.sleep(0.2)
+        time.sleep(0.1)
         if RPi.GPIO.event_detected(InputB):
             s=TimeB*100-TimeA*100
             print ("=====================")
             print ("s = %d")%(s)
             print ("=====================")
-            if 1<s<30 :
+            if 1<s<200 :
                 turnon()
                 turnoff()
             TimeA = -1
@@ -86,6 +86,9 @@ try:
         print ("InputA= %s") %(RPi.GPIO.input(InputA))
         print ("InputB= %s") %(RPi.GPIO.input(InputB))
         print ("==================")
+        print ("+++++++++++++++++++++")
+        print ("+ Output LED = %s +") %(led)
+        print ("+++++++++++++++++++++")
         print (" ")
             
   
