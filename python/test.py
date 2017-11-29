@@ -54,12 +54,14 @@ def writeTimeB(channel):
 def turnon():
         global led
         RPi.GPIO.output(LED, True)
-        led = "True"
+        led = "<<<<True>>>>"
         time.sleep(0.4)   #edit the float in brackets to change duration
 
 # define a function to turn of LED
 def turnoff():
+        global led
         RPi.GPIO.output(LED, False)
+        led = "False"
         
 # detect rising edge
 # when a rising edge is detected on pin,the callback functions will be run
@@ -87,7 +89,7 @@ try:
         print ("InputB= %s") %(RPi.GPIO.input(InputB))
         print ("==================")
         print ("+++++++++++++++++++++")
-        print ("+ Output LED = %s +") %(led)
+        print ("+ Output LED = %s ") %(led)
         print ("+++++++++++++++++++++")
         print (" ")
             
