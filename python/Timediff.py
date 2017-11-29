@@ -71,7 +71,7 @@ def turnoff():
 RPi.GPIO.add_event_detect(InputA, RPi.GPIO.RISING,callback=writeTimeA ,bouncetime=200 ) # when use real button swtich to switch the input level,
 RPi.GPIO.add_event_detect(InputB, RPi.GPIO.RISING,callback=writeTimeB,bouncetime=200 ) # bouncetime=[time] to debounce the switch.
 
-# loop
+# loop here
 try:  
     while True:
         time.sleep(0.1)
