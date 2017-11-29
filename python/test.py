@@ -1,7 +1,7 @@
 
 #----------------------------------------------------------------------------#
-# "#"<<<<this mark is a comment mark, codes after "#" will not be run.  #
-# This code page is for execution on RSPi, English comments only.            #
+# "#"<<<<this mark is a comment mark, codes after "#" will not be run.       
+# This code page is for execution on RSPi, English comments only.            
 #----------------------------------------------------------------------------#
 #RPi.GPIO.wait_for_edge(InputA, RPi.GPIO.RISING,bouncetime=200)
 
@@ -15,7 +15,7 @@ InputB=7   #set GPIO7 as inputB
 led = "False"
 
 # setup output pin for LED
-LED=18
+LED=22
 
 # set up BCM GPIO numbering 
 RPi.GPIO.setmode(RPi.GPIO.BCM)
@@ -55,6 +55,9 @@ def turnon():
         global led
         RPi.GPIO.output(LED, True)
         led = "<<<<True>>>>"
+        print ("+++++++++++++++++++++")
+        print ("+ Output LED = [[True]] ") 
+        print ("+++++++++++++++++++++")
         time.sleep(0.4)   #edit the float in brackets to change duration
 
 # define a function to turn of LED
@@ -68,15 +71,16 @@ def turnoff():
 RPi.GPIO.add_event_detect(InputA, RPi.GPIO.RISING,callback=writeTimeA ,bouncetime=200 ) # when use real button swtich to switch the input level,
 RPi.GPIO.add_event_detect(InputB, RPi.GPIO.RISING,callback=writeTimeB,bouncetime=200 ) # bouncetime=[time] to debounce the switch.
 
+# loop
 try:  
     while True:
         time.sleep(0.1)
         if RPi.GPIO.event_detected(InputB):
-            s=TimeB*100-TimeA*100
+            s=TimeB*100-TimeA*100   # calculation difference 
             print ("=====================")
-            print ("s = %d")%(s)
+            print ("Difference = %d")%(s)
             print ("=====================")
-            if 1<s<200 :
+            if 1<s<200 :  #compare the difference with 1 and max time
                 turnon()
                 turnoff()
             TimeA = -1
