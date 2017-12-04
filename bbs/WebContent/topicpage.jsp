@@ -37,8 +37,7 @@ long topicuid=topicuidlist.get(tc.getTopicidlist().indexOf(topicid));
 	  System.out.println("当前登录用户 "+user.getName()+"  userID="+user.getId());
   }
 
- if(session.getAttribute("tidmap")==null){
-	 Map<Integer, String> tidmap = new HashMap<Integer, String>();
+ if(session.getAttribute("tidmap")==null){	 Map<Integer, String> tidmap = new HashMap<Integer, String>();
 	 session.setAttribute("tidmap", tidmap);
  }
  Map<Integer, String> tidmap = (HashMap)session.getAttribute("tidmap");
