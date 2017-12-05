@@ -22,7 +22,7 @@ Input_Num_GPIO =0
 count=0
 
 # setup output pin for LED
-LED=27
+LED=13
 
 # set up BCM GPIO numbering 
 RPi.GPIO.setmode(RPi.GPIO.BCM)
@@ -84,7 +84,6 @@ def turnon():
         print ("+++++++++++++++++++++++++")
         print ("+ Output LED = [[True]] +") 
         print ("+++++++++++++++++++++++++")
-        time.sleep(0.4) #edit the float in brackets to change duration
 
 # define a function to turn of LED
 def turnoff():
@@ -97,8 +96,8 @@ def turnoff():
         
 # detect rising edge
 # when a rising edge is detected on pin,the callback functions will be run
-RPi.GPIO.add_event_detect(InputA, RPi.GPIO.RISING,callback=writeTimeA ,bouncetime=100 ) # when use real button swtich to switch the input level,
-RPi.GPIO.add_event_detect(InputB, RPi.GPIO.RISING,callback=writeTimeB,bouncetime=100 ) # bouncetime=[time] to debounce the switch.
+RPi.GPIO.add_event_detect(InputA, RPi.GPIO.RISING,callback=writeTimeA ,bouncetime=200 ) # when use real button swtich to switch the input level,
+RPi.GPIO.add_event_detect(InputB, RPi.GPIO.RISING,callback=writeTimeB,bouncetime=200 ) # bouncetime=[time] to debounce the switch.
 
 try:  
     start = time.time()
@@ -106,54 +105,55 @@ try:
     break_flag=False
     while True:                                  ### main(1st) loop start,check for 1stInput
         time.sleep(0.01)
+
         if B_triggered and A_triggered==False:   ### when 1stinput is B
-            print("1st input=<B>,waiting for 2nd input...")
+            print("1st input=[Button B],waiting for 2nd input...")
             B_triggered=False
             A_triggered=False
             while True:                          ### 2nd loop,check for 2nd Input
                 if B_triggered and A_triggered==False: 
-                    print("2nd input=<B>,False,back to start")
-                    print ("loop start: Wait for gpio 1st input...")
+                    print("2nd input=[Button B],Key==False,back to start")
+                    print ("Wait for 1st input...")
                     B_triggered=False
                     A_triggered=False
                     break
                 elif A_triggered and B_triggered==False: ### when 2ndinput is A
-                    print("2nd input=<A>,True,turnoff and back to start")
-                    print ("loop start: Wait for gpio 1st input...")
+                    print("2nd input=[Button A],True,turnoff and back to start")
+                    print ("loop start: Wait for 1st input...")
                     B_triggered=False
                     A_triggered=False
                     turnoff()
                     break
                 elif A_triggered==True and B_triggered==True:
                     print("2nd input==Wrong,back to start")
-                    print ("loop start: Wait for gpio 1st input...")
+                    print ("loop start: Wait for 1st input...")
                     B_triggered=False
                     A_triggered=False
                     break
                 else:
                     continue
 
-        elif A_triggered and B_triggered==False:
-            print("1st input=<A>,waiting for 2nd input...")
+        elif A_triggered and B_triggered==False:        ### when 1stinput is B
+            print("1st input=[Button A],waiting for 2nd input...")
             B_triggered=False
             A_triggered=False
-            while True:     #2nd loop,check for 2nd Input
+            while True:                                 ### 2nd loop,check for 2nd Input
                 if B_triggered and A_triggered==False:
-                    print("2nd input=<B>,True,turnon and back to start")
-                    print ("loop start: Wait for gpio 1st input...")
+                    print("2nd input=[Button B],True,turnon and back to start")
+                    print ("loop start: Wait for 1st input...")
                     B_triggered=False
                     A_triggered=False
                     turnon()
                     break
                 elif A_triggered and B_triggered==False:
-                    print("2nd input=<A>,False,back to start")
-                    print ("loop start: Wait for gpio 1st input...")
+                    print("2nd input=[Button A],False,back to start")
+                    print ("loop start: Wait for 1st input...")
                     B_triggered=False
                     A_triggered=False
                     break
                 elif A_triggered==True and B_triggered==True:
                     print("2nd input==Wrong,back to start")
-                    print ("loop start: Wait for gpio 1st input...")
+                    print ("loop start: Wait for 1st input...")
                     B_triggered=False
                     A_triggered=False
                     break
@@ -164,23 +164,6 @@ try:
             B_triggered=False
             A_triggered=False
             continue
-
-
-            
-            
-            
-
-        
-        # print ("==================")
-        # print ("A_triggered= %s") %(RPi.GPIO.input(A_triggered))
-        # print ("B_triggered= %s") %(RPi.GPIO.input(B_triggered))
-        # print ("Input_Num_GPIO= %s") %(Input_Num_GPIO)
-        # print ("==================")
-        # print ("+++++++++++++++++++++")
-        # print ("+ Output LED = %s ") %(led)
-        # print ("+++++++++++++++++++++")
-        # print (" ")
-            
   
 finally:                   # this block will run no matter how the try block exits  
     RPi.GPIO.cleanup()         # clean up after yourself  
