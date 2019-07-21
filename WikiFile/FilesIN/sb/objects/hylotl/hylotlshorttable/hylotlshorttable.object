@@ -1,0 +1,45 @@
+{
+  "objectName" : "hylotlshorttable",
+  "colonyTags" : ["hylotl","hylotlvillage","commerce"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 85,
+  "description" : "A table set at kneeling height.",
+  "shortdescription" : "Traditional Short Table",
+  "race" : "hylotl",
+
+  "apexDescription" : "A small table. It doesn't look very sturdy.",
+  "avianDescription" : "The flimsy legs of this table look as if they could snap at any moment.",
+  "floranDescription" : "Frogman table too fragile for Floran to chop meat.",
+  "glitchDescription" : "Critical. One swift kick and this table would fall apart.",
+  "humanDescription" : "This table wobbles quite easily.",
+  "hylotlDescription" : "With a table like this, every meal is a joyous experience.",
+
+  "inventoryIcon" : "hylotlshorttableicon.png",
+  "orientations" : [
+    {
+      "image" : "hylotlshorttable.png:<color>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ]
+    },
+    {
+      "image" : "hylotlshorttable.png:<color>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ]
+    }
+
+  ]
+}

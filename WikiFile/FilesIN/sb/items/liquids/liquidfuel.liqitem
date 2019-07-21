@@ -1,0 +1,12 @@
+{
+  "itemName" : "liquidfuel",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidfuelicon.png",
+  "shortdescription" : "Liquid Erchius Fuel",
+  "description" : "A dangerous and volatile isotope commonly used as starship fuel.",
+
+  "liquid" : "fuel",
+  
+  "fuelAmount" : 1,
+  "price" : 5
+}

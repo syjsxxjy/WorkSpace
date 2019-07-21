@@ -1,0 +1,28 @@
+{
+  "itemName" : "paintgunblue",
+  "price" : 0,
+  "inventoryIcon" : "paintgunblue.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Paint the town... blue?",
+  "shortdescription" : "Blue Paintgun",
+  "image" : "paintgunblue.png",
+  "handPosition" : [-6, -3],
+  "firePosition" : [12, 0],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "weaponType" : "Paintgun",
+  "fireTime" : 0.18,
+  "inaccuracy" : 0.02,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "paintballblue",
+  "projectile" : {
+    "power" : 0
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/paintgun1.ogg" }, { "file" : "/sfx/gun/paintgun2.ogg" }, { "file" : "/sfx/gun/paintgun3.ogg" }, { "file" : "/sfx/gun/paintgun4.ogg" }, { "file" : "/sfx/gun/paintgun5.ogg" } ]
+  }
+}

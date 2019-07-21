@@ -1,0 +1,49 @@
+{
+  "objectName" : "flowerred",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A flower with bright red petals. Useful for making dye.",
+  "shortdescription" : "Red Flower",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "A pretty red flower.",
+  "avianDescription" : "Red is the colour of... this flower.",
+  "floranDescription" : "Flower red like Floran anger.",
+  "glitchDescription" : "Statement. Some people say the Glitch cannot see red. Revelation. They lie.",
+  "humanDescription" : "This... whatever flower is red.",
+  "hylotlDescription" : "Vibrant, rich, beautiful.",
+
+  "inventoryIcon" : "grapesseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flowerred.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [600, 600]
+    },
+    {
+      "duration" : [600, 600]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "flowerredHarvest"
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "petalred", 1, { } ] ]
+  ],
+
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.25
+}

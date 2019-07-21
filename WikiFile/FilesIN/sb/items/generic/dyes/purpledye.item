@@ -1,0 +1,9 @@
+{
+  "itemName" : "purpledye",
+  "rarity" : "Common",
+  "inventoryIcon" : "purpledye.png",
+  "description" : "Use this dye on a piece of armour or clothing to change its colour.",
+  "shortdescription" : "Purple Dye",
+
+  "dyeColorIndex" : 9
+}

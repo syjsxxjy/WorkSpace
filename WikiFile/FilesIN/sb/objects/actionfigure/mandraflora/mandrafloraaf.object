@@ -1,0 +1,33 @@
+{
+  "objectName" : "mandrafloraaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"Its sleepy lifestyle allows it to flourish underground and reach impressive sizes.\"",
+  "shortdescription" : "Mandraflora Action Figure",
+
+
+
+  "inventoryIcon" : "mandrafloraaf.png",
+  "orientations" : [
+    {
+      "image" : "mandrafloraaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "mandrafloraaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

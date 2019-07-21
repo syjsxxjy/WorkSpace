@@ -1,0 +1,36 @@
+{
+  "objectName" : "alarm",
+  "colonyTags" : ["wired","light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 15,
+  "description" : "A big flashing light and blaring siren guaranteed to draw lots of attention.",
+  "shortdescription" : "Alarm",
+  "race" : "apex",
+
+  "inventoryIcon" : "alarmicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "alarm.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/alarm/alarm.lua" ],
+  "scriptDelta" : 3,
+
+  "animation" : "/objects/wired/alarm/alarm.animation",
+
+  "animationParts" : {
+    "alarm" : "alarm.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ [-1, 0] ],
+
+  "alarmSoundDuration" : 1.75
+}

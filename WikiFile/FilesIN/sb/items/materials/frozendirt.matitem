@@ -1,0 +1,12 @@
+{
+  "itemName" : "frozendirt",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "frozendirt.png",
+  "shortdescription" : "Frozen Dirt",
+  "description" : "Frozen dirt, It's pretty solid.",
+  "glitchdescription" : "Statement. Frozen dirt.",
+  "florandescription" : "Frozen Dirt. Sssmooth to the touch.",
+
+  "materialId" : 198
+}

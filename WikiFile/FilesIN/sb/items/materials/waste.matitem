@@ -1,0 +1,12 @@
+{
+  "itemName" : "waste",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "waste.png",
+  "description" : "This rock is glowing with bioluminescence.",
+  "shortdescription" : "Waste",
+  "glitchDescription" : "Analysis. This yellow rock is bioluminescent.",
+  "floranDescription" : "Floran like yellow bioluminescent rocks.",
+
+  "materialId" : 1433
+}

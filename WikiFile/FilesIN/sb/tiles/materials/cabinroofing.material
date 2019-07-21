@@ -1,0 +1,23 @@
+{
+  "materialId" : 1590,
+  "materialName" : "cabinroofing",
+  "particleColor" : [112, 98, 56, 255],
+  "itemDrop" : "cabinroofing",
+  "description" : "Simple roofing for a cabin.",
+  "shortdescription" : "Cabin Roof Block",
+  "glitchDescription" : "Statement. Pleasant cabin roofing.",
+  "floranDescription" : "Floran raise the cabin roof.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "cabinroofing.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3420
+  }
+}

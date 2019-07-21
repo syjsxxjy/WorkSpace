@@ -1,0 +1,26 @@
+{
+  "objectName" : "polarmoth",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "price" : 50,
+  "printable" : false,
+  "description" : "\"This little bug's legs are covered in see-through hairs.\"",
+  "shortdescription" : "Polarmoth Bug",
+  "race" : "generic",
+
+  "itemTags" : [ "bug" ],
+
+  "largeImage" : "polarmothlarge.png",
+  "inventoryIcon" : "polarmothicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "polarmoth.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 27,
+      "animationCycle" : 2.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "hellstonematerial",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "hellstone.png",
+  "description" : "Eww, a fleshy looking material!",
+  "shortdescription" : "Block of Flesh",
+  "glitchdescription" : "Alarm. This appears to be flesh.",
+  "florandescription" : "Sssquishy, ssslimy flesh.",
+
+  "materialId" : 12
+}

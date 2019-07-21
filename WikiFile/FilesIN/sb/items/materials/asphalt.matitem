@@ -1,0 +1,12 @@
+{
+  "itemName" : "asphalt",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "asphalt.png",
+  "description" : "Asphalt.. what a horrible material.",
+  "shortdescription" : "Asphalt",
+  "glitchdescription" : "Artistic. Readings suggest aesthetic value of this material is below 2%.",
+  "florandescription" : "Sssticky asphalt. Floran hatess assphalt.",
+
+  "materialId" : 408
+}

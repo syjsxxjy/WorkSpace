@@ -1,0 +1,9 @@
+{
+  "itemName" : "pinkdye",
+  "rarity" : "Common",
+  "inventoryIcon" : "pinkdye.png",
+  "description" : "Use this dye on a piece of armour or clothing to change its colour.",
+  "shortdescription" : "Pink Dye",
+
+  "dyeColorIndex" : 10
+}

@@ -1,0 +1,24 @@
+{
+  "materialId" : 1431,
+  "materialName" : "biorock2",
+  "particleColor" : [111, 94, 74, 255],
+  "itemDrop" : "biorock2",
+  "description" : "This rock is glowing with bioluminescence.",
+  "shortdescription" : "Bioluminescent Blue Rock",
+  "glitchDescription" : "Analysis. This blue rock is bioluminescent.",
+  "floranDescription" : "Floran like blue bioluminescent rocks.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 6,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "biorock2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1719,
+    "radiantLight" : [25, 50, 75]
+  }
+}

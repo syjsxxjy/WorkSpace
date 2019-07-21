@@ -1,0 +1,56 @@
+{
+  "objectName" : "wreckvendingmachine",
+  "colonyTags" : ["wreck","mechanical"],
+  "rarity" : "Common",
+  "description" : "This vending machine is empty, I guess the crew had a taste for soda.",
+  "shortdescription" : "Wrecked Vending Machine",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 70,
+
+  "apexDescription" : "An old vending machine. Any food left inside would have long become inedible.",
+  "avianDescription" : "Some kind of dispenser.",
+  "floranDescription" : "Sssmell of rotten food from insside.",
+  "glitchDescription" : "Observe. Some type of food dispenser.",
+  "humanDescription" : "Looks like an old vending machine. Doesn't smell like there's anything I could eat in there.",
+  "hylotlDescription" : "A sickly smell of spoilt food emanates from within.",
+
+  "inventoryIcon" : "wreckvendingmachineicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wreckvendingmachine.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/npcToyObject.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineBroken"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1.0, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "vendingmachineBroken" : [
+        [1.0, "punch"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

@@ -1,0 +1,16 @@
+shortdescription       
+image       
+largeImage       
+tooltipKind       
+description       
+lightColor       
+pointable       
+maxStack       
+handPosition       
+beamLevel       
+itemName       
+lightPosition       
+beamAmbience       
+price       
+inventoryIcon       
+rarity       

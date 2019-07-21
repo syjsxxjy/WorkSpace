@@ -1,0 +1,8 @@
+{
+  "itemName" : "sharpenedclaw",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "sharpenedclaw.png",
+  "description" : "A razor sharp monster claw. Can be used for crafting.",
+  "shortdescription" : "Sharpened Claw"
+}

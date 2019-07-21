@@ -1,0 +1,30 @@
+{
+  "itemName" : "icechucker",
+  "price" : 0,
+  "inventoryIcon" : "icechuckericon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "An Ice Chucker. A gun that fires ice. Freeze!",
+  "shortdescription" : "Ice Chucker",
+  "tooltipKind" : "gun",
+  "weaponType" : "Ice Chucker",
+  "image" : "icechucker.png",
+  "handPosition" : [-4, -3],
+  "firePosition" : [-10, 2],
+
+  "fireTime" : 1.5,
+  "inaccuracy" : 0,
+  "twoHanded" : true,
+
+  "projectileType" : "icematerial",
+  "projectile" : {
+    "power" : 0,
+    "speed" : 60,
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "animation" : "/animations/muzzleflash/bulletmuzzle3/bulletmuzzle3.animation",
+    "fireSound" : [ { "file" : "/sfx/melee/swing_dagger.ogg" } ]
+  }
+}

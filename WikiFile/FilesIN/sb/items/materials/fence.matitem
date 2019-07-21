@@ -1,0 +1,12 @@
+{
+  "itemName" : "fence",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "fence.png",
+  "description" : "A sturdy wooden fence.",
+  "shortdescription" : "Wooden Fence",
+  "glitchdescription" : "Statement. A sturdy fence.",
+  "florandescription" : "Sssturdy fence.",
+
+  "materialId" : 119
+}

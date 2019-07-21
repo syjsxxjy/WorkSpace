@@ -1,0 +1,32 @@
+{
+  "itemName" : "remotegrenadelauncher",
+  
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Fires grenades that can be manually triggered to explode.",
+  "shortdescription" : "Remote Grenade Launcher",
+  "tooltipKind" : "base",
+  "weaponType" : "Remote Grenade Launcher",
+  "twoHanded" : true,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "remotegrenadelauncher.png",
+  "animation" : "remotegrenadelauncher.animation",
+  "animationParts" : {
+    "gun" : "remotegrenadelauncher.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["remotegrenadelauncher.lua"],
+  "fireOffset" : [3.25, 0.625],
+  
+  "level" : 4,
+  "fireTime" : 1.0,
+  "inaccuracy" : 0.02,
+
+  "projectileType" : "remotestickygrenade",
+  "projectileParameters" : {
+    "power" : 8,
+    "timeToLive" : 8
+  },
+  "energyUsage" : 60
+}

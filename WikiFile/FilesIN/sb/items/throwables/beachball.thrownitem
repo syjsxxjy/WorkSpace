@@ -1,0 +1,21 @@
+{
+  "itemName" : "beachball",
+  "rarity" : "Common",
+  "inventoryIcon" : "beachball.png",
+  "image" : "beachball.png",
+  "shortdescription" : "Beachball",
+  "description" : "Beachball!!!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "beachball",
+  "projectileConfig" : {
+    "speed" : 35,
+    "power" : 0
+  }
+}
+

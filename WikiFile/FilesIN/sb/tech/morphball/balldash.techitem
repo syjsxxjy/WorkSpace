@@ -1,0 +1,9 @@
+{
+  "itemName" : "balldashTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/morphball.png",
+  "description" : "Double tap to roll with this incredible rollyball tech! Cost: 65 energy per second.",
+  "shortdescription" : "Rollyball",
+
+  "techModule" : "balldash"
+}

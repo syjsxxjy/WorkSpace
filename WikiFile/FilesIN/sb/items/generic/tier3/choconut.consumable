@@ -1,0 +1,30 @@
+{
+  "itemName" : "choconut",
+  "rarity" : "Rare",
+  "price" : 280,
+  "inventoryIcon" : "choconut.png",
+  "description" : "A delicious choconut.",
+  "shortdescription" : "Choconut",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "foodheal215",
+        "duration" : 60
+    },
+    {
+        "effect" : "maxenergyboost10",
+        "duration" : 120
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

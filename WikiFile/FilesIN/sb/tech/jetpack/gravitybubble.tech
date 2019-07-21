@@ -1,0 +1,12 @@
+{
+  "name" : "gravitybubble",
+  "type" : "legs",
+
+  "scripts" : ["jetpack.lua"],
+  "actions" : [ "jetpack" ],
+  "animator" : "gravitybubble.animation",
+
+  "jetpackSpeed" : 0.0,
+  "jetpackControlForce" : 2000.0,
+  "energyUsagePerSecond" : 60.0
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "ricecake",
+  "rarity" : "Common",
+  "price" : 75,
+  "inventoryIcon" : "ricecake.png",
+  "description" : "A simple snack formed of rice, held together by seaweed.",
+  "shortdescription" : "Rice Cake",
+  "effects" : [ [
+    {
+        "effect" : "foodheal145",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "sushi" ]
+}

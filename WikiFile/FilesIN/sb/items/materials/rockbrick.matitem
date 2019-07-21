@@ -1,0 +1,12 @@
+{
+  "itemName" : "rockbrickmaterial",
+  "price" : 10,
+  "rarity" : "Common",
+  "inventoryIcon" : "rockbrick.png",
+  "description" : "A crudely produced set of rock bricks.",
+  "shortdescription" : "Rock Bricks",
+  "glitchdescription" : "Statement. Rock bricks.",
+  "florandescription" : "Rock bricksss.",
+
+  "materialId" : 20
+}

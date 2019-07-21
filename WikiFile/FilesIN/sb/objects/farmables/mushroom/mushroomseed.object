@@ -1,0 +1,52 @@
+{
+  "objectName" : "mushroomseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "A mushroom seed. The farmer who plants these is a fungi.",
+  "shortdescription" : "Mushroom Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+
+  "apexDescription" : "Mushrooms.",
+  "avianDescription" : "Toadstools.",
+  "floranDescription" : "Floran hatsss.",
+  "glitchDescription" : "Analysis. This fungus is not poisonous.",
+  "humanDescription" : "Perfect for an omelette or quiche.",
+  "hylotlDescription" : "Mushrooms.",
+
+  "inventoryIcon" : "mushroomseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "mushroomseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [2820, 2820]
+    },
+    {
+      "duration" : [2820, 2820]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "mushroomHarvest"
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "shroom", 1, { } ] ]
+  ],
+
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.25
+}

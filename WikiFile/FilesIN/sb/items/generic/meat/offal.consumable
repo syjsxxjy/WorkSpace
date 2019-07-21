@@ -1,0 +1,21 @@
+{
+  "itemName" : "offal",
+  "rarity" : "Common",
+  "price" : 10,
+  "inventoryIcon" : "offal.png",
+  "description" : "All the scraps that most people won't touch.",
+  "shortdescription" : "Offal",
+  "effects" : [ [
+    {
+        "effect" : "foodheal95",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

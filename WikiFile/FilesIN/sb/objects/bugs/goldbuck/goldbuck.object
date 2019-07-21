@@ -1,0 +1,26 @@
+{
+  "objectName" : "goldbuck",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "price" : 50,
+  "printable" : false,
+  "description" : "\"A bug with glistening gold wings, fancy!\"",
+  "shortdescription" : "Goldbuck Bug",
+  "race" : "generic",
+
+  "itemTags" : [ "bug" ],
+
+  "largeImage" : "goldbucklarge.png",
+  "inventoryIcon" : "goldbuckicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "goldbuck.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 27,
+      "animationCycle" : 2.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "ash",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "ash.png",
+  "description" : "Ash packed tight into a solid block.",
+  "shortdescription" : "Ash Block",
+  "glitchdescription" : "Curious. A block of ash.",
+  "florandescription" : "Burny block.",
+
+  "materialId" : 37
+}

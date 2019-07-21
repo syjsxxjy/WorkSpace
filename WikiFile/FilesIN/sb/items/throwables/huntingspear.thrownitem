@@ -1,0 +1,23 @@
+{
+  "itemName" : "huntingspear",
+  "price" : 4,
+  "rarity" : "Common",
+  "inventoryIcon" : "huntingspearicon.png",
+  "image" : "huntingspearicon.png",
+  "shortdescription" : "Hunting Spear",
+  "description" : "A throwable hunting spear. Causes monsters to drop meat.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "huntingspear",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 27.5
+  }
+
+}
+

@@ -1,0 +1,12 @@
+{
+  "itemName" : "cactiblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "cactiblock.png",
+  "description" : "Cacti shaped into perfect cubes.",
+  "shortdescription" : "Cacti Block",
+  "glitchdescription" : "Concerned. My shape recognition system appears to be malfunctioning.",
+  "florandescription" : "Plantss do not come as cubess! Cubess unnatural!",
+
+  "materialId" : 407
+}

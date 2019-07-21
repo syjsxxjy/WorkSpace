@@ -1,0 +1,9 @@
+{
+  "itemName" : "greendye",
+  "rarity" : "Common",
+  "inventoryIcon" : "greendye.png",
+  "description" : "Use this dye on a piece of armour or clothing to change its colour.",
+  "shortdescription" : "Green Dye",
+
+  "dyeColorIndex" : 7
+}

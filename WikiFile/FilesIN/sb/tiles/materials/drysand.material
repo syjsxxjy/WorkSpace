@@ -1,0 +1,23 @@
+{
+  "materialId" : 44,
+  "materialName" : "drysand",
+  "particleColor" : [224, 189, 147, 255],
+  "itemDrop" : "drysand",
+  "description" : "Hard, cracked sand that shatters underfoot.",
+  "shortdescription" : "Dry Sand",
+  "glitchDescription" : "Statement. Sand.",
+  "floranDescription" : "Sssandy sand.",
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
+  "health" : 2,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "drysand.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 1840
+  }
+}

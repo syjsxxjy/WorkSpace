@@ -1,0 +1,30 @@
+{
+  "objectName" : "exitteleporter",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "price" : 3000,
+  "rarity" : "Common",
+  "description" : "This teleporter should get me back to the ship when I'm ready to leave.",
+  "shortdescription" : "Exit Teleporter",
+
+  "category" : "teleporter",
+  "lightColor" : [99, 132, 153],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/exitteleporter.config",
+
+  "inventoryIcon" : "exitteleportericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "exitteleporter.png:<color>", "fullbright" : true }, { "image" : "exitteleporterlit.png:<color>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ]
+}

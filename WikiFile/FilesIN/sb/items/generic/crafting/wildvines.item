@@ -1,0 +1,8 @@
+{
+  "itemName" : "wildvines",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "wildvines.png",
+  "description" : "A segment of some wild vines.",
+  "shortdescription" : "Wild Vines"
+}

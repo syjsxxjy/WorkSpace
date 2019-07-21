@@ -1,0 +1,49 @@
+{
+  "objectName" : "steamspringdoor",
+  "colonyTags" : ["door","steamspring"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 115,
+  "description" : "A sturdy wooden door, with a brass pipe frame.",
+  "shortdescription" : "Steamspring Door",
+  "race" : "generic",
+
+  "apexDescription" : "I wonder if the brass pipes in this door help keep it sturdy?",
+  "avianDescription" : "The brass pipes on this door really help it stand out.",
+  "floranDescription" : "Floran wondersss if door has tactical usesss?",
+  "glitchDescription" : "Approving. A sturdy looking door.",
+  "humanDescription" : "Does this door actually need brass pipes on it?",
+  "hylotlDescription" : "An acceptable door, with some sort of brass pipe frame.",
+  "novakidDescription" : "The kind o' door I'd think to see at a Sheriff's house.",
+
+  "inventoryIcon" : "steamspringdooricon.png",
+  "orientations" : [
+    {
+      "image" : "steamspringdoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/wooddoor_open.ogg" ],
+      "close" : [ "/sfx/objects/wooddoor_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "steamspringdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}

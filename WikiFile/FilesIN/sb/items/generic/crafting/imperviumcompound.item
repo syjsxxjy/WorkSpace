@@ -1,0 +1,17 @@
+{
+  "itemName" : "imperviumcompound",
+  "price" : 300,
+  "rarity" : "Legendary",
+  "inventoryIcon" : "imperviumcompound.png",
+  "description" : "This compound possesses incredible durability.",
+  "shortdescription" : "Impervium Compound",
+
+  "learnBlueprintsOnPickup" : [
+    "tier10bed",
+    "tier10chair",
+    "tier10door",
+    "tier10light",
+    "tier10switch",
+    "tier10table"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "volcanicsalsa",
+  "rarity" : "Common",
+  "price" : 525,
+  "inventoryIcon" : "volcanicsalsa.png",
+  "description" : "A firey salsa made from fruit and veg that can take the heat!",
+  "shortdescription" : "Volcanic Salsa",
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emitters" : [ "drinking" ]
+}

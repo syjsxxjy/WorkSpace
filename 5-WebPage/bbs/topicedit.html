@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Edit Topic -BBS</title>
+    <!--<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dropdowns-enhancement.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/head.css" rel="stylesheet" >
+</head>
+<body>
+<div class="head">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top ">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Project:BBS</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class=" navbar-right ">
+                    <!--if admin or master
+                    <div class="navbar-text " style="margin-right: 0px; ">
+                        <a href="#" class="navbar-link">Dashboard</span></a>
+
+                    </div>
+                    -->
+                    <div class="navbar-text " style="margin-right: 0px; ">
+                        <a href="#" class="navbar-link">Username <span class="badge"></span></a>
+
+                    </div>
+                    <div class="navbar-text " style="margin-right: 40px; ">
+
+                        <a href="#" class="navbar-link">Log out</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </nav>
+    </div>
+</div>
+
+
+<div class="container pagebody-top ">
+    <div class="row">
+        <div class="col-md-12 ">
+            <ul class="breadcrumb" contenteditable="false">
+                <li><a href="index.html">Homepage</a> <span class="divider"></span></li>
+                <li><a href="boardpage.html">BoardName</a> <span class="divider"></span></li>
+                <li class="active">New topic</li>
+            </ul>
+
+
+            <form class="form">
+                <fieldset>
+                    <div id="legend" class="">
+                        <legend class="">Edit Topic</legend>
+                    </div>
+
+
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><input type="radio" id="ID" name="NAME" value="VALUE"><label for="ID">Category</label></li>
+                                <li><input type="radio" id="ID2" name="NAME" value="VALUE"><label for="ID2">Category2</label></li>
+                                <li><input type="radio" id="ID3" name="NAME" value="VALUE"><label for="ID3">Category3</label></li>
+                            </ul>
+                        </div><!-- /btn-group -->
+
+                        <input type="text" class="form-control " aria-label="..." placeholder="New topic..." style="width: 45%"
+                        value="title here">
+                        <div class="col-md-5 ">
+                        </div>
+                    </div><!-- /input-group -->
+
+                    <!-- <div class="form-group text-left">
+                         <label class="sr-only" for="Categroy">Name</label>
+                         <select class="form-control "style="width: 120px;" >
+                             <option id="categroy">Category11111111111111111111111111111</option>
+                             <option>Category2</option>
+                             <option>Category3</option>
+                             <option>Category4</option>
+                             <option>Category5</option>
+                         </select>
+                     </div>-->
+                    <br>
+                    <div class="form-group" >
+
+                        <textarea class="form-control" rows="15"  placeholder="Input text here" style="width: 90%" value="texts here" >Text here</textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<div class="panel-footer text-muted" style="margin-top: 30px">
+    <div class="text-center">
+        <h4 >Copyright Here  </h4>
+        <p><a>Link here</a></p>
+        <p> Copyright text </p>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/dropdowns-enhancement.js"></script>
+</div>
+
+</body>
+</html>

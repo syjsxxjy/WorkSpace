@@ -1,0 +1,11 @@
+{
+  "itemName" : "silverore",
+  "price" : 30,
+  "rarity" : "Common",
+  "inventoryIcon" : "silverore.png",
+  "description" : "It's silver. Can be used for smelting.",
+  "shortdescription" : "Silver Ore",
+  "learnBlueprintsOnPickup" : [
+    "silverbar"
+  ]
+}

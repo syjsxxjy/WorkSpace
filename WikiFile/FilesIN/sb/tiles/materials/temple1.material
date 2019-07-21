@@ -1,0 +1,23 @@
+{
+  "materialId" : 26,
+  "materialName" : "temple1",
+  "particleColor" : [190, 159, 85, 255],
+  "itemDrop" : "temple1",
+  "shortdescription" : "Temple Block",
+  "description" : "Ancient stones with intricate carvings of creatures scratched into the surface.",
+  "glitchDescription" : "Curiosity. These stone carvings are rather crude.",
+  "floranDescription" : "Floran like ssstone pictures.",
+  "footstepSound" : "/sfx/blocks/footstep_stone3.ogg",
+  "health" : 16,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "temple1.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3220
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "refinedrubium",
+  "price" : 120,
+  "rarity" : "Rare",
+  "inventoryIcon" : "refinedrubium.png",
+  "description" : "Rubium distilled to its purest form.",
+  "shortdescription" : "Refined Rubium",
+
+  "learnBlueprintsOnPickup" : [
+    "manipulatortable",
+    "ceruliumcompound",
+    "tier9bed",
+    "tier9chair",
+    "tier9door",
+    "tier9light",
+    "tier9switch",
+    "tier9table"
+  ]
+}

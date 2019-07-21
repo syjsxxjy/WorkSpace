@@ -1,0 +1,10 @@
+{
+  "itemName" : "silverscrew",
+  "price" : 5,
+  "rarity" : "common",
+  "inventoryIcon" : "silverscrewicon.png",
+  "description" : "A section of silver screw.",
+  "shortdescription" : "Silver Screw",
+
+  "materialId" : 2573
+}

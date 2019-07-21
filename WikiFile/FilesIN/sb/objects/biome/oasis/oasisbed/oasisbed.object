@@ -1,0 +1,45 @@
+{
+  "objectName" : "oasisbed",
+  "colonyTags" : ["oasis"],
+  "rarity" : "Common",
+  "description" : "A deck lounge chair with a parasol, perfect for sun weather.",
+  "shortdescription" : "Deck Lounge Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 125,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-9, 15],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/biome/oasis/oasisbed/oasisbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "apexDescription" : "I must learn how to relax again.",
+  "avianDescription" : "Avians enjoy the sun. To blot it out is to remind us we cannot fly.",
+  "floranDescription" : "Floran like ssun. Why block ssun.",
+  "glitchDescription" : "Irritated. Glitch generate energy through many sources. One of which is solar power. This bed is useless.",
+  "humanDescription" : "We're all going on a summer holiday!",
+  "hylotlDescription" : "A good place to rest without fear of drying out.",
+
+  "inventoryIcon" : "oasisbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "oasisbed.png:<color>",
+
+      "imagePosition" : [-28, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

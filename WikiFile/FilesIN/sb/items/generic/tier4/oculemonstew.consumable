@@ -1,0 +1,31 @@
+{
+  "itemName" : "oculemonstew",
+  "rarity" : "Rare",
+  "price" : 515,
+  "inventoryIcon" : "oculemonstew.png",
+  "description" : "A tangy, somewhat slimy stew made of oculemon and meat scraps.",
+  "shortdescription" : "Oculemon Stew",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    {
+        "effect" : "jumpboost25",
+        "duration" : 30
+    },
+    {
+        "effect" : "foodheal120",
+        "duration" : 60
+    },
+    {
+        "effect" : "maxhealthboost40",
+        "duration" : 120
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

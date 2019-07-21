@@ -1,0 +1,34 @@
+{
+  "objectName" : "venusmodel",
+  "colonyTags" : ["astronaut"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 45,
+  "description" : "A detailed model of the Sol system's planet Venus.",
+  "shortdescription" : "Venus Model",
+  "race" : "generic",
+
+  
+  "apexDescription" : "The planet Venus, covered in sulfur dioxide clouds and by far the hottest planet in the Solar System.",
+  "avianDescription" : "Venus. Named after an ancient Earth goddess of love and beauty.",
+  "floranDescription" : "The planet Venusss of the Solar System. It's the second of eight.",
+  "glitchDescription" : "Fascination. The planet Venus has natural greenhouse gases that that make the surface temperatures very high.",
+  "humanDescription" : "Venus is the second planet in the Solar System. There was talk of terraforming it before Earth was destroyed.",
+  "hylotlDescription" : "Venus, neighbor to Earth and almost a big but lifeless due to extreme conditions.",
+  "novakidDescription":  "Venus. You could see it from Earth with your naked eyes as it traveled the stars. I'll miss that...",
+  
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "venusmodel.png:<color>",
+      "imagePosition" : [0, -24],
+      
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, -1], [0, -2], [0, -3] ],
+      "fgAnchors" : [ [0, 1] ]
+    }
+  ]
+}

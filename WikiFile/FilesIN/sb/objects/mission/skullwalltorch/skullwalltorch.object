@@ -1,0 +1,76 @@
+{
+  "objectName" : "skullwalltorch",
+  "colonyTags" : ["floran","floranhuntinggrounds","evil","light","bone"],
+  "rarity" : "Uncommon",
+  "description" : "A sinister torch made from old bones.",
+  "shortdescription" : "Skull Wall Torch",
+  "race" : "floran",
+  "category" : "light",
+  "price" : 90,
+  "printable" : false,
+
+  "maximumLiquidLevel" : 0.2,
+
+  "apexDescription" : "The torch provides warmth as well as light.",
+  "avianDescription" : "Avian temples are lit only with natural light.",
+  "floranDescription" : "Flamesss make Floran nervous.",
+  "glitchDescription" : "Stating the obvious. A torch.",
+  "humanDescription" : "An old torch.",
+  "hylotlDescription" : "The Hylotl do not light torches. Beneath the ocean, air is too precious to waste.",
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.85,
+  "flickerMaxIntensity" : 0.9,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.025,
+
+  "statusEffects" : [ ],
+
+  "inventoryIcon" : "skullwalltorchicon.png",
+  "orientations" : [
+    {
+      "image" : "skullwalltorch.png:<color>.<frame>",
+      "imagePosition" : [-7, 0],
+    
+      "direction" : "left",
+      "flipImages" : true,
+    
+      "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [0,2] ],
+      "anchors" : [ "background" ],
+      "animationPosition" : [-7, 0]
+    },
+  {
+      "image" : "skullwalltorch.png:<color>.<frame>",
+      "imagePosition" : [-7, 0],
+    
+      "direction" : "right",
+
+      "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [0,2] ],
+      "anchors" : [ "background" ],
+      "animationPosition" : [-7, 0]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+  
+  "animation" : "skullwalltorch.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "skullwalltorch.png",
+    "fg" : "skullwalltorchlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 1] ]
+  
+  // "interactive" : false
+}

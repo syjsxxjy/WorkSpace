@@ -1,0 +1,22 @@
+{
+  "itemName" : "flowerygrassseeds",
+  "price" : 20,
+  "rarity" : "Common",
+  "inventoryIcon" : "flowerygrassseedsicon.png",
+  "image" : "flowerygrassseedsicon.png",
+  "shortdescription" : "Flowery Grass Seeds",
+  "description" : "Toss these on some damp tilled soil to grow flowery grass!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "flowerygrassseedspray",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 0
+  }
+}
+

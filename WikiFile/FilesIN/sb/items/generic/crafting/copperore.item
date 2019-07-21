@@ -1,0 +1,11 @@
+{
+  "itemName" : "copperore",
+  "price" : 10,
+  "rarity" : "Common",
+  "inventoryIcon" : "copperore.png",
+  "description" : "Copper ore. Can be used for smelting.",
+  "shortdescription" : "Copper Ore",
+  "learnBlueprintsOnPickup" : [
+    "copperbar"
+  ]
+}

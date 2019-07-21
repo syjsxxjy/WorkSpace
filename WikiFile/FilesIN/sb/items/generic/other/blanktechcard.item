@@ -1,0 +1,7 @@
+{
+  "itemName" : "blanktechcard",
+  "rarity" : "Common",
+  "inventoryIcon" : "blanktechcard.png",
+  "description" : "A blank tech drive, I can program tech onto this at my ship's computer.",
+  "shortdescription" : "Tech Drive"
+}

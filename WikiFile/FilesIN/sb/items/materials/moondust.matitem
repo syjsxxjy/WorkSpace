@@ -1,0 +1,12 @@
+{
+  "itemName" : "moondust",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "moondusticon.png",
+  "description" : "Moondust, the thing dreams are made of.",
+  "shortdescription" : "Moondust",
+  "glitchdescription" : "Delight. Moondust.",
+  "florandescription" : "Floran love glittery sssneezy dust.",
+
+  "materialId" : 77
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "fadedblocks",
+  "price" : 5,
+  "rarity" : "Common",
+  "inventoryIcon" : "fadedblocks.png",
+  "description" : "Soft faded brick.",
+  "shortdescription" : "Soft Brick",
+  "glitchdescription" : "Statement. Brick.",
+  "florandescription" : "Bricksss.",
+
+  "materialId" : 56
+}

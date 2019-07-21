@@ -1,0 +1,23 @@
+{
+  "itemName" : "fishdumplings",
+  "rarity" : "Common",
+  "price" : 75,
+  "inventoryIcon" : "fishdumplings.png",
+  "description" : "Simple fish dumplings, steamed and lightly seasoned.",
+  "shortdescription" : "Fish Dumplings",
+  "handPosition" : [0, 6],
+  "effects" : [ [
+    {
+        "effect" : "foodheal120",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "fishstew" ]
+}

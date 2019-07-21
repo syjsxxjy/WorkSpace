@@ -1,0 +1,26 @@
+{
+  "objectName" : "seahornet",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "price" : 50,
+  "printable" : false,
+  "description" : "\"This bug has a snout like a seahorse.\"",
+  "shortdescription" : "Seahornet Bug",
+  "race" : "generic",
+
+  "itemTags" : [ "bug" ],
+
+  "largeImage" : "seahornetlarge.png",
+  "inventoryIcon" : "seahorneticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "seahornet.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 27,
+      "animationCycle" : 2.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "objectName" : "shroomdoor",
+  "colonyTags" : ["mushroompatch","nature","door"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 60,
+  "description" : "A door made of mushrooms. It even has a cute mushroom handle.",
+  "shortdescription" : "Shroom Door",
+  "race" : "generic",
+
+  "apexDescription" : "A squishy mushroom door.",
+  "avianDescription" : "This door doesn't seem too secure.",
+  "floranDescription" : "Floran sssqueeze door.",
+  "glitchDescription" : "Statement. A mushroom door.",
+  "humanDescription" : "A cute little mushroom door.",
+  "hylotlDescription" : "A door made of mushrooms. Bizarre.",
+  "novakidDescription" : "A squishy mushroom door. It's cute!.",
+
+  "inventoryIcon" : "shroomdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "shroomdoor.png:default",
+      "imagePosition" : [-20, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/wooddoor_open.ogg" ],
+      "close" : [ "/sfx/objects/wooddoor_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "shroomdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}

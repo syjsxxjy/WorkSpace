@@ -1,0 +1,12 @@
+{
+  "itemName" : "shojiscreenpanel",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "shojiscreenpanelicon.png",
+  "description" : "A traditional screen panel.",
+  "shortdescription" : "Shoji Screen Panel",
+  "glitchdescription" : "Statement. A panel.",
+  "florandescription" : "Panel.",
+
+  "materialId" : 115
+}

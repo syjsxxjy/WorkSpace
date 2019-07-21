@@ -1,0 +1,24 @@
+{
+  "itemName" : "cactusjuice",
+  "rarity" : "Common",
+  "price" : 20,
+  "inventoryIcon" : "cactusjuice.png",
+  "description" : "Cool as a cactus.",
+  "shortdescription" : "Cactus Juice",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "thorns",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "spikycookies" ]
+}

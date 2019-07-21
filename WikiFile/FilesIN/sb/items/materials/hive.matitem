@@ -1,0 +1,12 @@
+{
+  "itemName" : "hive",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "hive.png",
+  "description" : "-todo-",
+  "shortdescription" : "Hive Block",
+  "glitchdescription" : "Analysis. -todo-",
+  "florandescription" : "-todo-",
+
+  "materialId" : 41
+}

@@ -1,0 +1,48 @@
+{
+  "objectName" : "wiringstation",
+  "colonyTags" : ["crafting","electronic"],
+  "rarity" : "Legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingnocategories.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  WIRING STATION",
+        "subtitle" : "  For everything to do with wiring!",
+        "icon" : {
+          "file" : "/interface/crafting/wiringstation.png"
+        }
+      }
+    },
+    "filter" : [ "wiringstation" ]
+  },
+  "printable" : false,
+  "description" : "I can use this wiring station to craft components and wire things as I see fit!",
+  "shortdescription" : "^orange;Wiring Station^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 100,
+
+  "apexDescription" : "I can create equipment to use for wiring here.",
+  "avianDescription" : "It's a workstation for crafting equipment to use for wiring.",
+  "floranDescription" : "Floran can make equipment for wiring thingsss.",
+  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
+  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
+  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
+  "novakidDescription" : "A workstation for all things wirin' related.",
+
+  "inventoryIcon" : "wiringstationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "wiringstation.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

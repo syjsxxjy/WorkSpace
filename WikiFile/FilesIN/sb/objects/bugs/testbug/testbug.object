@@ -1,0 +1,31 @@
+{
+  "objectName" : "testbug",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "price" : 50,
+  "printable" : false,
+  "description" : "A steaming cup of Earl Grey.",
+  "shortdescription" : "Teacup",
+  "race" : "generic",
+
+  "itemTags" : [ "bug" ],
+  "apexDescription" : "A warm cup of tea.", 
+  "avianDescription" : "A hot, smelly drink.",
+  "floranDescription" : "Floran not sssure if Floran like drink. Perhapss it grow on Floran.",
+  "glitchDescription" : "Statement. My taste sensors will have to adjust before I can enjoy this.",
+  "humanDescription" : "There's nothing quite like a nice cup of tea and a sit-down.",
+  "hylotlDescription" : "The Hylotl brew similar drinks from ocean flora.",
+
+  "inventoryIcon" : "testbugicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "testbug.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 27,
+      "animationCycle" : 2.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

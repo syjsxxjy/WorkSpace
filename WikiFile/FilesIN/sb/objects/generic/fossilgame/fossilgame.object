@@ -1,0 +1,44 @@
+{
+  "objectName" : "fossilgame",
+  "colonyTags" : ["outpost","electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+  "lightColor" : [150, 215, 235],
+
+  "description" : "This machine runs a game called 'Mazebound64'.",
+  "shortdescription" : "Arcade Game",
+  "race" : "generic",
+
+  "inventoryIcon" : "fossilgameicon.png",
+  "orientations" : [
+    {
+      "image" : "fossilgame.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "frames" : 2,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "fossilgame.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "frames" : 2,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "fossilgameobject.lua"
+  ],
+
+  "interactAction" : "ScriptConsole",
+  "interactData" : "/interface/games/fossilgame/fossilgamegui.config"
+}

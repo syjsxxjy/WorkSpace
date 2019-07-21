@@ -1,0 +1,8 @@
+{
+  "itemName" : "larva",
+  "price" : 20,
+  "rarity" : "Common",
+  "inventoryIcon" : "larva.png",
+  "description" : "An alien, baby larva. It's small, squishy, and defenseless.",
+  "shortdescription" : "Baby Larva"
+}

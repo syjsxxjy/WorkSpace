@@ -1,0 +1,23 @@
+{
+  "itemName" : "stuffedautomato",
+  "rarity" : "Common",
+  "price" : 265,
+  "inventoryIcon" : "stuffedautomato.png",
+  "description" : "Tastes like an actual stuffed tomato, if you can get through it without breaking your teeth!",
+  "shortdescription" : "Stuffed 4GB Automato",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal190",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "desertsalsa" ]
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "liquidoil",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidoilicon.png",
+  "shortdescription" : "Oil",
+  "description" : "A measure of gooey unrefined oil.",
+
+  "liquid" : "tarliquid",
+
+  "learnBlueprintsOnPickup" : [
+    "mininglantern",
+    "lanternstickback"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "poachedavesmingo",
+  "price" : 0,
+
+  "rarity" : "Rare",
+  "inventoryIcon" : "poachedavesmingo.png",
+  "description" : "A sweet Avesmingo poached in potent Wartwine. A pretty expensive dish.",
+  "shortdescription" : "Poached Avesmingo",
+  "handPosition" : [6, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 333,
+  "materialName" : "protectorateplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "protectorateplatform",
+  "shortdescription" : "Protectorate Platform",
+  "description" : "A tough, sturdy peaceful looking platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "protectorateplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

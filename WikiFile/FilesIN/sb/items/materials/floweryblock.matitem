@@ -1,0 +1,12 @@
+{
+  "itemName" : "floweryblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "floweryblock.png",
+  "description" : "A block made of petals and leaves. Smells lovely.",
+  "shortdescription" : "Petal Block",
+  "glitchdescription" : "Reflective. If such organic materials can be made into a synthetic structure, can the reverse also become true?",
+  "florandescription" : "For Floran thiss is like block made of sssskin.",
+
+  "materialId" : 410
+}

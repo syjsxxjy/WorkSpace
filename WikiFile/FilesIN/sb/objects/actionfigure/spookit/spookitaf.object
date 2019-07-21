@@ -1,0 +1,31 @@
+{
+  "objectName" : "spookitaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"It can enter a different plane of existence. When it closes its eyes it becomes immune to attacks.\"",
+  "shortdescription" : "Spookit Action Figure",
+
+  "inventoryIcon" : "spookitaf.png",
+  "orientations" : [
+    {
+      "image" : "spookitaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "spookitaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

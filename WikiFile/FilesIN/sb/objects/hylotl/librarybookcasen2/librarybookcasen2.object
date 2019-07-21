@@ -1,0 +1,31 @@
+{
+  "objectName" : "librarybookcaseN2",
+  "colonyTags" : ["hylotl","hylotlvillage","storage","knowledge"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 250,
+
+  "description" : "A fairly big bookcase full of books.",
+  "shortdescription" : "Library Bookcase",
+  "race" : "hylotl",
+
+  "apexDescription" : "A standard library bookcase.",
+  "avianDescription" : "An old bookcase full of books.",
+  "floranDescription" : "Library bookssss.",
+  "glitchDescription" : "Content. There are many bookcases such as this in Glitch kingdoms.",
+  "humanDescription" : "A sturdy bookcase.",
+  "hylotlDescription" : "An assortment of poems and prose line the shelves.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "librarybookcaseN2.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "itemName" : "dirturchin",
+  "rarity" : "Common",
+  "price" : 100,
+  "inventoryIcon" : "dirturchin.png",
+  "description" : "Kind of squidy and a bit tasteless.",
+  "shortdescription" : "Dirturchin",
+  "handPosition" : [-8, 0],
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "stuffeddirturchin", "soggysack" ]
+}

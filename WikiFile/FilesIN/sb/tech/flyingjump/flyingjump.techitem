@@ -1,0 +1,9 @@
+{
+  "itemName" : "flyingjumpTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/flyingjump.png",
+  "description" : "Press Jump in the air to use this Flying Jump tech.",
+  "shortdescription" : "Flying Jump",
+
+  "techModule" : "flyingjump"
+}

@@ -1,0 +1,50 @@
+{
+  "objectName" : "potatoseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Potato seed! Boil Em, Mash Em, Stick Em In A Stew.",
+  "shortdescription" : "Potato Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+
+  "apexDescription" : "Potatoes. Unremarkable.",
+  "avianDescription" : "Mashed potatoes make for a good dish.",
+  "floranDescription" : "Hard, crunchy brown potatoesss.",
+  "glitchDescription" : "Admiration. Humans create many dishes from such a simple thing.",
+  "humanDescription" : "Ahhh, potatoes. Is there anything you can't do?",
+  "hylotlDescription" : "A common, tedious root vegetable.",
+
+  "inventoryIcon" : "potatoseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "potatoseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [450, 450]
+    },
+    {
+      "duration" : [450, 450]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "potatoHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.25,
+
+  "pickupQuestTemplates" : [ "hoe.gearup" ]
+}

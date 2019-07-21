@@ -1,0 +1,33 @@
+{
+  "objectName" : "alpacaliferune",
+  "colonyTags" : ["alpaca"],
+  "rarity" : "Common",
+  "description" : "An ancient alpaca rune that is the symbol of life.",
+  "shortdescription" : "Alpaca Life Rune",
+  "race" : "alpaca",
+  "category" : "decorative",
+  "price" : 20,
+
+  "apexDescription" : "It's the Alpaca rune for life itself.",
+  "avianDescription" : "This rune is thought to represent the essence of life.",
+  "floranDescription" : "An old symbol, it meansss life to the Alpaca race.",
+  "glitchDescription" : "Optimistic. An Alpaca rune that signifies life.",
+  "humanDescription" : "This is an old rune that means life, apparently.",
+  "hylotlDescription" : "An ancient marking to represent all life in a single symbol.",
+  "novakidDescription" : "A rune to symbolise all life, a tall order for one little rune.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "alpacaliferune.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

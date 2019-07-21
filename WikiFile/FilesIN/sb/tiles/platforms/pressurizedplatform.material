@@ -1,0 +1,22 @@
+{
+  "materialId" : 160,
+  "materialName" : "pressurizedplatform",
+  "platform" : true,
+  "transparent" : true,
+  "itemDrop" : "pressurizedplatform",
+  "shortdescription" : "Pressurized Platform",
+  "description" : "Tough pressurized platform for potentially pressured environments!",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "pressurizedplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

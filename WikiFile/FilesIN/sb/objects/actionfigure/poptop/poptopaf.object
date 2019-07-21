@@ -1,0 +1,32 @@
+{
+  "objectName" : "poptopaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"The Poptop hums beautifully to confuse its prey.\"",
+  "shortdescription" : "Poptop Action Figure",
+
+
+  "inventoryIcon" : "poptopaf.png",
+  "orientations" : [
+    {
+      "image" : "poptopaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "poptopaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

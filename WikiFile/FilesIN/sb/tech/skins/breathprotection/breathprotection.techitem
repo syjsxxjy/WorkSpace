@@ -1,0 +1,9 @@
+{
+  "itemName" : "breathprotectionTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/skins/breathprotection/overlay.png",
+  "description" : "Provides the wearer with a constant supply of oxygen in airless environments",
+  "shortdescription" : "Breath Protection",
+
+  "techModule" : "breathprotection"
+}

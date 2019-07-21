@@ -1,0 +1,22 @@
+{
+  "itemName" : "coralcreep",
+  "rarity" : "Common",
+  "price" : 100,
+  "inventoryIcon" : "coralcreep.png",
+  "description" : "The coralcreep fruit turns red when cooked, like a lobster.",
+  "shortdescription" : "Coralcreep",
+  "effects" : [ [
+    {
+        "effect" : "foodheal10",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "seafoodgratin", "soggysack" ]
+}

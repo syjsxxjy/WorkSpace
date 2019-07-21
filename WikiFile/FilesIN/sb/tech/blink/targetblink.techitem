@@ -1,0 +1,9 @@
+﻿{
+  "itemName" : "targetblinktech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/blink.png",
+  "description" : "Press F to teleport to your mouse cursor with this Targeted Blink tech! Cost: 110 energy.",
+  "shortdescription" : "Targeted Blink",
+
+  "techModule" : "targetblink"
+}

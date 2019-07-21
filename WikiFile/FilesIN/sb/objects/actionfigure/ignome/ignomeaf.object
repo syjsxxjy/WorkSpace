@@ -1,0 +1,33 @@
+{
+  "objectName" : "ignomeaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "legendary",
+  "category" : "decorative",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "\"Its charred surface is surprisingly pleasant to touch. Just keep away from the flames!\"",
+  "shortdescription" : "Ignome Action Figure",
+
+
+
+  "inventoryIcon" : "ignomeaf.png",
+  "orientations" : [
+    {
+      "image" : "ignomeaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ignomeaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "steelplatform",
+  "price" : 0,
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "steelplatformicon.png",
+  "description" : "Strong steel platforms.",
+  "shortdescription" : "Steel Platform",
+  "glitchdescription" : "Statement. A strong steel platform.",
+  "florandescription" : "Ssstrong sssteel.",
+
+  "materialId" : 68
+}

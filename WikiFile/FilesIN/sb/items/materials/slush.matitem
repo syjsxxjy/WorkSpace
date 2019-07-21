@@ -1,0 +1,12 @@
+{
+  "itemName" : "slush",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "slush.png",
+  "shortdescription" : "Slush",
+  "description" : "Melting ice makes a thick slush.",
+  "glitchdescription" : "Statement. Melted ice.",
+  "florandescription" : "Ssslushy.",
+
+  "materialId" : 31
+}

@@ -1,0 +1,29 @@
+{
+  "itemName" : "toxicjamdonut",
+  "rarity" : "Legendary",
+  "price" : 570,
+  "inventoryIcon" : "toxicjamdonut.png",
+  "description" : "A harmless donut filled with toxictop jam.",
+  "shortdescription" : "Toxic Jam Donut",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 10
+    },
+    {
+        "effect" : "runboost25",
+        "duration" : 120
+    },
+    {
+        "effect" : "maxenergyboost85",
+        "duration" : 150
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 150
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

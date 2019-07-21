@@ -1,0 +1,22 @@
+{
+  "itemName" : "grassseeds",
+  "price" : 10,
+  "rarity" : "Common",
+  "inventoryIcon" : "grassseedsicon.png",
+  "image" : "grassseedsicon.png",
+  "shortdescription" : "Grass Seeds",
+  "description" : "Toss these on some damp tilled soil to grow grass!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "grassseedspray",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 0
+  }
+}
+

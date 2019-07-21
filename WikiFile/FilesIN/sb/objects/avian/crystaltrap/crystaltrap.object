@@ -1,0 +1,220 @@
+{
+  "objectName" : "crystaltrap",
+  "colonyTags" : ["avian","aviantemple","evil"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A crystal trap designed to deter invaders.",
+  "shortdescription" : "Avian Crystal Trap",
+  "race" : "avian",
+
+  "apexDescription" : "This crystal forms a deadly light beam.",
+  "avianDescription" : "I wouldn't want to get caught in that beam.",
+  "floranDescription" : "Crystal beam hurtsss Floran.",
+  "glitchDescription" : "Surprised. A crystal that projects deadly beams of light! Now I have seen everything.",
+  "humanDescription" : "That beam looks like it would hurt.",
+  "hylotlDescription" : "If I memorise the pattern of the crystal's beam I can act accordingly.",
+  "novakidDescription" : "I'd better watch out, these beams of light could fry me.",
+
+  "category" : "trap",
+  "price" : 200,
+
+  "inventoryIcon" : "crystaltrapicon.png",
+  "orientations" : [
+    {
+      "image" : "crystaltrapground.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "crystaltrapground.png",
+        "fg" : "crystaltrapground.png"
+      },
+
+      "lightPosition" : [0, 1],
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 2.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "left", "right" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "crystaltrapground.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "crystaltrapground.png",
+        "fg" : "crystaltrapground.png"
+      },
+
+      "lightPosition" : [0, 1],
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [1, 2.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "left", "right" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "crystaltrap.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "crystaltrap.png",
+        "fg" : "crystaltrap.png"
+      },
+
+      "lightPosition" : [-1, 0],
+
+      "projectileDirection" : [-1, 0],
+      "projectilePosition" : [-1.5, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "crystaltrap.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "crystaltrap.png",
+        "fg" : "crystaltrap.png"
+      },
+
+      "lightPosition" : [1, 0],
+
+      "projectileDirection" : [1, 0],
+      "projectilePosition" : [2.5, 1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "crystaltrapceiling.png:<color>.<frame>",
+      "imagePosition" : [-8, -8],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, -8],
+      "animationParts" : {
+        "bg" : "crystaltrapceiling.png",
+        "fg" : "crystaltrapceiling.png"
+      },
+
+      "lightPosition" : [0, -1],
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [0, -1.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "crystaltrapceiling.png:<color>.<frame>",
+      "imagePosition" : [0, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [0, -8],
+      "animationParts" : {
+        "bg" : "crystaltrapceiling.png",
+        "fg" : "crystaltrapceiling.png"
+      },
+
+      "lightPosition" : [0, -1],
+
+      "projectileDirection" : [0, -1],
+      "projectilePosition" : [1, -1.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "crystaltrapground.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "animationPosition" : [-8, 0],
+      "animationParts" : {
+        "bg" : "crystaltrapground.png",
+        "fg" : "crystaltrapground.png"
+      },
+
+      "lightPosition" : [0, 1],
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [0, 2.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "crystaltrapground.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "animationPosition" : [0, 0],
+      "animationParts" : {
+        "bg" : "crystaltrapground.png",
+        "fg" : "crystaltrapground.png"
+      },
+
+      "lightPosition" : [0, 1],
+
+      "projectileDirection" : [0, 1],
+      "projectilePosition" : [1, 2.5],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "shoot" : [ ],
+      "on" : [ "/sfx/objects/crystaltrap_on1.ogg" ],
+      "off" : [ "/sfx/objects/crystaltrap_off.ogg" ]
+    }
+  },
+
+  "soundEffect" : "/sfx/objects/crystaltrap_loop.ogg", // this is a thing that also works
+
+  "inboundNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0], // light color to emit when the object is 'off'
+  "activeLightColor" : [128, 38, 44], // light color to emit when the object is 'on'
+
+  "fireTime" : 0.03, // rate of fire
+  "fireTimeVariance" : 0.0, // variation in rate of fire
+  "projectile" : "crystaltrapbeam", // name of projectile (required)
+  "projectileConfig" : { // extra configuration overrides for projectile
+    "damageTeam" : { "type" : "indiscriminate" },
+    "power" : 40,
+    "speed" : 50
+  },
+
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg", "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg" ],
+  "smashParticles" : [ { "count" : 10, "particle" : "potshard" } ]
+}

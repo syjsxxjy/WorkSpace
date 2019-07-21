@@ -1,0 +1,59 @@
+{
+  "objectName" : "giantflowerdoor",
+  "colonyTags" : ["giantflower","nature","door"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 115,
+  
+  "description" : "A door with a cheerful wreath on it.",
+  "shortdescription" : "Giant Flower Door",
+  "race" : "generic",
+
+  "apexDescription" : "A wooden door garnished with a welcoming wreath.",
+  "avianDescription" : "Whoever put this wreath here wanted people to feel welcome.",
+  "floranDescription" : "Floran use wreath as sssign for sssecret hunt club.",
+  "glitchDescription" : "Neutral. A door with a wreath on it.",
+  "humanDescription" : "What a cheerful door.",
+  "hylotlDescription" : "This door is designed to be welcoming.",
+  "novakidDescription" : "A nice door for a welcomin' home. Like a nice smile on a friendly face.",
+
+  "inventoryIcon" : "giantflowerdooricon.png",
+  "orientations" : [
+    {
+      "image" : "giantflowerdoor.png:default",
+      "imagePosition" : [-20, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "image" : "giantflowerdoor.png:default",
+      "imagePosition" : [-20, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/wooddoor_open.ogg" ],
+      "close" : [ "/sfx/objects/wooddoor_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "giantflowerdoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inboundNodes" : [ [-1, 4] ],
+  "outboundNodes" : [ [0, 0] ]
+}

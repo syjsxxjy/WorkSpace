@@ -1,0 +1,54 @@
+{
+  "itemName" : "scistaff",
+  "inventoryIcon" : "scistaff.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+
+  "description" : "gives nearby foes an icy reception.",
+  "shortdescription" : "Sci Staff",
+
+  "image" : "scistaff.png",
+
+  "handPosition" : [-1.5, -7],
+  "firePosition" : [5, 1.5],
+
+  "fireTime" : 0.2,
+  "windupTime" : 1.0,
+  "cooldown" : 0.3,
+  "twoHanded" : true,
+  "fireOnRelease" : true,
+
+  "swingStart" : 10,
+  "swingFinish" : 0,
+  "coolingDownAngle" : 0,
+
+  "projectileType" : "icebreath",
+  "projectile" : {
+    "speed" : 10,
+    "power" : 30,
+    "color" : [255, 10, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [
+      { "file" : "/sfx/gun/rocket1.ogg" },
+      { "file" : "/sfx/gun/rocket_fly.ogg" }
+    ]
+  },
+
+  "level1ChargeTime" : 0.5,
+  "level2ChargeTime" : 1.0,
+
+  "staffChargingGlow" : {
+    "file" : "staffglow.png",
+    "chargingFrames" : 13,
+    "sparkFrames" : 3,
+    "loopFrames" : 4,
+    "fireFrames" : 3,
+    "sparkTime" : 0.5,
+    "loopTime" : 0.5,
+    "offset" : [ 0, 6 ]
+  },
+
+  "scripts" : [ "/items/guns/unsorted/test.lua" ]
+}

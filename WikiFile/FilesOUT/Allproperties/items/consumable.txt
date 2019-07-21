@@ -1,0 +1,14 @@
+shortdescription       
+emitters       
+learnBlueprintsOnPickup       
+description       
+duration       
+handPosition       
+itemName       
+effects       
+price       
+effect       
+emote       
+inventoryIcon       
+rarity       
+blockingEffects       

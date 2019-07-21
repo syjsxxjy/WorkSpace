@@ -1,0 +1,12 @@
+{
+  "itemName" : "stonerubble",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "stonerubble.png",
+  "description" : "Stone rubble that obviously comes from some structure.",
+  "shortdescription" : "Stone Rubble",
+  "glitchdescription" : "Statement. Stone rubble.",
+  "florandescription" : "Ssstone rubble.",
+
+  "materialId" : 222
+}

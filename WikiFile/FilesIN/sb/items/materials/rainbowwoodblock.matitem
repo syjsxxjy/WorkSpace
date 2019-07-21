@@ -1,0 +1,17 @@
+{
+  "itemName" : "rainbowwoodblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "rainbowwoodblock.png",
+  "description" : "Simply fabulous.",
+  "shortdescription" : "Rainbow Wood Planks",
+  "glitchdescription" : "Admiration. Rainbow wood.",
+  "florandescription" : "Colourful woodsss.",
+
+  "materialId" : 163,
+
+  "learnBlueprintsOnPickup" : [
+    "rainbowwoodblock",
+    "crayonblue"
+  ]
+}

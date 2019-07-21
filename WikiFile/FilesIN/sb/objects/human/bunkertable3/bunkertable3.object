@@ -1,0 +1,59 @@
+{
+  "objectName" : "bunkertable3",
+  "colonyTags" : ["human","humanbunker","electronic"],
+  "rarity" : "Common",
+  "description" : "Ideal for laying out battle strategies, holding meetings and snacking.",
+  "shortdescription" : "Large Metal Table",
+  "race" : "human",
+  "category" : "furniture",
+  "price" : 120,
+
+  "lightColor" : [69, 90, 115],
+  "lightPosition" : [0, 1],
+
+  "apexDescription" : "A simple table.",
+  "avianDescription" : "A basic table.",
+  "floranDescription" : "Table for ssslicing.",
+  "glitchDescription" : "Statement. A table.",
+  "humanDescription" : "This is the second most generic table I've ever seen.",
+  "hylotlDescription" : "A table. Unremarkable.",
+
+  "inventoryIcon" : "bunkertable3icon.png",
+  "orientations" : [
+    {
+      "image" : "bunkertable3.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "bunkertable3.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "bunkertable3.png",
+    "fg" : "bunkertable3lit.png"
+  },
+  "animationPosition" : [ -16, 0 ],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 1] ],
+
+  "interactive" : false
+}

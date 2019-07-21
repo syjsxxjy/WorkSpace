@@ -1,0 +1,9 @@
+{
+  "itemName" : "rocketbootsTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/rocketboots.png",
+  "description" : "Press and hold jump while in the air to activate rocket boots. Cost: 130 energy per second.",
+  "shortdescription" : "Rocket Boots",
+
+  "techModule" : "rocketboots"
+}

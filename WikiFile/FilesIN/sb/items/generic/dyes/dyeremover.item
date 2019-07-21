@@ -1,0 +1,9 @@
+{
+  "itemName" : "dyeremover",
+  "rarity" : "Common",
+  "inventoryIcon" : "dyeremover.png",
+  "description" : "Use this on a piece of armour or clothing to restore it to its base colour.",
+  "shortdescription" : "Dye Remover",
+
+  "dyeColorIndex" : 0
+}

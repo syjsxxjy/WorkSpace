@@ -1,0 +1,16 @@
+shortdescription       
+image       
+activeAngle       
+largeImage       
+tooltipKind       
+kind       
+description       
+activeImage       
+maxStack       
+activeHandPosition       
+handPosition       
+itemName       
+twoHanded       
+price       
+inventoryIcon       
+rarity       

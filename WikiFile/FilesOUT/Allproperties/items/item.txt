@@ -1,0 +1,13 @@
+shortdescription       
+largeImage       
+itemTags       
+learnBlueprintsOnPickup       
+dyeColorIndex       
+florandescription       
+description       
+glitchdescription       
+fuelAmount       
+itemName       
+price       
+inventoryIcon       
+rarity       

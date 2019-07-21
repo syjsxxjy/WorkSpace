@@ -1,0 +1,9 @@
+{
+  "itemName" : "greydye",
+  "rarity" : "Common",
+  "inventoryIcon" : "greydye.png",
+  "description" : "Use this dye on a piece of armour or clothing to change its colour.",
+  "shortdescription" : "Grey Dye",
+
+  "dyeColorIndex" : 2
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "alpacaknowledgerune",
+  "colonyTags" : ["alpaca"],
+  "rarity" : "Common",
+  "description" : "An ancient alpaca rune that is the symbol of knowledge.",
+  "shortdescription" : "Alpaca Knowledge Rune",
+  "race" : "alpaca",
+  "category" : "decorative",
+  "price" : 20,
+
+  "apexDescription" : "A rather complex old rune meaning knowledge.",
+  "avianDescription" : "A rune to mean knowledge, no wonder it looks so complex.",
+  "floranDescription" : "An intricate rune to symbolise the complex concept of knowledge.",
+  "glitchDescription" : "Hopeful. A rune to mean knowledge. These Alpacas do seem knowledgeable.",
+  "humanDescription" : "If this rune means knowledge what can I learn from it?",
+  "hylotlDescription" : "This small yet intricate design encompasses the unfathomable concept of knowledge itself.",
+  "novakidDescription" : "A fancy looking' rune, it means something to do with knowledge.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "alpacaknowledgerune.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

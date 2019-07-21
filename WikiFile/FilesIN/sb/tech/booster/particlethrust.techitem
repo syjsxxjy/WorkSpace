@@ -1,0 +1,9 @@
+{
+  "itemName" : "particlethrust",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/particlethrust.png",
+  "description" : "Press and hold Jump plus a direction in the air to float around with this Particle Thrust tech. Cost: 150 energy per second.",
+  "shortdescription" : "Particle Thrust",
+
+  "techModule" : "particlethrust"
+}

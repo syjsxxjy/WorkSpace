@@ -1,0 +1,16 @@
+{
+  "itemName" : "tar",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "tar.png",
+  "description" : "Thick, rancid tar. It reminds me of my mothers home-made jello.",
+  "shortdescription" : "Tar",
+  "glitchdescription" : "Statement. Tar as thick as a Hylotl's cooking.",
+  "florandescription" : "Ssstew? Tar.",
+
+  "materialId" : 48,
+
+  "learnBlueprintsOnPickup" : [
+    "tarball"
+  ]
+}

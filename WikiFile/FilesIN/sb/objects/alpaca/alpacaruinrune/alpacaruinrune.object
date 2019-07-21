@@ -1,0 +1,33 @@
+{
+  "objectName" : "alpacaruinrune",
+  "colonyTags" : ["alpaca"],
+  "rarity" : "Common",
+  "description" : "An ancient alpaca rune that is the symbol of ruin.",
+  "shortdescription" : "Alpaca Ruin Rune",
+  "race" : "alpaca",
+  "category" : "decorative",
+  "price" : 20,
+
+  "apexDescription" : "It's an ancient rune that means ruin.",
+  "avianDescription" : "An ancient rune similar to some of our own. This one means ruin.",
+  "floranDescription" : "Ancient runesss... this means ruin. Cannot eat...",
+  "glitchDescription" : "Statement. An Alpacish run that signifies ruin.",
+  "humanDescription" : "This is an old rune that means ruin. It looks familiar...",
+  "hylotlDescription" : "A rune meaning ruin from a race that spread amoung the stars before even the Hylotl.",
+  "novakidDescription" : "It's an ancient rune that means ruin. Darn-tootin' it is!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "alpacaruinrune.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

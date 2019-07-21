@@ -1,0 +1,40 @@
+{
+  "objectName" : "coralmirror",
+  "colonyTags" : ["sea"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A wall mirror set in a coral frame.",
+  "shortdescription" : "Coral Mirror",
+  "race" : "generic",
+
+  "apexDescription" : "The reflection in this mirror is hazy, like looking through water.",
+  "avianDescription" : "The reflection in this mirror is hazy, like looking through water.",
+  "floranDescription" : "Looking into mirror isss like being underwater.",
+  "glitchDescription" : "Unsatisfied. The quality of this reflection is as hazy as looking through water.",
+  "humanDescription" : "The reflection in this mirror is hazy, like looking through water.",
+  "hylotlDescription" : "The reflection in this mirror is hazy, like looking through water.",
+  "novakidDescription" : "The reflection in this mirror is hazy, like looking through water.",
+
+  "inventoryIcon" : "coralmirroricon.png",
+  "orientations" : [
+    {
+      "image" : "coralmirror.png:<color>.<frame>",
+      "imagePosition" : [-6, -6],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [-1, -1], [0, -1], [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "coralmirror.png:<color>.<frame>",
+      "imagePosition" : [-6, -6],
+      "direction" : "right",
+
+      "spaces" : [ [0, -1], [1, -1], [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "background" ]
+    }
+  ]
+}

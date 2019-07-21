@@ -1,0 +1,8 @@
+{
+  "itemName" : "bottle",
+  "price" : 5,
+  "rarity" : "Common",
+  "inventoryIcon" : "bottle.png",
+  "description" : "Perfect for storing liquids.",
+  "shortdescription" : "Empty Bottle"
+}

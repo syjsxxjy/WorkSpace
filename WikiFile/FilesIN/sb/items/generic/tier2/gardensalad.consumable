@@ -1,0 +1,21 @@
+{
+  "itemName" : "gardensalad",
+  "rarity" : "Common",
+  "price" : 225,
+  "inventoryIcon" : "gardensalad.png",
+  "description" : "A big bowl of mixed veggies. Nutritious!",
+  "shortdescription" : "Garden Salad",
+  "effects" :[  [
+    {
+        "effect" : "foodheal145",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

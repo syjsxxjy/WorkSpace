@@ -1,0 +1,19 @@
+{
+  "itemName" : "refinedaegisalt",
+  "price" : 120,
+  "rarity" : "Rare",
+  "inventoryIcon" : "refinedaegisalt.png",
+  "description" : "Aegisalt distilled to its purest form.",
+  "shortdescription" : "Refined Aegisalt",
+
+  "learnBlueprintsOnPickup" : [
+    "acceleratortable",
+    "feroziumcompound",
+    "tier5bed",
+    "tier5chair",
+    "tier5door",
+    "tier5light",
+    "tier5switch",
+    "tier5table"
+  ]
+}

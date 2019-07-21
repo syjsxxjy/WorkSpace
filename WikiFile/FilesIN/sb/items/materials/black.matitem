@@ -1,0 +1,12 @@
+{
+  "itemName" : "blackblock",
+  "price" : 0,
+  "rarity" : "common",
+  "inventoryIcon" : "black.png",
+  "description" : "...",
+  "shortdescription" : "...",
+  "glitchdescription" : "...",
+  "florandescription" : "...",
+
+  "materialId" : 990
+}

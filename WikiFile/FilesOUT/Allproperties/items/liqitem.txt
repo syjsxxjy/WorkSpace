@@ -1,0 +1,9 @@
+shortdescription       
+itemName       
+liquid       
+learnBlueprintsOnPickup       
+price       
+description       
+inventoryIcon       
+fuelAmount       
+rarity       

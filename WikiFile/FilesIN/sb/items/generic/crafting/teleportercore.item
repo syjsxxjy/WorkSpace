@@ -1,0 +1,8 @@
+{
+  "itemName" : "teleportercore",
+  "price" : 500,
+  "rarity" : "Legendary",
+  "inventoryIcon" : "teleportercore.png",
+  "description" : "A rare, high-tech key component of a personal teleporter.",
+  "shortdescription" : "Teleporter Core"
+}

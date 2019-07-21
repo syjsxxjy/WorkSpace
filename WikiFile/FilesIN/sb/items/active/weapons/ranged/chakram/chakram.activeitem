@@ -1,0 +1,68 @@
+{
+  "itemName" : "chakram",
+  "price" : 500,
+  
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Grand masters of the chakram can catch it without losing fingers.",
+  "shortdescription" : "Chakram",
+  "tooltipKind" : "base",
+  "weaponType" : "Chakram",
+  "twoHanded" : false,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "chakram.png",
+  "animation" : "chakram.animation",
+  "animationParts" : {
+    "chakram" : "chakram.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "throw" : [ "/sfx/melee/swing_dagger.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/ranged/boomerang/boomerang.lua"],
+  "fireOffset" : [1.25, 0.5],
+  
+  "projectileType" : "chakram",
+  "projectileParameters" : {
+    "knockback" : 10,
+    "power" : 4.0,
+    "damageRepeatTimeout" : 0.5,
+
+    "returnOnHit" : true,
+    "pickupDistance" : 1.0,
+
+    "maxDistance" : 10
+  },
+  "level" : 3,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "weaponRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "armRotation" : 70,
+      "weaponRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "catch" : {
+      "duration" : 0.2,
+      "armRotation" : 60,
+      "weaponRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  }
+}

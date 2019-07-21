@@ -1,0 +1,48 @@
+{
+  "objectName" : "invisiblesound",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 15,
+  "health" : 0.1,
+  "description" : "...",
+  "shortdescription" : "Invisible Sound",
+  "race" : "generic",
+
+  "smashOnBreak" : true,
+
+  "inventoryIcon" : "invisiblesoundicon.png",
+  "orientations" : [
+    {
+      "image" : "invisiblesound.png:<color>.off",
+      "imagePosition" : [0, 0],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/invisiblesound/invisiblesound.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/invisiblesound/invisiblesound.animation",
+  "animationParts" : {
+    "soundtrigger" : "invisiblesound.png"
+  },
+  "animationPosition" : [0, 0],
+  "animationCustom" : {
+    "animatedParts" : { "stateTypes" : { "soundState" : { "states" : {
+      "on" : { "properties" : {
+        //"persistentSound" : "/sfx/npc/unique/ufo_hover_loop.ogg",
+        //"immediateSound" : "/sfx/npc/unique/crystalboss_pain1.ogg"
+      }}
+    }}}},
+    "sounds" : {
+      //"on" : [ "/sfx/objects/apexconsole2switch.ogg" ],
+      //"off" : [ "/sfx/objects/apexconsole2switch.ogg" ]
+    }
+  },
+  
+  "interactive" : false,
+  "inboundNodes" : [ [0, 0] ]
+}

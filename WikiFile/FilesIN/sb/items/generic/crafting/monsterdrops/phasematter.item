@@ -1,0 +1,8 @@
+{
+  "itemName" : "phasematter",
+  "price" : 30,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "phasematter.png",
+  "description" : "A substance that appears to be almost intangible. Can be used for crafting.",
+  "shortdescription" : "Phase Matter"
+}

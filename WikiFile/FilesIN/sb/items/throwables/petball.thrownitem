@@ -1,0 +1,22 @@
+﻿{
+  "itemName" : "petball",
+  "rarity" : "Common",
+  
+  "image" : " ",
+  "shortdescription" : "Little Red Ball",
+  "description" : "I bet my pet would love this",
+  "price" : 100,
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "petball",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 0
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+  "itemName" : "dashTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/dash.png",
+  "description" : "Double tap Left or Right to use this Energy Dash tech. Cooldown: 0.8s",
+  "shortdescription" : "Energy Dash",
+
+  "techModule" : "dash"
+}

@@ -1,0 +1,54 @@
+{
+  "objectName" : "carbed",
+  "colonyTags" : ["human","pretty","valuable"],
+  "rarity" : "Common",
+  "description" : "A cool bed, for those young at heart.",
+  "shortdescription" : "Car Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 195,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/generic/carbed/carbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1",
+    "nude"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "apexDescription" : "A comfortable bed.",
+  "avianDescription" : "It looks like some kind of vehicle.",
+  "floranDescription" : "Floran not sssure what is. Bed?",
+  "glitchDescription" : "Confused. This bed looks mechanical in design, yet analysis suggests it's made of wood.",
+  "humanDescription" : "A bed in the shape of a car! I've wanted one of these since I was a kid.",
+  "hylotlDescription" : "A childish, decorative bed.",
+
+  "inventoryIcon" : "carbedicon.png",
+  "orientations" : [
+    {
+      "image" : "carbed.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [2, 15],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "carbed.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPosition" : [-22, 15],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

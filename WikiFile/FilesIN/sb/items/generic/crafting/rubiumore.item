@@ -1,0 +1,13 @@
+{
+  "itemName" : "rubiumore",
+  "price" : 60,
+  "rarity" : "Rare",
+  "inventoryIcon" : "rubiumore.png",
+  "description" : "Rubium ore. Can be used for smelting.",
+  "shortdescription" : "Rubium Ore",
+
+  "learnBlueprintsOnPickup" : [
+    "refinedrubium",
+    "manipulatortable"
+  ]
+}

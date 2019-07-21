@@ -1,0 +1,54 @@
+{
+  "objectName" : "woodsupport",
+  "colonyTags" : ["misc"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 5,
+  "description" : "A mouldy wooden support.",
+  "shortdescription" : "Wooden Support",
+  "race" : "generic",
+
+  "apexDescription" : "A wooden support. Looks worse for wear.",
+  "avianDescription" : "A wooden support.",
+  "floranDescription" : "Sssmelly wood made into sssupport.",
+  "glitchDescription" : "Observation. I believe this wood has been half eaten by woodworm.",
+  "humanDescription" : "A wooden support. In poor condition.",
+  "hylotlDescription" : "A worn wooden support.",
+
+  "inventoryIcon" : "woodsupporticon.png",
+  "orientations" : [
+    {
+      "image" : "woodsupportleft.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1], [1, 1], [1, 2], [2, 2], [2, 3], [3, 3] ],
+      "fgAnchors" : [ [-1, 0], [3, 4] ]
+    },
+    {
+      "image" : "woodsupportright.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+
+      "spaces" : [ [0, 0], [0, 1], [-1, 1], [-1, 2], [-2, 2], [-2, 3], [-3, 3] ],
+      "fgAnchors" : [ [1, 0], [-3, 4] ]
+    },
+    {
+      "image" : "woodsupportgroundleft.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [-1, 0], [-1, 1], [-2, 1], [-2, 2], [-3, 2], [-3, 3] ],
+      "fgAnchors" : [ [0, -1], [-4, 3] ]
+    },
+    {
+      "image" : "woodsupportgroundright.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+
+      "spaces" : [ [0, 0], [1, 0], [1, 1], [2, 1], [2, 2], [3, 2], [3, 3] ],
+      "fgAnchors" : [ [0, -1], [4, 3] ]
+    }
+  ]
+}

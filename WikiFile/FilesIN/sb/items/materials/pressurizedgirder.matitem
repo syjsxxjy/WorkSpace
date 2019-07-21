@@ -1,0 +1,12 @@
+{
+  "itemName" : "pressurizedgirder",
+  "price" : 15,
+  "rarity" : "Common",
+  "inventoryIcon" : "pressurizedgirdericon.png",
+  "description" : "A pressurised girder.",
+  "shortdescription" : "Pressurised Girder",
+  "glitchdescription" : "Statement. A pressurised girder.",
+  "florandescription" : "Girder.",
+
+  "materialId" : 153
+}

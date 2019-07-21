@@ -1,0 +1,38 @@
+{
+  "objectName" : "geometricchair",
+  "colonyTags" : ["geometric"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "-todo-",
+  "shortdescription" : "Geometric Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 100,
+
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 24],
+
+  "inventoryIcon" : "geometricchairicon.png",
+  "orientations" : [
+    {
+      "image" : "geometricchair.png:<color>",
+      "imagePosition" : [-12, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "geometricchair.png:<color>",
+      "imagePosition" : [-12, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

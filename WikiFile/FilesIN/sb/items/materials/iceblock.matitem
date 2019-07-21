@@ -1,0 +1,16 @@
+{
+  "itemName" : "iceblock",
+  "price" : 0,
+  "rarity" : "Common",
+  "inventoryIcon" : "iceblock.png",
+  "shortdescription" : "Ice Block",
+  "description" : "A solid ice block.",
+  "glitchdescription" : "Statement. Cold, cold ice.",
+  "florandescription" : "Ice. Sssmooth to the touch.",
+
+  "materialId" : 130,
+
+  "learnBlueprintsOnPickup" : [
+    "iceblock"
+  ]
+}

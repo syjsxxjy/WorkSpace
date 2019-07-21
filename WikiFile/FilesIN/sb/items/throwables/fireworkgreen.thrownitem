@@ -1,0 +1,23 @@
+{
+  "itemName" : "fireworkgreen",
+  "rarity" : "Common",
+  "inventoryIcon" : "fireworkgreen.png",
+  "image" : "fireworkgreen.png",
+  "shortdescription" : "Green Firework",
+  "description" : "Time for a celebration!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "fireworkgreen",
+  "projectileConfig" : {
+    "speed" : 5,
+    "power" : 5
+  },
+
+  "learnBlueprintsOnPickup" : [ "firework", "fireworkblue", "fireworkgreen" ]
+}
+

@@ -1,0 +1,8 @@
+{
+  "name" : "radiationprotection",
+  "type" : "suit",
+  "suitOverlay" : "/tech/skins/radiationprotection/suits/<species>-<gender>.png",
+
+  "scripts" : ["radiationprotection.lua"],
+  "actions" : []
+}

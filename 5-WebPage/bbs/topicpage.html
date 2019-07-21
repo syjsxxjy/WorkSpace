@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Topic Page - BBS</title>
+    <!--<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dropdowns-enhancement.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/head.css" rel="stylesheet" >
+</head>
+<body>
+<div class="head">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top ">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Project:BBS</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+                <div class=" navbar-right ">
+                    <!--if admin or master
+                    <div class="navbar-text " style="margin-right: 0px; ">
+                        <a href="#" class="navbar-link">Dashboard</span></a>
+
+                    </div>
+                    -->
+                    <div class="navbar-text " style="margin-right: 0px; ">
+                        <a href="#" class="navbar-link">Username <span class="badge"></span></a>
+
+                    </div>
+                    <div class="navbar-text " style="margin-right: 40px; ">
+
+                        <a href="#" class="navbar-link">Log out</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </nav>
+    </div>
+</div>
+
+
+
+<div class="container pagebody-top">
+    <div class="row">
+        <div class="col-md-12 ">
+            <ul class="breadcrumb " contenteditable="false">
+                <li><a href="#">Navigation1</a> <span class="divider"></span></li>
+                <li><a href="#">Navigation2</a> <span class="divider"></span></li>
+                <li class="active">Navigation3</li>
+            </ul>
+
+
+            <h2 ><a href="#" class="button button-rounded button-width-small button-icon-txt-large">Category</a> This is a long title.............................
+                <small> At 2016-12-23 23:45</small>
+            </h2>
+
+        
+
+            <table class="table table-bordered table-responsive ">
+                <thead>
+                <tr>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="col-md-2 " >
+                        <img src="img/avatar.jpg"  class="IMG-ROUNDED img-thumbnail center-block img-responsive" alt="Responsive image ">
+                        <div style="margin-top: 10px    "></div>
+                        <a href="#" class="button   button-border button-small button-block button-rounded " style="font-size: large">
+                           username</a>
+
+                        <div style="margin-top: 10px;" class="">
+                            <button type="button" class="btn btn-primary btn-xs btn-label">Lv1</button>
+                            <button type="button" class="btn btn-success btn-xs btn-label">Beginer <li class="icon-food"></li></button>
+                            <button type="button" class="btn btn-danger btn-xs btn-label">Admin</button>
+                            <button type="button" class="btn btn-info btn-xs btn-label">Exp:23</button>
+                            <button type="button" class="btn btn-danger btn-xs btn-label">BoardMaster</button>
+                            <button type="button" class="btn btn-success btn-xs btn-label">OtherBadges</button>
+
+
+                        </div>
+
+
+
+                    </td>
+                    <td>
+
+                        <table  class="table table-responsive table-bordered table-condensed">
+                            <tr>
+                                <td>
+                                    <button type="button" class="btn btn-inverse btn-xs">1st Floor</button>
+                                    <button type="button" class="btn btn-default btn-xs" style="margin-left: 15px">Edit <span class="icon-pencil"></span></button>
+                                    <button type="button" class="btn btn-default btn-xs">Delete <span class="icon-trash"></span></button>
+                                    <button class="button button-border button-primary button-pill button-tiny ">Share <span class="icon-share-alt"></span></button>
+
+                                </td>
+                            </tr>
+                        </table>
+
+                         <p>
+                             <%=topicbodylist.get(topicid) %>
+                         </p>
+
+                        <div style="margin-top: 200px;"></div>
+
+                        <div class="signature">
+                            Signature
+                        </div>
+
+                    </td>
+                </tr>
+                </tbody>
+                <!--</table>-->
+
+                <!--<table class="table table-bordered">-->
+                <thead>
+                <tr>
+                    <th class=" text-right">
+                        Replies：1
+                    </th>
+                    <th class=""></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+
+                        <img src="img/avatar.jpg"  class="IMG-ROUNDED img-thumbnail center-block img-responsive" alt="Responsive image ">
+                        <div style="margin-top: 10px    "></div>
+
+                        <a href="#" class="button   button-border button-small button-block button-rounded" style="font-size: large">username</a>
+
+                        <div style="margin-top: 10px;" class="">
+                            <button type="button" class="btn btn-primary btn-xs btn-label">Lv1</button>
+                            <button type="button" class="btn btn-success btn-xs btn-label">Beginer <li class="icon-food"></li></button>
+                            <button type="button" class="btn btn-danger btn-xs btn-label">Admin</button>
+                            <button type="button" class="btn btn-info btn-xs btn-label">Exp:23</button>
+                            <button type="button" class="btn btn-danger btn-xs btn-label">BoardMaster</button>
+                            <button type="button" class="btn btn-success btn-xs btn-label">OtherBadges</button>
+                        </div>
+
+                    </td>
+                    <td>
+
+                        <table  class="table table-responsive table-bordered table-condensed">
+                            <tr>
+                                <td>
+                                    <button type="button" class="btn btn-inverse btn-xs">1st Floor</button>
+                                    <button type="button" class="btn btn-default btn-xs" style="margin-left: 15px">Edit <span class="icon-pencil"></span></button>
+                                    <button type="button" class="btn btn-default btn-xs">Delete <span class="icon-trash"></span></button>
+                                    <button class="button button-border button-primary button-pill button-tiny ">Share <span class="icon-share-alt"></span></button>
+
+                                        <button type="button" class="btn btn-default btn-xs" style="margin-left: 30px"> at 1230-23-23 23:34:23</button>
+
+                                </td>
+                            </tr>
+                        </table>
+
+
+                        <div style="margin-top: 200px;"></div>
+
+                        <div class="signature">
+                            Signature
+                        </div>
+
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div></div>
+
+
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="text-center">
+                <ul class="pagination pagination-sm  ">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <div >
+                <div class="well">
+
+                    <form class="" action="<%=request.getContextPath()%>/actions/doreply.jsp" method="post">
+                        <fieldset>
+                            <div class="form-group" >
+                                <div>
+                                    <textarea class="form-control " rows="5"  placeholder="Input text here" style=""></textarea>
+                                </div>
+                            </div>
+                           <input type="hidden"  name="topictitle" value=<%=topictitlelist.get(topicid) %>
+                 <input type="hidden"  name="replytid" value=<%=topicid%>
+                            <button type="submit" class="btn btn-warning">Reply</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="panel-footer text-muted" style="margin-top: 30px">
+    <div class="text-center">
+        <h4 >Copyright Here  </h4>
+        <p><a>Link here</a></p>
+        <p> Copyright text </p>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/dropdowns-enhancement.js"></script>
+</div>
+</body>
+</html>

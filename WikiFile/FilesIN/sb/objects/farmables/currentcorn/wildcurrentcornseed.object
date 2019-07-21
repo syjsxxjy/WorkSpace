@@ -1,0 +1,53 @@
+{
+  "objectName" : "wildcurrentcornseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "Currentcorn, full of acid. Not good for fleshy creatures.",
+  "shortdescription" : "Currentcorn Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "I've heard of currentcorn being used in outlandish torture scenarios.",
+  "avianDescription" : "Acidic corn. Unpleasant and dangerous.",
+  "floranDescription" : "Tasssty, burny corn. Make flessshy things hurt.",
+  "glitchDescription" : "Wary. Acid and Glitch is not a good combination.",
+  "humanDescription" : "It looks like corn... but it really, really isn't.",
+  "hylotlDescription" : "A vile, acidic corn variant. Useless for any dish.",
+
+  "inventoryIcon" : "currentcornseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "currentcornseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [55, 65]
+    },
+    {
+      "duration" : [55, 65]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "currentcornHarvest"
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "currentcornseed", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 0.25
+}
