@@ -1,8 +1,0 @@
-{
-  "itemName" : "robotlegs",
-  "price" : 0,
-  "rarity" : "Common",
-  "inventoryIcon" : "robotlegs.png",
-  "description" : "Robot legs, for mobility!",
-  "shortdescription" : "Robot Legs"
-}

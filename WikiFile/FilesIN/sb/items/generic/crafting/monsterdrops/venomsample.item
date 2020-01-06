@@ -1,8 +1,0 @@
-{
-  "itemName" : "venomsample",
-  "price" : 30,
-  "rarity" : "Uncommon",
-  "inventoryIcon" : "venomsample.png",
-  "description" : "A sample of volatile venomous fluid. Can be used for crafting.",
-  "shortdescription" : "Venom Sample"
-}

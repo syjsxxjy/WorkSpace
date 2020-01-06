@@ -1,9 +1,0 @@
-{
-  "itemName" : "heatprotectionTech",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/skins/heatprotection/overlay.png",
-  "description" : "Protects the wearer from the extreme heat found on certain planets. Also supplies oxygen and provides cold and radiation protection.",
-  "shortdescription" : "Heat Protection",
-
-  "techModule" : "heatprotection"
-}

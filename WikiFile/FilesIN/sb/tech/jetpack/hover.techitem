@@ -1,9 +1,0 @@
-{
-  "itemName" : "hoverTech",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/hover.png",
-  "description" : "Press and hold Jump while in the air to use this Gravity Neutraliser tech. Cost: 75 energy per second.",
-  "shortdescription" : "Gravity Neutraliser",
-
-  "techModule" : "hover"
-}

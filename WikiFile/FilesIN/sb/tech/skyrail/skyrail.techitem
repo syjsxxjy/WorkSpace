@@ -1,9 +1,0 @@
-{
-  "itemName" : "skyrailTech",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/doublejump.png",
-  "description" : "Press 'F' to generate a sky hook, allowing you to attach yourself to sky rails.",
-  "shortdescription" : "Skyrail Rider",
-
-  "techModule" : "skyrail"
-}

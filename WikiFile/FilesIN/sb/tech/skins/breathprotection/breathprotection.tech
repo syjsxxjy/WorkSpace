@@ -1,8 +1,0 @@
-{
-  "name" : "breathprotection",
-  "type" : "suit",
-  "suitOverlay" : "/tech/skins/breathprotection/suits/<species>-<gender>.png",
-
-  "scripts" : ["breathprotection.lua"],
-  "actions" : []
-}

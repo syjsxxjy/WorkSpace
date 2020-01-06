@@ -1,9 +1,0 @@
-{
-  "itemName" : "bounceTech",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/bounce.png",
-  "description" : "Press 'F' to generate a kinetic reversal field that reflects the ground. Cost: 25 energy per second.",
-  "shortdescription" : "Bouncy",
-
-  "techModule" : "bounce"
-}

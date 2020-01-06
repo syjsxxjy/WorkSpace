@@ -1,8 +1,0 @@
-{
-  "itemName" : "leather",
-  "price" : 5,
-  "rarity" : "common",
-  "inventoryIcon" : "leather.png",
-  "description" : "A square of leather.",
-  "shortdescription" : "Leather"
-}

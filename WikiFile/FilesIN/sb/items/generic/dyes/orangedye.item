@@ -1,9 +1,0 @@
-{
-  "itemName" : "orangedye",
-  "rarity" : "Common",
-  "inventoryIcon" : "orangedye.png",
-  "description" : "Use this dye on a piece of armour or clothing to change its colour.",
-  "shortdescription" : "Orange Dye",
-
-  "dyeColorIndex" : 5
-}

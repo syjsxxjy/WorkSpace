@@ -1,9 +1,0 @@
-{
-  "itemName" : "rocketjump",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/rocketjump.png",
-  "description" : "Hold 'up' and jump for a rocket-boosted leap, watch out for fall damage! Cost: 80 energy.",
-  "shortdescription" : "Rocket Jump",
-
-  "techModule" : "rocketjump"
-}

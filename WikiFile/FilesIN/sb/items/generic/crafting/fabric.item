@@ -1,8 +1,0 @@
-{
-  "itemName" : "fabric",
-  "price" : 3,
-  "rarity" : "common",
-  "inventoryIcon" : "fabric.png",
-  "description" : "A small square of fabric.",
-  "shortdescription" : "Fabric"
-}

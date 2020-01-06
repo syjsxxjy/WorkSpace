@@ -1,8 +1,0 @@
-{
-  "itemName" : "scorchedcore",
-  "price" : 30,
-  "rarity" : "Uncommon",
-  "inventoryIcon" : "scorchedcore.png",
-  "description" : "The source of a creature's fiery abilities. Can be used for crafting.",
-  "shortdescription" : "Scorched Core"
-}

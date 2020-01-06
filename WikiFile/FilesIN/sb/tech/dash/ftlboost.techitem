@@ -1,9 +1,0 @@
-{
-  "itemName" : "ftlboostTech",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/ftlboost.png",
-  "description" : "Double tap Left or Right to use this super fast FTL dash. Only works on the ground. Cooldown: 1.3s",
-  "shortdescription" : "FTL Boost",
-
-  "techModule" : "ftlboost"
-}

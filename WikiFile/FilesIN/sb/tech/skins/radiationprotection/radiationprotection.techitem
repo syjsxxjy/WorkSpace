@@ -1,9 +1,0 @@
-{
-  "itemName" : "radiationprotectionTech",
-  "rarity" : "Legendary",
-  "inventoryIcon" : "/tech/skins/radiationprotection/overlay.png",
-  "description" : "Protects the wearer from the deadly radiation found on certain planets. Also supplies oxygen.",
-  "shortdescription" : "Radiation Protection",
-
-  "techModule" : "radiationprotection"
-}

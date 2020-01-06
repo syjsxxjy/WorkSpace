@@ -1,8 +1,0 @@
-{
-  "name" : "coldprotection",
-  "type" : "suit",
-  "suitOverlay" : "/tech/skins/coldprotection/suits/<species>-<gender>.png",
-
-  "scripts" : ["coldprotection.lua"],
-  "actions" : []
-}

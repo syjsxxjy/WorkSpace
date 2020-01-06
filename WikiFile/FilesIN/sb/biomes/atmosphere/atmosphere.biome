@@ -1,8 +1,0 @@
-{
-  "name" : "atmosphere",
-  "friendlyName" : "Atmosphere",
-
-  "parallax" : "/parallax/atmosphere/atmosphere.parallax",
-
-  "hueShiftOptions" : [0]
-}

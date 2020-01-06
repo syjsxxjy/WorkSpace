@@ -1,9 +1,0 @@
-{
-  "itemName" : "skyrail_diodeR",
-  "price" : 40,
-  "rarity" : "Common",
-  "inventoryIcon" : "skyrailicon_diodeR.png",
-  "description" : "Grooved metal platform. Enforces single direction of motion.",
-  "shortdescription" : "Skyrail Diode (Right)",
-  "materialId" : 400179
-}

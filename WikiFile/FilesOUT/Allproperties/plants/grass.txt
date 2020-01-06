@@ -1,7 +1,0 @@
-shortdescription       
-ceiling       
-glitchDescription       
-images       
-name       
-description       
-floranDescription       

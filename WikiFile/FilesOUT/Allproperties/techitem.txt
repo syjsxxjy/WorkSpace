@@ -1,6 +1,0 @@
-shortdescription       
-itemName       
-techModule       
-description       
-inventoryIcon       
-rarity       
